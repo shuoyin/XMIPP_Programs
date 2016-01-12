@@ -1,5 +1,6 @@
 # XMIPP_Programs
-####This repo keeps my xmipp test programs. My Platform is Ubuntu 14.04LTS
+#####This repo keeps my xmipp test programs. My Platform is Ubuntu 14.04LTS
+#####These programs are written in cpp with eclipse.
 ##Introduction to XMIPP
 <em>XMIPP</em> is abbreviation of X-window-based Microscopy Image Processing Package.<br />
 It's website is http://xmipp.cnb.csic.es/twiki/bin/view/Xmipp/WebHome.<br />
