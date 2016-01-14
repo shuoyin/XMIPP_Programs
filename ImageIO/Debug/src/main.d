@@ -1,4 +1,4 @@
-src/main.o: ../src/main.cpp \
+src/main.d: ../src/main.cpp \
  /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h \
  /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h \
  /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_macros.h \
