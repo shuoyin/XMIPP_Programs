@@ -7,11 +7,30 @@ void ArrayDimTest(Image<double> &img);
 int main()
 {
 	Image<double> img;
+	/*
+	 * you can use n@filename format to get specific image
+	 * 0@filename represents whole file
+	 */
 	img.read("smallStack.stk");
 	ArrayDimTest(img);
+	MultidimArray<double> data = img.data;
+	/*
+	 * you can access pixels using operator()
+	 */
 
 	return 0;
 }
+
+/*
+ * the test file we use is 4*1*64*64 with respect to n*z*x*y
+ * dim.ndim is 4
+ * dim.zdim is 1
+ * dim.xdim is 64
+ * dim.ydim is 64
+ * dim.yxdim is 64*64
+ * dim.zyxdim is 1*64*64
+ * dim.nzyxdim is 4*1*64*64
+ */
 void ArrayDimTest(Image<double> &img)
 {
 	ArrayDim dim;

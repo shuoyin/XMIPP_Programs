@@ -1,4 +1,4 @@
-19:59:41 **** Incremental Build of configuration Debug for project ImageIO ****
+23:16:48 **** Incremental Build of configuration Debug for project ImageIO ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
@@ -19,6 +19,3 @@ Invoking: Cross G++ Linker
 g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
 Finished building target: ImageIO
  
-19:59:47 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-make: Nothing to be done for `all'.
