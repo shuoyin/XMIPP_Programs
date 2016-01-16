@@ -6,10 +6,29 @@ we use `read` to read files<br />
 
     Image<double> img;
     img.read(filename);
-If file doesn't exeists, this function will raise a XmippError<br />
+If file doesn't exeists, this function will raise a `XmippError`<br />
 If you want to read the header only, then use `img.read(filename, HEADER);`. If you only read 
 the header, then you can't acquire data by using `MultidimArray<double> data = img.data`. That will 
 cause segmentation fault.<br />
+####MultidimArray
+#####Constructor
+Constructors of class `MultidimArray` are overload functions. Some are:
+
+    MultidimArray() //empty constructor, size is 0
+    MultidimArray(size_t Ndim, int Zdim, int Ydim, int Xdim) //size is Ndim*Zdim*Ydim*Xdim
+    MultidimArray( int Zdim, int Ydim, int Xdim) //size is 1*Zdim*Ydim*Xdim
+    MultidimArray(int Ydim, int Xdim) //size is 1*1Ydim*Xdim
+    MultidimArray(int Xdim) //size is 1*1*1*Xdim
+#####Access pixels
+There are some macros defined in *\<multidim_array.h\>* to access pixels, like `dAkij`, `dAij`, `DIRECT_A3D_ELEM`, 
+`DIRECT_A2D_ELEM`. Besides, there is overloaded operator() to access pixels. If you look at *\<multidim_array.h\>*, 
+you will find that all these methods have use `MultidimArray::data` which is a pointer points to data. So, we have:<br />
+Suppose we create a 3*3 matrix and initialize it:<br />
+
+    MultidimArray<double> test(3,3);
+    test.initRandom(0,1);
+Actually we have created a 1\*1\*3\*3 which is a four dimension matrix. So, we can access pixel at 
+row i, colj, using `dAij(test,i,j)` or `dAkij(test,1,i,j)` or `test(i,j)` or `test(1,i,j)` or other methods.
 ##API Reference
 ####ImageInfo
     struct ImageInfo{
