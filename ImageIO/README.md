@@ -1,9 +1,11 @@
 #ImageIO
 This program test some IO functions and structures. 
 ##Function Usage
+####Read Image
 we use `read` to read files<br />
-    `Image<double> img;`
-    `img.read(filename);`
+
+    Image<double> img;
+    img.read(filename);
 If file doesn't exeists, this function will raise a XmippError<br />
 If you want to read the header only, then use `img.read(filename, HEADER);`. If you only read 
 the header, then you can't acquire data by using `MultidimArray<double> data = img.data`. That will 
