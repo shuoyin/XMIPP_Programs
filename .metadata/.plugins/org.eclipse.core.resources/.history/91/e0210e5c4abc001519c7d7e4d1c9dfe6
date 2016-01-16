@@ -1,0 +1,4 @@
+#include <iostream>
+#include <data/xmipp_image.h>
+
+using namespace std;

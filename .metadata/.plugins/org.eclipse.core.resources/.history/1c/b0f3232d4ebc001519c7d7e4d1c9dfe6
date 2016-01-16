@@ -1,0 +1,37 @@
+#include <iostream>
+#include <data/xmipp_image.h>
+
+using namespace std;
+
+void printInfo(ImageInfo &info);
+
+int main(int argc, char**argv)
+{
+	if(argc!=2){
+		cout<<"Need an Input Image"<<endl;
+		return -1;
+	}
+	Image<double> img;
+	try{
+		img.read(argv[1]);
+	}
+	catch(XmippError){
+		cout<<"Can't open file!"<<endl;
+		return -1;
+	}
+
+	ImageInfo info;
+	img.getInfo(info);
+	printInfo(info);
+	MultidimArray<double> content = img.data;
+	if(content.data)cout<<content.ndim<<endl;
+	else cout<<"NULL Content!"<<endl;
+
+	return 0;
+}
+
+void printInfo(ImageInfo &info)
+{
+	cout<<"DataType is: "<<datatype2Str(info.datatype)<<endl;
+	cout<<"Dimensions is: "<<info.adim.ndim<<"*"<<info.adim.zdim<<"*"<<info.adim.xdim<<"*"<<info.adim.ydim<<endl;
+}

@@ -1,0 +1,21 @@
+#include <iostream>
+#include <data/xmipp_image.h>
+
+using namespace std;
+
+int main(int argc, char**argv)
+{
+	if(argc!=2){
+		cout<<"Need an Input Image"<<endl;
+		return -1;
+	}
+	Image<double> img;
+	try{
+		img.read(argv[1],HEADER);
+	}
+	catch(XmippError){
+		cout<<"Can't open file!"<<endl;
+		return -1;
+	}
+
+}
