@@ -3,7 +3,9 @@
 
 using namespace std;
 
-void ArrayDimTest(Image<double> &img);
+void printInfo(Image<double> &img);
+void MultidimArrayTest();
+
 int main()
 {
 	Image<double> img;
@@ -11,12 +13,16 @@ int main()
 	 * you can use n@filename format to get specific image
 	 * 0@filename represents whole file
 	 */
-	img.read("smallStack.stk");
-	ArrayDimTest(img);
-	MultidimArray<double> data = img.data;
-	/*
-	 * you can access pixels using operator()
-	 */
+	try{
+	img.read("4@smallStack.stk");
+	}catch(XmippError){
+		cout<<"Can't open file!"<<endl;
+		return -1;
+	}
+	printInfo(img);
+	MultidimArrayTest();
+	img.write("test.stk",0,true);
+	img.write("test.stk",0,true,WRITE_APPEND);
 
 	return 0;
 }
@@ -31,15 +37,25 @@ int main()
  * dim.zyxdim is 1*64*64
  * dim.nzyxdim is 4*1*64*64
  */
-void ArrayDimTest(Image<double> &img)
+void printInfo(Image<double> &img)
 {
-	ArrayDim dim;
-	img.getDimensions(dim);
-	cout<<"Number of images: "<<dim.ndim<<endl;
-	cout<<"Number of elements in Z: "<<dim.zdim<<endl;
-	cout<<"Number of elements in Y: "<<dim.ydim<<endl;
-	cout<<"Number of elements in X: "<<dim.xdim<<endl;
-	cout<<"Number of elements in YX: "<<dim.yxdim<<endl;
-	cout<<"Number of elements in ZYX: "<<dim.zyxdim<<endl;
-	cout<<"Number of elements in NZYX: "<<dim.nzyxdim<<endl;
+	ImageInfo info;
+	img.getInfo(info);
+	cout<<"DataType is: "<<datatype2Str(info.datatype)<<endl;
+	cout<<"Dimensions is: "<<info.adim.ndim<<"*"<<info.adim.zdim<<"*"<<info.adim.xdim<<"*"<<info.adim.ydim<<endl;
+}
+
+void MultidimArrayTest()
+{
+	MultidimArray<double> test(3,3);
+	test.initRandom(0,1);
+	cout<<"In test MultidimArray, ndim is: "<<test.ndim<<endl;
+	cout<<"In test MultidimArray, zdim is: "<<test.zdim<<endl;
+	cout<<"In test MultidimArray, ydim is: "<<test.ydim<<endl;
+	for(int i=0; i<test.ydim; i++){
+		for(int j=0; j<test.xdim; j++){
+			cout<<dAij(test,i,j)<<" ";
+		}
+		cout<<endl;
+	}
 }
