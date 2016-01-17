@@ -10,6 +10,23 @@ If file doesn't exeists, this function will raise a `XmippError`<br />
 If you want to read the header only, then use `img.read(filename, HEADER);`. If you only read 
 the header, then you can't acquire data by using `MultidimArray<double> data = img.data`. That will 
 cause segmentation fault.<br />
+####Write Image
+We can use `Image<T>::write` to write images into file.
+
+  void write(const FileName &name="", size_t select_img = ALL_IMAGES, bool isStack=false,
+               int mode=WRITE_OVERWRITE,CastWriteMode castMode = CW_CAST, int _swapWrite = 0);
+This is general write function. `select_img`=the silce you want to write. In xmipp, the word `slice` means 
+a three dimension matrix. The argument `int mode` can be these values:
+
+  typedef enum
+  {
+    WRITE_READONLY,   //only can read the file
+    WRITE_OVERWRITE, //forget about the old file and overwrite it
+    WRITE_REPLACE,   //replace a particular object by another
+    WRITE_APPEND,    //append and object at the end of a stack, so far can not append stacks
+    WRITE_LAST_LABEL                       // **** NOTE ****: Do keep this label always at the end
+    // it is here for looping purposes
+  } WriteMode;
 ####MultidimArray
 #####Constructor
 Constructors of class `MultidimArray` are overload functions. Some are:
