@@ -1,0 +1,49 @@
+#include <iostream>
+#include <data/xmipp_image.h>
+#include <data/filters.h>
+
+using namespace std;
+
+void printInfo(ImageInfo &info);
+void filter(Image<double> &image, const FileName &name);
+
+int main(int argc, char**argv)
+{
+	if(argc!=2){
+		cout<<"Need an Input Image"<<endl;
+		return -1;
+	}
+	Image<double> img;
+	try{
+		img.read(argv[1],HEADER);
+	}
+	catch(XmippError){
+		cout<<"Can't open file!"<<endl;
+		return -1;
+	}
+
+	filter(img, argv[1]);
+
+	return 0;
+}
+
+void printInfo(ImageInfo &info)
+{
+	cout<<"DataType is: "<<datatype2Str(info.datatype)<<endl;
+	cout<<"Dimensions is: "<<info.adim.ndim<<"*"<<info.adim.zdim<<"*"<<info.adim.xdim<<"*"<<info.adim.ydim<<endl;
+}
+
+void filter(Image<double> &image, const FileName &name)
+{
+	ImageInfo info;
+	image.getInfo(info);
+	printInfo(info);
+
+	int number = info.adim.ndim;
+	for(int i=1; i<=number; i++){
+		image.read(name, DATA, i);
+		ImageInfo SliceInfo;
+		image.getInfo(SliceInfo);
+		cout<<SliceInfo.adim.ndim<<" ";
+	}
+}

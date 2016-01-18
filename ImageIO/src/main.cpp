@@ -14,14 +14,14 @@ int main()
 	 * 0@filename represents whole file
 	 */
 	try{
-	img.read("4@smallStack.stk");
+	img.read("smallStack.stk",DATA,4);
 	}catch(XmippError){
 		cout<<"Can't open file!"<<endl;
 		return -1;
 	}
 	printInfo(img);
 	MultidimArrayTest();
-	img.write("test.stk",0,true);
+	img.write("test.stk",0,true,WRITE_APPEND);
 	img.write("test.stk",0,true,WRITE_APPEND);
 
 	return 0;

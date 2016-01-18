@@ -5,7 +5,7 @@
 using namespace std;
 
 void printInfo(ImageInfo &info);
-void MultidimArrayTest();
+void filter(Image<double> &image, const FileName &name);
 
 int main(int argc, char**argv)
 {
@@ -22,10 +22,7 @@ int main(int argc, char**argv)
 		return -1;
 	}
 
-	ImageInfo info;
-	img.getInfo(info);
-	printInfo(info);
-	MultidimArrayTest();
+	filter(img, argv[1]);
 
 	return 0;
 }
@@ -35,18 +32,20 @@ void printInfo(ImageInfo &info)
 	cout<<"DataType is: "<<datatype2Str(info.datatype)<<endl;
 	cout<<"Dimensions is: "<<info.adim.ndim<<"*"<<info.adim.zdim<<"*"<<info.adim.xdim<<"*"<<info.adim.ydim<<endl;
 }
-void MultidimArrayTest()
-{
-	MultidimArray<double> test(3,3);
-	test.initRandom(0,1);
-	cout<<"In test MultidimArray, ndim is: "<<test.ndim<<endl;
-	cout<<"In test MultidimArray, zdim is: "<<test.zdim<<endl;
-	cout<<"In test MultidimArray, ydim is: "<<test.ydim<<endl;
-	for(int i=0; i<test.ydim; i++){
-		for(int j=0; j<test.xdim; j++){
-			cout<<dAij(test,i,j)<<" ";
-		}
-		cout<<endl;
-	}
 
+void filter(Image<double> &image, const FileName &name)
+{
+	ImageInfo info;
+	image.getInfo(info);
+	printInfo(info);
+
+	int number = info.adim.ndim;
+	for(int i=1; i<=number; i++){
+		image.read(name, DATA, i);
+		MultidimArray<double> content = image.data;
+		MultidimArray<double> out(content.ydim, content.xdim);
+		medianFilter3x3(content,out);
+		Image<double> slice(out);
+		slice.write("test.stk",0,true,WRITE_APPEND);
+	}
 }

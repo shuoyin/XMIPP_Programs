@@ -1,4 +1,4 @@
-17:47:35 **** Incremental Build of configuration Debug for project ImageIO ****
+20:22:31 **** Incremental Build of configuration Debug for project ImageIO ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
@@ -27,5 +27,5 @@ g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmi
 Finished building target: ImageIO
  
 
-17:47:37 Build Finished (took 2s.270ms)
+20:22:34 Build Finished (took 2s.844ms)
 
