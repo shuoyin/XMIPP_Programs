@@ -1,0 +1,9 @@
+#include <iostream>
+#include <data/metadata_extension.h>
+
+using namespace std;
+
+int main(int argc, char**argv)
+{
+	MetaData md;
+}

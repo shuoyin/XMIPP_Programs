@@ -1,384 +1,343 @@
-15:50:32 **** Incremental Build of configuration Debug for project ImageIO ****
+14:40:57 **** Incremental Build of configuration Debug for project MetaDataTest ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
                  from ../src/main.cpp:2:
 /home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
      void lock(int fileno = NULL);
                             ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:53:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:54:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
 Finished building: ../src/main.cpp
  
-Building target: ImageIO
+Building target: MetaDataTest
 Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
  
-15:50:50 **** Incremental Build of configuration Debug for project ImageIO ****
+14:41:48 **** Incremental Build of configuration Debug for project MetaDataTest ****
 make all 
 make: Nothing to be done for `all'.
-16:02:49 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:54:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:55:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-16:03:53 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:54:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:55:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-16:04:14 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:54:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:55:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-16:06:45 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:54:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:55:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-17:42:16 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:54:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:55:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-17:44:41 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:55:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-17:44:56 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:55:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-17:45:49 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:55:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-17:47:35 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:55:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-20:09:40 **** Incremental Build of configuration Debug for project ImageIO ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:55:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-20:10:32 **** Incremental Build of configuration Debug for project ImageIO ****
+14:42:02 **** Incremental Build of configuration Debug for project MetaDataTest ****
 make all 
 make: Nothing to be done for `all'.
-20:22:31 **** Incremental Build of configuration Debug for project ImageIO ****
+14:42:51 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+make: Nothing to be done for `all'.
+14:43:36 **** Incremental Build of configuration Debug for project MetaDataTest ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
-                 from ../src/main.cpp:2:
-/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
-     void lock(int fileno = NULL);
-                            ^
-../src/main.cpp: In function ‘void MultidimArrayTest()’:
-../src/main.cpp:55:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-  for(int i=0; i<test.ydim; i++){
-                      ^
-../src/main.cpp:56:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-   for(int j=0; j<test.xdim; j++){
-                       ^
-Finished building: ../src/main.cpp
- 
-Building target: ImageIO
-Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageIO"  ./src/main.o   -lXmippData -lXmippExternal -lXmippDimred -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff
-Finished building target: ImageIO
- 
-20:35:30 **** Incremental Build of configuration Debug for project ImageFilter ****
-make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
                  from ../src/main.cpp:2:
 /home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
      void lock(int fileno = NULL);
                             ^
 Finished building: ../src/main.cpp
  
-Building target: ImageFilter
+Building target: MetaDataTest
 Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageFilter"  ./src/main.o   -lXmippData -lXmippDimred -lXmippClassif -lXmippExternal -lXmippInterface -lXmippParallel -lXmippRecons -ltk -ltiff -ljpeg
-Finished building target: ImageFilter
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
  
-20:42:21 **** Incremental Build of configuration Debug for project ImageFilter ****
+14:45:07 **** Incremental Build of configuration Debug for project MetaDataTest ****
 make all 
 Building file: ../src/main.cpp
 Invoking: Cross G++ Compiler
-g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
-                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
-                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
-                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
                  from ../src/main.cpp:2:
 /home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
      void lock(int fileno = NULL);
                             ^
 Finished building: ../src/main.cpp
  
-Building target: ImageFilter
+Building target: MetaDataTest
 Invoking: Cross G++ Linker
-g++ -L/home/yinshuo/usr/xmipp/lib -o "ImageFilter"  ./src/main.o   -lXmippData -lXmippDimred -lXmippClassif -lXmippExternal -lXmippInterface -lXmippParallel -lXmippRecons -ltk -ltiff -ljpeg
-Finished building target: ImageFilter
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+14:45:18 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
+                 from ../src/main.cpp:2:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+14:45:46 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
+                 from ../src/main.cpp:2:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+15:05:54 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
+                 from ../src/main.cpp:2:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+15:06:54 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+make: Nothing to be done for `all'.
+15:08:28 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
+                 from ../src/main.cpp:2:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+15:08:47 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
+                 from ../src/main.cpp:2:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+15:10:45 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
+                 from ../src/main.cpp:2:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+15:30:56 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
+                 from ../src/main.cpp:2:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+15:32:24 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+make: Nothing to be done for `all'.
+15:33:22 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+make: Nothing to be done for `all'.
+15:33:25 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+make: Nothing to be done for `all'.
+15:36:06 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+make: Nothing to be done for `all'.
+15:37:28 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/metadata_extension.h:11:0,
+                 from ../src/main.cpp:2:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+15:38:36 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+make: Nothing to be done for `all'.
+15:38:50 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+make: Nothing to be done for `all'.
+18:26:05 **** Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
+                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
+                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+                 from ../src/main.cpp:3:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+18:36:26 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
+                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
+                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+                 from ../src/main.cpp:3:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+18:37:11 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
+                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
+                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+                 from ../src/main.cpp:3:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+18:37:37 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
+                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
+                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+                 from ../src/main.cpp:3:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+18:38:18 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
+                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
+                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+                 from ../src/main.cpp:3:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
+ 
+18:39:36 **** Incremental Build of configuration Debug for project MetaDataTest ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -I/home/yinshuo/usr/xmipp/libraries -I/home/yinshuo/usr/xmipp/external -I/home/yinshuo/usr/xmipp -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /home/yinshuo/usr/xmipp/libraries/data/xmipp_funcs.h:33:0,
+                 from /home/yinshuo/usr/xmipp/libraries/data/matrix1d.h:31,
+                 from /home/yinshuo/usr/xmipp/libraries/data/multidim_array.h:35,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image_base.h:30,
+                 from /home/yinshuo/usr/xmipp/libraries/data/xmipp_image.h:34,
+                 from ../src/main.cpp:3:
+/home/yinshuo/usr/xmipp/libraries/data/xmipp_filename.h:763:28: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+     void lock(int fileno = NULL);
+                            ^
+Finished building: ../src/main.cpp
+ 
+Building target: MetaDataTest
+Invoking: Cross G++ Linker
+g++ -L/home/yinshuo/usr/xmipp/lib -o "MetaDataTest"  ./src/main.o   -lXmippData -lXmippDimred -lXmippExternal -lXmippInterface -lXmippClassif -lXmippJNI -lXmippParallel -lXmippRecons -lXmippSqliteExt -ltiff -lfftw3
+Finished building target: MetaDataTest
  

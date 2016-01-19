@@ -1,0 +1,18 @@
+#include <iostream>
+#include <data/metadata_extension.h>
+
+using namespace std;
+
+int main(int argc, char**argv)
+{
+	MetaData md;
+	md.read(argv[1]);
+	double x,y;
+	FOR_ALL_OBJECTS_IN_METADATA(md) //loop through all lines
+	{
+		 md.getValue(MDL_X, x,2);
+		 md.getValue(MDL_Y, y,2);
+		 cout<<x<<" "<<y<<" "<<__iter.objIndex<<endl;
+	}
+	return 0;
+}

@@ -1,7 +1,7 @@
-Sun Jan 17 14:20:41 CST 2016
+Tue Jan 19 18:17:37 CST 2016
 ERROR org.eclipse.rse.core  Unexpected Exception
 java.net.UnknownHostException: yinshuo-PC: yinshuo-PC: unknown error
-	at java.net.InetAddress.getLocalHost(InetAddress.java:1484)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
 	at org.eclipse.rse.core.RSECorePlugin.getLocalMachineName(RSECorePlugin.java:265)
 	at org.eclipse.rse.core.RSEPreferencesManager.getDefaultPrivateSystemProfileName(RSEPreferencesManager.java:358)
 	at org.eclipse.rse.core.RSEPreferencesManager.initDefaults(RSEPreferencesManager.java:337)
@@ -29,8 +29,8 @@ java.net.UnknownHostException: yinshuo-PC: yinshuo-PC: unknown error
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 Caused by: java.net.UnknownHostException: yinshuo-PC: unknown error
 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
-	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
-	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
-	at java.net.InetAddress.getLocalHost(InetAddress.java:1479)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
 	... 25 more
 --------------------------------------------
