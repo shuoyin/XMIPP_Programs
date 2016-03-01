@@ -10,20 +10,26 @@ void test(MetaData &md);
 int main(int argc, char**argv)
 {
 	MetaData md;
-	md.read(argv[1]);
+	FileName fn;
+	fn.compose("classes",argv[1]);
+	md.read(fn);
 
 	chdir("/home/yinshuo/XMIPP_exp/2DAnalysis");
 	String s;
 	md.getValue(MDL_IMAGE, s, 1);
 	cout<<s<<endl;
+	String cmd = "xmipp_showj "+s;
+	system(cmd.c_str()); //this command will block following code
+	MDQuery mq;
+	cout<<"number of objects: "<<md.countObjects(mq)<<endl;
 
 	Image<double> image;
 	image.read(s);
 	image.write("test.stk");
 
 	MetaData out;
-	out.aggregate(md, AGGR_COUNT, MDL_REF, MDL_SHIFT_X, MDL_COUNT);
-	out.write("test.xmd");
+//	out.aggregate(md, AGGR_COUNT, MDL_REF, MDL_SHIFT_X, MDL_COUNT);
+//	out.write("test.xmd");
 	return 0;
 }
 
