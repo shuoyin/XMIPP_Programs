@@ -32,6 +32,7 @@ void JaccardIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, i
 void SorensenIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k, const Cmp cmp);
 void HDIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k, const Cmp cmp);
 void RAIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k, const Cmp cmp);
+void LPIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k, const Cmp cmp, double eps);
 
 //global similarity measurement
 void KatzIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOUt, int k, const Cmp cmp, double beta);

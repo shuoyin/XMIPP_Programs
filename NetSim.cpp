@@ -19,7 +19,7 @@ void CreateAdjacentMatrix(MultidimArray<double> &SimIn, MultidimArray<double> &O
 
 void SNN(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k, const Cmp cmp)
 {
-	MultidimArray<int> sharedNear(SimIn.ydim, SimIn.xdim);
+	MultidimArray<double> sharedNear(SimIn.ydim, SimIn.xdim);
 	CreateAdjacentMatrix(SimIn, sharedNear, k, cmp);
 
 	for(int i=0; i<SimOut.ydim; i++){
@@ -47,7 +47,7 @@ void JaccardIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, i
 	for(int i=0; i<SimOut.ydim; i++){
 		for(int j=0; j<SimOut.xdim; j++){
 			if(i==j){
-				dAij(SimOut, i, j) = k;
+				dAij(SimOut, i, j) = 1;
 				continue;
 			}
 			if(j<i){
@@ -74,7 +74,7 @@ void SorensenIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, 
 	for(int i=0; i<SimOut.ydim; i++){
 		for(int j=0; j<SimOut.xdim; j++){
 			if(i==j){
-				dAij(SimOut, i, j) = k;
+				dAij(SimOut, i, j) = 1;
 				continue;
 			}
 			if(j<i){
@@ -100,7 +100,7 @@ void HDIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k,
 	for(int i=0; i<SimOut.ydim; i++){
 		for(int j=0; j<SimOut.xdim; j++){
 			if(i==j){
-				dAij(SimOut, i, j) = k;
+				dAij(SimOut, i, j) = 1;
 				continue;
 			}
 			if(j<i){
@@ -148,7 +148,20 @@ void RAIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k,
 	}
 }
 
-void KatzIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOUt, int k, const Cmp cmp, double beta)
+void LPIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k, const Cmp cmp, double eps)
+{
+	MultidimArray<double> adjacent(SimIn.ydim, SimIn.xdim);
+	CreateAdjacentMatrix(SimIn, adjacent, k, cmp);
+
+	Matrix2D<double> A(adjacent.ydim, adjacent.xdim);
+	adjacent.getSliceAsMatrix(0, A);
+	Matrix2D<double> t=A*A;
+	A=t+eps*A*t;
+
+	SimOut=A;
+}
+
+void KatzIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOut, int k, const Cmp cmp, double beta)
 {
 	MultidimArray<double> adjacent(SimIn.ydim, SimIn.xdim);
 	CreateAdjacentMatrix(SimIn, adjacent, k, cmp);
@@ -157,7 +170,7 @@ void KatzIndex(MultidimArray<double> &SimIn, MultidimArray<double> &SimOUt, int 
 	adjacent.getSliceAsMatrix(0, A);
 
 	A=beta*A;
-	I.initIndentity();
+	I.initIdentity();
 	A=I-A;
 	Matrix2D<double> Ainv;
 	A.inv(Ainv);
