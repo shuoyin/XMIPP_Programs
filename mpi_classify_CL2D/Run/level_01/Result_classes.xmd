@@ -1,0 +1,593 @@
+# XMIPP_STAR_1 * 
+# 
+data_classes
+loop_
+ _ref
+ _image
+ _classCount
+         1 000001@Run/level_01/Result_classes.stk         96 
+         2 000002@Run/level_01/Result_classes.stk        118 
+         3 000003@Run/level_01/Result_classes.stk        142 
+         4 000004@Run/level_01/Result_classes.stk        142 
+
+data_info
+loop_
+ _iterationNumber
+ _cl2dSimilarity
+ _cl2dChanges
+         1     0.858723          0 
+         2     0.860570         36 
+         3     0.864013         48 
+         4     0.865695         49 
+         5     0.865832         40 
+         6     0.865826         32 
+         7     0.865916         27 
+         8     0.865917         15 
+         9     0.865942         21 
+        10     0.866025         13 
+
+data_class000001_images
+loop_
+ _image
+ _enabled
+ _itemId
+ _zScoreShape1
+ _zScoreShape2
+ _zScoreSNR1
+ _zScoreSNR2
+ _zScoreHistogram
+ _imageOriginal
+ _ref
+ _flip
+ _shiftX
+ _shiftY
+ _anglePsi
+000012@Images/Preprocessed/run_001/images.stk          1        428     0.487981     0.487981     0.879430     0.754108     0.539156 000428@Images/Imported/run_001/images.stk          1 0    -0.139965    -0.830261  -103.184713 
+000022@Images/Preprocessed/run_001/images.stk          1        363     0.677959     0.677959     0.952869     0.758683     0.371445 000363@Images/Imported/run_001/images.stk          1 0    -1.011890     1.018979   160.509554 
+000029@Images/Preprocessed/run_001/images.stk          1         86     0.338619     0.338619     1.051814     0.168362     0.827432 000086@Images/Imported/run_001/images.stk          1 0    -0.948514    -0.976660    -2.292994 
+000033@Images/Preprocessed/run_001/images.stk          1        239     0.736553     0.736553     0.234839     0.637060     1.070610 000239@Images/Imported/run_001/images.stk          1 0     0.154224    -0.018616    29.808917 
+000041@Images/Preprocessed/run_001/images.stk          1        414     0.822440     0.822440     0.321889     1.093093     0.647900 000414@Images/Imported/run_001/images.stk          1 0    -1.116138    -0.920753  -103.184713 
+000047@Images/Preprocessed/run_001/images.stk          1        452     1.123280     1.123280     0.700159     0.980715     1.032461 000452@Images/Imported/run_001/images.stk          1 0     0.136133    -0.796377   103.184713 
+000051@Images/Preprocessed/run_001/images.stk          1         19     0.945885     0.945885     0.657647     0.588226     1.142141 000019@Images/Imported/run_001/images.stk          1 0    -0.095171    -0.955949    77.961783 
+000056@Images/Preprocessed/run_001/images.stk          1        256     0.754279     0.754279     0.930696     0.823972     1.162958 000256@Images/Imported/run_001/images.stk          1 0     0.087078    -0.873205   121.528662 
+000057@Images/Preprocessed/run_001/images.stk          1        329     0.810289     0.810289     0.653533     0.513945     1.168211 000329@Images/Imported/run_001/images.stk          1 0    -1.010275    -0.782531   128.407643 
+000058@Images/Preprocessed/run_001/images.stk          1        438     1.177306     1.177306     0.226019     0.983558     0.964451 000438@Images/Imported/run_001/images.stk          1 0    -1.056557     0.112538   121.528662 
+000065@Images/Preprocessed/run_001/images.stk          1        247     0.544642     0.544642     0.488884     0.667619     1.206707 000247@Images/Imported/run_001/images.stk          1 0    -0.037292     0.884557  -103.184713 
+000066@Images/Preprocessed/run_001/images.stk          1        131     1.048368     1.048368     0.568042     1.208676     1.201499 000131@Images/Imported/run_001/images.stk          1 0     0.103856    -0.135561  -110.063694 
+000067@Images/Preprocessed/run_001/images.stk          1        101     1.209171     1.209171     0.176642     0.913824     1.096953 000101@Images/Imported/run_001/images.stk          1 0     0.079171    -0.866723  -149.044586 
+000071@Images/Preprocessed/run_001/images.stk          1        135     1.065513     1.065513     0.623886     1.069595     1.217505 000135@Images/Imported/run_001/images.stk          1 0    -0.094261    -0.219232    59.617834 
+000081@Images/Preprocessed/run_001/images.stk          1        307     1.110948     1.110948     0.938361     1.265737     0.705477 000307@Images/Imported/run_001/images.stk          1 0    -0.089251     0.114234   103.184713 
+000085@Images/Preprocessed/run_001/images.stk          1        156     1.271460     1.271460     1.019496     1.173741     0.118197 000156@Images/Imported/run_001/images.stk          1 0    -0.736640    -0.099801   137.579618 
+000091@Images/Preprocessed/run_001/images.stk          1        159     0.166581     0.166581     1.283793     0.958845     1.286954 000159@Images/Imported/run_001/images.stk          1 0     0.002641    -0.773220   121.528662 
+000095@Images/Preprocessed/run_001/images.stk          1        362     1.172681     1.172681     0.666189     1.292197     0.938680 000362@Images/Imported/run_001/images.stk          1 1    -0.792796     0.879082    94.012739 
+000096@Images/Preprocessed/run_001/images.stk          1        426     0.179882     0.179882     0.905325     0.518745     1.292652 000426@Images/Imported/run_001/images.stk          1 0     0.799006     0.087179  -149.044586 
+000099@Images/Preprocessed/run_001/images.stk          1        372     1.285490     1.285490     1.304600     1.280845     0.661966 000372@Images/Imported/run_001/images.stk          1 0    -0.135998     0.762880   151.337580 
+000104@Images/Preprocessed/run_001/images.stk          1        385     0.210777     0.210777     0.358666     0.493703     1.318192 000385@Images/Imported/run_001/images.stk          1 0    -0.261986    -1.059505  -169.681529 
+000107@Images/Preprocessed/run_001/images.stk          1        404     1.125272     1.125272     1.328047     0.988784     1.086785 000404@Images/Imported/run_001/images.stk          1 0     0.040957    -0.785948  -132.993631 
+000111@Images/Preprocessed/run_001/images.stk          1        114     0.618964     0.618964     0.915349     1.345585     0.753080 000114@Images/Imported/run_001/images.stk          1 0    -1.042013     0.051371    -2.292994 
+000114@Images/Preprocessed/run_001/images.stk          1        430     0.127932     0.127932     0.181809     1.301344     1.347092 000430@Images/Imported/run_001/images.stk          1 0     0.855370    -0.055869   100.891720 
+000118@Images/Preprocessed/run_001/images.stk          1        179     0.600499     0.600499     1.075141     1.357620     0.886231 000179@Images/Imported/run_001/images.stk          1 0    -1.941293     0.057326    75.668790 
+000120@Images/Preprocessed/run_001/images.stk          1        377     0.456760     0.456760     0.547396     0.978812     1.358666 000377@Images/Imported/run_001/images.stk          1 1     0.846247    -0.065748    18.343949 
+000121@Images/Preprocessed/run_001/images.stk          1        472     0.900220     0.900220     0.203047     1.360275     0.771959 000472@Images/Imported/run_001/images.stk          1 0    -0.089179    -1.863299    -9.171975 
+000128@Images/Preprocessed/run_001/images.stk          1        227     1.058052     1.058052     1.386541     0.393355     0.778620 000227@Images/Imported/run_001/images.stk          1 0    -0.906695    -0.246199   -11.464968 
+000129@Images/Preprocessed/run_001/images.stk          1        451     1.333974     1.333974     0.445652     1.350668     1.392948 000451@Images/Imported/run_001/images.stk          1 0    -0.893499     0.046679    87.133758 
+000131@Images/Preprocessed/run_001/images.stk          1         20     1.401730     1.401730     0.594282     1.299346     1.240432 000020@Images/Imported/run_001/images.stk          1 0    -1.127645     0.039306    29.808917 
+000132@Images/Preprocessed/run_001/images.stk          1        359     0.458049     0.458049     0.879235     1.404699     0.780407 000359@Images/Imported/run_001/images.stk          1 0    -1.628510     0.904829  -160.509554 
+000135@Images/Preprocessed/run_001/images.stk          1        401     0.695870     0.695870     0.482960     1.035268     1.416515 000401@Images/Imported/run_001/images.stk          1 0    -0.949209    -0.196704    57.324841 
+000136@Images/Preprocessed/run_001/images.stk          1        246     0.757689     0.757689     1.255975     0.804452     1.424180 000246@Images/Imported/run_001/images.stk          1 0    -1.846428     0.185853   114.649682 
+000137@Images/Preprocessed/run_001/images.stk          1        358     1.426573     1.426573     0.481856     0.651602     0.792163 000358@Images/Imported/run_001/images.stk          1 0    -1.040682    -0.152305   -27.515924 
+000138@Images/Preprocessed/run_001/images.stk          1         12     1.276872     1.276872     1.427508     0.943582     0.937375 000012@Images/Imported/run_001/images.stk          1 0    -0.050587     0.124398    71.082803 
+000141@Images/Preprocessed/run_001/images.stk          1        184     1.252408     1.252408     1.431281     0.056542     1.384041 000184@Images/Imported/run_001/images.stk          1 0    -0.196965    -1.072645    71.082803 
+000142@Images/Preprocessed/run_001/images.stk          1        334     0.730545     0.730545     1.145805     1.435336     0.985862 000334@Images/Imported/run_001/images.stk          1 0    -0.862834     0.934488    11.464968 
+000144@Images/Preprocessed/run_001/images.stk          1        446     1.319929     1.319929     0.535353     0.749769     1.437427 000446@Images/Imported/run_001/images.stk          1 0    -0.794879    -1.008128   162.802548 
+000148@Images/Preprocessed/run_001/images.stk          1          9     1.034324     1.034324     0.666082     0.475333     1.475744 000009@Images/Imported/run_001/images.stk          1 0    -0.930730    -0.088543    59.617834 
+000151@Images/Preprocessed/run_001/images.stk          1        125     1.479475     1.479475     0.991787     1.451754     0.722997 000125@Images/Imported/run_001/images.stk          1 0    -0.224786    -0.024903   132.993631 
+000154@Images/Preprocessed/run_001/images.stk          1        360     0.245405     0.245405     0.159549     0.371556     1.486750 000360@Images/Imported/run_001/images.stk          1 0    -0.759632    -0.878732    -4.585987 
+000155@Images/Preprocessed/run_001/images.stk          1        312     0.573743     0.573743     1.142821     1.489735     0.378402 000312@Images/Imported/run_001/images.stk          1 0    -0.902978    -0.865432    22.929936 
+000158@Images/Preprocessed/run_001/images.stk          1          4     0.149372     0.149372     0.513953     1.110343     1.495683 000004@Images/Imported/run_001/images.stk          1 0     0.894114    -1.049130   112.356688 
+000164@Images/Preprocessed/run_001/images.stk          1        152     1.504548     1.504548     1.422257     0.706683     1.246927 000152@Images/Imported/run_001/images.stk          1 1    -1.104587    -1.144166  -119.235669 
+000166@Images/Preprocessed/run_001/images.stk          1        105     1.506679     1.506679     0.405795     0.837905     1.412995 000105@Images/Imported/run_001/images.stk          1 0    -1.023263    -0.931835    71.082803 
+000172@Images/Preprocessed/run_001/images.stk          1         85     1.523917     1.523917     0.870888     0.308741     0.997517 000085@Images/Imported/run_001/images.stk          1 0    -0.790867    -1.013172  -114.649682 
+000174@Images/Preprocessed/run_001/images.stk          1        187     0.846173     0.846173     1.423772     1.524671     1.217488 000187@Images/Imported/run_001/images.stk          1 0    -0.741578    -0.011803   -20.636943 
+000179@Images/Preprocessed/run_001/images.stk          1        379     0.813027     0.813027     1.539471     1.238921     1.452644 000379@Images/Imported/run_001/images.stk          1 0    -0.832710     0.065351   -48.152866 
+000180@Images/Preprocessed/run_001/images.stk          1        250     0.344028     0.344028     0.610348     0.267784     1.540812 000250@Images/Imported/run_001/images.stk          1 0     0.852089    -1.062205   114.649682 
+000181@Images/Preprocessed/run_001/images.stk          1         60     1.542799     1.542799     1.041002     1.371793     0.905881 000060@Images/Imported/run_001/images.stk          1 0    -0.841154     0.243744    75.668790 
+000183@Images/Preprocessed/run_001/images.stk          1        212     0.626798     0.626798     0.521977     0.967314     1.549674 000212@Images/Imported/run_001/images.stk          1 0     0.005756     0.159898    84.840764 
+000199@Images/Preprocessed/run_001/images.stk          1        116     1.459974     1.459974     1.309082     0.193771     1.597200 000116@Images/Imported/run_001/images.stk          1 0    -0.164481    -0.893577   171.974522 
+000213@Images/Preprocessed/run_001/images.stk          1         74     1.275836     1.275836     1.623303     1.448727     1.135535 000074@Images/Imported/run_001/images.stk          1 0    -1.004061    -1.108570    18.343949 
+000219@Images/Preprocessed/run_001/images.stk          1        214     1.320486     1.320486     1.222004     1.635760     0.610565 000214@Images/Imported/run_001/images.stk          1 0    -0.079628    -0.942168   -66.496815 
+000221@Images/Preprocessed/run_001/images.stk          1        313     1.402881     1.402881     1.641546     1.525245     1.224125 000313@Images/Imported/run_001/images.stk          1 0     0.014895     0.003252   -18.343949 
+000232@Images/Preprocessed/run_001/images.stk          1        282     1.113687     1.113687     1.113923     1.675753     0.800431 000282@Images/Imported/run_001/images.stk          1 1     1.660859    -2.024447    -9.171975 
+000234@Images/Preprocessed/run_001/images.stk          1        395     0.400534     0.400534     0.851106     0.764101     1.684501 000395@Images/Imported/run_001/images.stk          1 1    -1.147038     0.177504   167.388535 
+000237@Images/Preprocessed/run_001/images.stk          1        284     1.488535     1.488535     1.510018     1.553209     1.697657 000284@Images/Imported/run_001/images.stk          1 0    -1.029477    -0.124915  -176.560510 
+000245@Images/Preprocessed/run_001/images.stk          1        121     0.850356     0.850356     0.380379     1.005900     1.726077 000121@Images/Imported/run_001/images.stk          1 0    -0.144073     0.016031   126.114650 
+000251@Images/Preprocessed/run_001/images.stk          1        186     0.874926     0.874926     0.946849     1.746022     1.088708 000186@Images/Imported/run_001/images.stk          1 0     1.019782    -0.095961  -144.458599 
+000257@Images/Preprocessed/run_001/images.stk          1        407     1.760005     1.760005     1.598156     0.277719     0.915014 000407@Images/Imported/run_001/images.stk          1 0    -0.134923    -0.985104   139.872611 
+000261@Images/Preprocessed/run_001/images.stk          1        258     1.778182     1.778182     1.582377     0.764314     1.093401 000258@Images/Imported/run_001/images.stk          1 1     0.028432     0.078427    16.050955 
+000267@Images/Preprocessed/run_001/images.stk          1         62     1.422717     1.422717     1.785679     1.403929     1.199808 000062@Images/Imported/run_001/images.stk          1 0    -0.164098    -0.019009   105.477707 
+000274@Images/Preprocessed/run_001/images.stk          1        208     1.691907     1.691907     1.798150     1.484336     1.353428 000208@Images/Imported/run_001/images.stk          1 0    -1.085642     0.886637   107.770701 
+000278@Images/Preprocessed/run_001/images.stk          1        427     1.319786     1.319786     1.811858     0.616105     0.243537 000427@Images/Imported/run_001/images.stk          1 0    -0.759207    -1.023878   165.095541 
+000292@Images/Preprocessed/run_001/images.stk          1        432     0.833737     0.833737     1.850125     0.719551     0.903773 000432@Images/Imported/run_001/images.stk          1 0     0.943411    -0.831735  -105.477707 
+000293@Images/Preprocessed/run_001/images.stk          1        263     1.478601     1.478601     1.448282     1.470232     1.853539 000263@Images/Imported/run_001/images.stk          1 0    -0.097813    -0.870167  -116.942675 
+000309@Images/Preprocessed/run_001/images.stk          1        422     1.876071     1.876071     1.918982     1.377816     1.322458 000422@Images/Imported/run_001/images.stk          1 0     0.777442     0.259476    32.101911 
+000311@Images/Preprocessed/run_001/images.stk          1         28     1.929232     1.929232     1.245416     0.274663     1.077394 000028@Images/Imported/run_001/images.stk          1 0    -0.055700    -0.921431    68.789809 
+000315@Images/Preprocessed/run_001/images.stk          1        321     1.570966     1.570966     1.614067     1.948384     0.950299 000321@Images/Imported/run_001/images.stk          1 1    -0.650181     1.313720    96.305732 
+000322@Images/Preprocessed/run_001/images.stk          1        171     1.269085     1.269085     1.494984     0.719302     1.963446 000171@Images/Imported/run_001/images.stk          1 0    -0.225952    -0.161723   -84.840764 
+000323@Images/Preprocessed/run_001/images.stk          1        305     1.726213     1.726213     1.967443     1.660590     0.392094 000305@Images/Imported/run_001/images.stk          1 0    -0.250045    -0.136298  -119.235669 
+000328@Images/Preprocessed/run_001/images.stk          1          6     1.711915     1.711915     1.284741     0.557045     1.981314 000006@Images/Imported/run_001/images.stk          1 0    -0.210889    -1.248114    18.343949 
+000338@Images/Preprocessed/run_001/images.stk          1        234     1.942666     1.942666     0.372984     1.863714     2.020565 000234@Images/Imported/run_001/images.stk          1 0    -0.144090    -0.780268   -18.343949 
+000350@Images/Preprocessed/run_001/images.stk          1        177     0.544637     0.544637     0.824638     0.191547     2.065670 000177@Images/Imported/run_001/images.stk          1 0     0.919796    -0.905221    66.496815 
+000356@Images/Preprocessed/run_001/images.stk          1        324     1.537106     1.537106     2.082065     1.631242     1.643409 000324@Images/Imported/run_001/images.stk          1 0    -1.208662    -1.002022  -176.560510 
+000361@Images/Preprocessed/run_001/images.stk          1         93     0.818277     0.818277     0.612702     0.858294     2.096892 000093@Images/Imported/run_001/images.stk          1 0    -0.098525    -0.850664   -34.394904 
+000366@Images/Preprocessed/run_001/images.stk          1         88     1.034169     1.034169     0.346913     2.137885     1.042801 000088@Images/Imported/run_001/images.stk          1 0    -1.807953    -1.709782    68.789809 
+000384@Images/Preprocessed/run_001/images.stk          1        241     1.307394     1.307394     1.842272     1.015534     2.224250 000241@Images/Imported/run_001/images.stk          1 1     1.041983     1.793513    41.273885 
+000388@Images/Preprocessed/run_001/images.stk          1        285     1.835433     1.835433     2.240226     1.059327     1.246420 000285@Images/Imported/run_001/images.stk          1 0    -0.912250     0.027667  -132.993631 
+000389@Images/Preprocessed/run_001/images.stk          1        109     1.723720     1.723720     2.034210     1.694242     2.241708 000109@Images/Imported/run_001/images.stk          1 0    -1.042709     0.062124    71.082803 
+000393@Images/Preprocessed/run_001/images.stk          1        273     2.259245     2.259245     1.605338     1.558424     2.257332 000273@Images/Imported/run_001/images.stk          1 0    -0.053478    -0.023315   -82.547771 
+000397@Images/Preprocessed/run_001/images.stk          1        168     2.271896     2.271896     0.787641     0.316063     1.050162 000168@Images/Imported/run_001/images.stk          1 0    -0.019896    -1.231539    61.910828 
+000408@Images/Preprocessed/run_001/images.stk          1        490     1.546770     1.546770     1.330110     2.334987     1.588978 000490@Images/Imported/run_001/images.stk          1 0    -0.847771    -0.879153  -110.063694 
+000410@Images/Preprocessed/run_001/images.stk          1        142     1.849821     1.849821     1.442940     2.239227     2.343228 000142@Images/Imported/run_001/images.stk          1 0    -0.795300    -0.831885   -52.738854 
+000413@Images/Preprocessed/run_001/images.stk          1        315     1.916782     1.916782     1.537125     2.358203     1.479254 000315@Images/Imported/run_001/images.stk          1 0    -0.915150    -1.042464    32.101911 
+000422@Images/Preprocessed/run_001/images.stk          1        229     2.456895     2.456895     1.343445     1.507844     2.268160 000229@Images/Imported/run_001/images.stk          1 0    -0.078200    -1.020330   132.993631 
+000432@Images/Preprocessed/run_001/images.stk          1        106     1.845650     1.845650     1.261609     1.897814     2.521823 000106@Images/Imported/run_001/images.stk          1 0    -0.839296    -0.881846  -171.974522 
+000436@Images/Preprocessed/run_001/images.stk          1        268     2.354162     2.354162     2.545116     1.842099     2.286797 000268@Images/Imported/run_001/images.stk          1 0    -0.979256    -0.879581   171.974522 
+000448@Images/Preprocessed/run_001/images.stk          1        393     1.678547     1.678547     1.218014     0.699780     2.667318 000393@Images/Imported/run_001/images.stk          1 0    -0.105181    -0.162240   -11.464968 
+000451@Images/Preprocessed/run_001/images.stk          1        113     1.284146     1.284146     0.515559     1.136094     2.681331 000113@Images/Imported/run_001/images.stk          1 0    -0.191922    -0.912697   -66.496815 
+000457@Images/Preprocessed/run_001/images.stk          1         98     1.048876     1.048876     0.238494     0.319418     2.731900 000098@Images/Imported/run_001/images.stk          1 0    -1.210109    -0.163791   -34.394904 
+000462@Images/Preprocessed/run_001/images.stk          1        317     2.453714     2.453714     1.258687     2.769436     1.746056 000317@Images/Imported/run_001/images.stk          1 0    -0.798729    -0.004666   178.853503 
+000468@Images/Preprocessed/run_001/images.stk          1          3     0.823873     0.823873     0.947603     2.857037     1.148153 000003@Images/Imported/run_001/images.stk          1 0    -1.030227    -0.890422   137.579618 
+000480@Images/Preprocessed/run_001/images.stk          1        204     1.347457     1.347457     1.076568     1.220694     3.058021 000204@Images/Imported/run_001/images.stk          1 0    -1.111177 2.858773e-04   128.407643 
+000499@Images/Preprocessed/run_001/images.stk          1         89     1.506874     1.506874     1.594966     4.175296     0.905846 000089@Images/Imported/run_001/images.stk          1 0    -0.956323    -0.830614   169.681529 
+
+data_class000002_images
+loop_
+ _image
+ _enabled
+ _itemId
+ _zScoreShape1
+ _zScoreShape2
+ _zScoreSNR1
+ _zScoreSNR2
+ _zScoreHistogram
+ _imageOriginal
+ _ref
+ _flip
+ _shiftX
+ _shiftY
+ _anglePsi
+000002@Images/Preprocessed/run_001/images.stk          1        294     0.641218     0.641218     0.305979     0.672419     0.648296 000294@Images/Imported/run_001/images.stk          2 0     0.185169     0.992975    20.636943 
+000003@Images/Preprocessed/run_001/images.stk          1          2     0.680247     0.680247     0.318868     0.428821     0.413610 000002@Images/Imported/run_001/images.stk          2 0     0.014361     0.069946   -48.152866 
+000004@Images/Preprocessed/run_001/images.stk          1        272     0.363219     0.363219     0.359138     0.138436     0.681420 000272@Images/Imported/run_001/images.stk          2 0     0.086006     1.119390   -55.031847 
+000006@Images/Preprocessed/run_001/images.stk          1        203     0.555510     0.555510     0.713594     0.644042     0.394879 000203@Images/Imported/run_001/images.stk          2 0    -0.962279     0.133229    -4.585987 
+000011@Images/Preprocessed/run_001/images.stk          1         53     0.359712     0.359712     0.844526     0.337224     0.432366 000053@Images/Imported/run_001/images.stk          2 0    -0.169811    -0.100001   119.235669 
+000014@Images/Preprocessed/run_001/images.stk          1         68     0.675311     0.675311     0.909506     0.615257     0.782420 000068@Images/Imported/run_001/images.stk          2 0    -1.874940    -0.212100   -22.929936 
+000017@Images/Preprocessed/run_001/images.stk          1         67     0.230256     0.230256     0.527233     0.945403     0.642554 000067@Images/Imported/run_001/images.stk          2 0    -0.999786     0.172836   -61.910828 
+000019@Images/Preprocessed/run_001/images.stk          1        413     0.910340     0.910340     0.268815     0.948918     0.794436 000413@Images/Imported/run_001/images.stk          2 0    -1.008871    -0.002096   -52.738854 
+000023@Images/Preprocessed/run_001/images.stk          1        297     0.941137     0.941137     0.524266     0.917932     0.974303 000297@Images/Imported/run_001/images.stk          2 0     0.149426     0.818315   -27.515924 
+000027@Images/Preprocessed/run_001/images.stk          1        160     0.667517     0.667517     0.509534     1.016666     0.486083 000160@Images/Imported/run_001/images.stk          2 0    -0.966382     0.856302    36.687898 
+000043@Images/Preprocessed/run_001/images.stk          1        304     1.093859     1.093859     0.600968     0.830366     1.102565 000304@Images/Imported/run_001/images.stk          2 0    -0.155160     0.184335   151.337580 
+000046@Images/Preprocessed/run_001/images.stk          1        296     0.685686     0.685686     1.118998     0.312783     0.992164 000296@Images/Imported/run_001/images.stk          2 0    -0.817975    -0.954359  -103.184713 
+000048@Images/Preprocessed/run_001/images.stk          1         46     0.461487     0.461487     0.702994     0.580438     1.124616 000046@Images/Imported/run_001/images.stk          2 0     0.045740     0.130548   165.095541 
+000050@Images/Preprocessed/run_001/images.stk          1        497     1.135564     1.135564     1.097289     0.568429     0.645854 000497@Images/Imported/run_001/images.stk          2 0    -0.139153     0.101169  -119.235669 
+000053@Images/Preprocessed/run_001/images.stk          1        431     0.570044     0.570044     0.447174     0.823208     1.152215 000431@Images/Imported/run_001/images.stk          2 0    -0.126976    -0.057612   -13.757962 
+000062@Images/Preprocessed/run_001/images.stk          1        115     1.199810     1.199810     0.785605     0.477439     0.501984 000115@Images/Imported/run_001/images.stk          2 0    -0.143166    -0.737585   165.095541 
+000063@Images/Preprocessed/run_001/images.stk          1        295     0.270909     0.270909     1.199997     0.515413     0.714299 000295@Images/Imported/run_001/images.stk          2 0    -0.890202    -0.140160  -139.872611 
+000073@Images/Preprocessed/run_001/images.stk          1        418     1.151262     1.151262     0.789929     1.232960     0.502746 000418@Images/Imported/run_001/images.stk          2 0    -0.856308    -0.244128    50.445860 
+000077@Images/Preprocessed/run_001/images.stk          1        209     0.372981     0.372981     0.661257     0.103977     1.255849 000209@Images/Imported/run_001/images.stk          2 0    -0.174216     0.028875  -153.630573 
+000083@Images/Preprocessed/run_001/images.stk          1        416     1.001315     1.001315     1.267876     1.187040     0.992430 000416@Images/Imported/run_001/images.stk          2 0     0.976658     0.709405  -146.751592 
+000088@Images/Preprocessed/run_001/images.stk          1        288     0.369079     0.369079     0.399232     0.736337     1.273661 000288@Images/Imported/run_001/images.stk          2 0    -0.861287     0.250076   -11.464968 
+000089@Images/Preprocessed/run_001/images.stk          1         35     0.775135     0.775135     0.926125     1.274405     0.690069 000035@Images/Imported/run_001/images.stk          2 0    -0.189472    -1.120449   -66.496815 
+000090@Images/Preprocessed/run_001/images.stk          1        194     0.558630     0.558630     0.860512     1.279615     1.277967 000194@Images/Imported/run_001/images.stk          2 0     0.069333    -0.142840   -64.203822 
+000094@Images/Preprocessed/run_001/images.stk          1        465     1.269574     1.269574     0.150385     1.046422     1.291851 000465@Images/Imported/run_001/images.stk          2 0    -0.914280     0.876613  -151.337580 
+000103@Images/Preprocessed/run_001/images.stk          1        215     0.920617     0.920617     0.867348     0.615964     1.317692 000215@Images/Imported/run_001/images.stk          2 0     0.142321     0.713047   -22.929936 
+000105@Images/Preprocessed/run_001/images.stk          1        122     1.069103     1.069103     0.270682     1.321276     1.203639 000122@Images/Imported/run_001/images.stk          2 0    -0.213767     0.069113  -137.579618 
+000106@Images/Preprocessed/run_001/images.stk          1        259     0.766091     0.766091     1.093718     1.327133     1.170903 000259@Images/Imported/run_001/images.stk          2 0    -0.008702    -1.079594   107.770701 
+000110@Images/Preprocessed/run_001/images.stk          1        388     0.769415     0.769415     0.719655     0.699918     1.338311 000388@Images/Imported/run_001/images.stk          2 0     0.782962     0.005271    32.101911 
+000112@Images/Preprocessed/run_001/images.stk          1        182     0.592311     0.592311     1.345635     1.256306     1.069701 000182@Images/Imported/run_001/images.stk          2 0    -0.092446     1.032073    -4.585987 
+000113@Images/Preprocessed/run_001/images.stk          1        151     1.172882     1.172882     0.862581     0.407630     1.346806 000151@Images/Imported/run_001/images.stk          2 0    -0.062538     0.710758   -96.305732 
+000115@Images/Preprocessed/run_001/images.stk          1        436     1.347921     1.347921     0.931100     0.784294     1.269312 000436@Images/Imported/run_001/images.stk          2 0     0.137860    -0.190607   -94.012739 
+000116@Images/Preprocessed/run_001/images.stk          1        368     0.464298     0.464298     0.894560     1.352931     0.841150 000368@Images/Imported/run_001/images.stk          2 0     0.889931    -1.083338    98.598726 
+000126@Images/Preprocessed/run_001/images.stk          1        350     0.511538     0.511538     0.504187     1.371048     0.458241 000350@Images/Imported/run_001/images.stk          2 0     1.632552    -0.503372    89.426752 
+000127@Images/Preprocessed/run_001/images.stk          1        311     0.481492     0.481492     0.853436     0.647729     1.372466 000311@Images/Imported/run_001/images.stk          2 0     0.115051     0.900896   -87.133758 
+000139@Images/Preprocessed/run_001/images.stk          1         18     0.776682     0.776682     0.909210     0.465980     1.427928 000018@Images/Imported/run_001/images.stk          2 0    -0.817769     0.870773    59.617834 
+000143@Images/Preprocessed/run_001/images.stk          1         36     0.909656     0.909656     0.966637     0.723488     1.437385 000036@Images/Imported/run_001/images.stk          2 0     0.902487    -1.026507   -34.394904 
+000147@Images/Preprocessed/run_001/images.stk          1        443     1.417200     1.417200     1.333020     1.464206     1.446851 000443@Images/Imported/run_001/images.stk          2 0     0.071389     0.223156    34.394904 
+000149@Images/Preprocessed/run_001/images.stk          1        138     1.476141     1.476141     1.294500     0.748933     0.956683 000138@Images/Imported/run_001/images.stk          2 0     0.010905    -1.091640    59.617834 
+000156@Images/Preprocessed/run_001/images.stk          1         69     1.424376     1.424376     1.490265     1.366739     0.701417 000069@Images/Imported/run_001/images.stk          2 0     0.943947     0.981902   -98.598726 
+000159@Images/Preprocessed/run_001/images.stk          1        371     1.497296     1.497296     1.392177     0.781235     0.552274 000371@Images/Imported/run_001/images.stk          2 0    -0.029847    -0.874701   -41.273885 
+000165@Images/Preprocessed/run_001/images.stk          1        365     1.505359     1.505359     1.408784     0.772669     0.394199 000365@Images/Imported/run_001/images.stk          2 0     0.032062     0.351057   121.528662 
+000167@Images/Preprocessed/run_001/images.stk          1        478     0.576463     0.576463     0.727024     1.364753     1.508704 000478@Images/Imported/run_001/images.stk          2 0    -0.933722    -0.079842    94.012739 
+000182@Images/Preprocessed/run_001/images.stk          1        412     1.549072     1.549072     1.393242     0.920656     1.008606 000412@Images/Imported/run_001/images.stk          2 0     0.103176     0.161560  -107.770701 
+000187@Images/Preprocessed/run_001/images.stk          1        245     0.313616     0.313616     1.251733     1.560146     0.755533 000245@Images/Imported/run_001/images.stk          2 1    -0.098697     1.445643    75.668790 
+000190@Images/Preprocessed/run_001/images.stk          1        120     0.935529     0.935529     1.491033     0.840762     1.565501 000120@Images/Imported/run_001/images.stk          2 0    -0.991032    -0.918917  -162.802548 
+000191@Images/Preprocessed/run_001/images.stk          1        492     0.812318     0.812318     1.178267     1.565562     1.516659 000492@Images/Imported/run_001/images.stk          2 0    -0.128672    -1.868256    77.961783 
+000196@Images/Preprocessed/run_001/images.stk          1        166     0.480734     0.480734     0.788657     1.212911     1.577868 000166@Images/Imported/run_001/images.stk          2 0    -1.043521    -0.149254  -100.891720 
+000197@Images/Preprocessed/run_001/images.stk          1        339     1.135484     1.135484     1.121488     1.578830     1.296724 000339@Images/Imported/run_001/images.stk          2 0     0.019277    -0.742182   -64.203822 
+000205@Images/Preprocessed/run_001/images.stk          1        301     0.714718     0.714718     1.606692     0.755975     1.341162 000301@Images/Imported/run_001/images.stk          2 0     0.997515     0.076784   114.649682 
+000207@Images/Preprocessed/run_001/images.stk          1        183     1.462815     1.462815     1.611412     1.087677     1.045935 000183@Images/Imported/run_001/images.stk          2 1    -1.994198     0.913056   116.942675 
+000210@Images/Preprocessed/run_001/images.stk          1        264     0.180391     0.180391     1.043394     0.546422     1.621236 000264@Images/Imported/run_001/images.stk          2 0    -1.442906     0.121418    -4.585987 
+000211@Images/Preprocessed/run_001/images.stk          1        158     1.621663     1.621663     0.981624     0.985669     1.371227 000158@Images/Imported/run_001/images.stk          2 1     0.770169     0.117917    66.496815 
+000220@Images/Preprocessed/run_001/images.stk          1        349     0.579043     0.579043     0.865234     1.636697     0.383070 000349@Images/Imported/run_001/images.stk          2 0     0.080499    -0.058531   -38.980892 
+000224@Images/Preprocessed/run_001/images.stk          1        180     0.807200     0.807200     1.325397     0.935459     1.646739 000180@Images/Imported/run_001/images.stk          2 0    -0.742178    -1.038390   -20.636943 
+000225@Images/Preprocessed/run_001/images.stk          1         57     0.523127     0.523127     1.653516     0.483319     0.578264 000057@Images/Imported/run_001/images.stk          2 0     0.817345     0.033413  -171.974522 
+000235@Images/Preprocessed/run_001/images.stk          1        423     0.865133     0.865133     1.692371     0.291018     0.709200 000423@Images/Imported/run_001/images.stk          2 0     0.858952     0.169544   132.993631 
+000240@Images/Preprocessed/run_001/images.stk          1        302     1.435196     1.435196     0.935730     1.538562     1.707607 000302@Images/Imported/run_001/images.stk          2 0     1.790884    -1.933209   -91.719745 
+000242@Images/Preprocessed/run_001/images.stk          1        147     0.770604     0.770604     1.714049     0.091938     0.850381 000147@Images/Imported/run_001/images.stk          2 0    -0.969517    -0.083356   -38.980892 
+000244@Images/Preprocessed/run_001/images.stk          1        303     0.609030     0.609030     0.663962     1.716577     0.697196 000303@Images/Imported/run_001/images.stk          2 1     0.116597     0.161244    48.152866 
+000247@Images/Preprocessed/run_001/images.stk          1        128     1.585824     1.585824     1.732396     1.533500     1.404902 000128@Images/Imported/run_001/images.stk          2 0    -0.108499     0.176134   -13.757962 
+000252@Images/Preprocessed/run_001/images.stk          1        344     1.570574     1.570574     1.515815     1.364205     1.748206 000344@Images/Imported/run_001/images.stk          2 0     0.176990    -0.678299   116.942675 
+000256@Images/Preprocessed/run_001/images.stk          1         17     1.331638     1.331638     1.758844     0.940178     1.179347 000017@Images/Imported/run_001/images.stk          2 0    -0.986805    -0.168670    20.636943 
+000258@Images/Preprocessed/run_001/images.stk          1         52     1.769914     1.769914     1.198808     0.378379     0.178019 000052@Images/Imported/run_001/images.stk          2 0     0.162443     0.047081  -121.528662 
+000265@Images/Preprocessed/run_001/images.stk          1        102     1.349801     1.349801     1.784235     0.090688     0.431671 000102@Images/Imported/run_001/images.stk          2 0    -0.978383    -0.243649   149.044586 
+000266@Images/Preprocessed/run_001/images.stk          1        150     1.785241     1.785241     1.623201     1.697152     0.838436 000150@Images/Imported/run_001/images.stk          2 0    -0.748759    -0.783254   -61.910828 
+000280@Images/Preprocessed/run_001/images.stk          1         59     1.352394     1.352394     1.234290     1.102867     1.812886 000059@Images/Imported/run_001/images.stk          2 0    -1.042381    -0.873405   139.872611 
+000285@Images/Preprocessed/run_001/images.stk          1        450     1.331541     1.331541     1.180057     1.841493     1.808569 000450@Images/Imported/run_001/images.stk          2 0    -0.851838    -0.715419   160.509554 
+000287@Images/Preprocessed/run_001/images.stk          1         95     1.304867     1.304867     1.235731     0.936482     1.844465 000095@Images/Imported/run_001/images.stk          2 0     0.027855    -1.026929     9.171975 
+000295@Images/Preprocessed/run_001/images.stk          1        495     1.617096     1.617096     1.870894     1.198393     1.337356 000495@Images/Imported/run_001/images.stk          2 0    -0.016916    -0.025483  -149.044586 
+000298@Images/Preprocessed/run_001/images.stk          1         29     1.559503     1.559503     1.584912     0.471684     1.879331 000029@Images/Imported/run_001/images.stk          2 0     0.108465    -0.066617    25.222930 
+000299@Images/Preprocessed/run_001/images.stk          1        397     0.970269     0.970269     1.183269     0.540860     1.882262 000397@Images/Imported/run_001/images.stk          2 0     0.062352    -0.785554  -171.974522 
+000300@Images/Preprocessed/run_001/images.stk          1        387     0.857225     0.857225     1.004426     0.740395     1.885274 000387@Images/Imported/run_001/images.stk          2 0     0.361364     1.754358  -151.337580 
+000301@Images/Preprocessed/run_001/images.stk          1        165     1.576298     1.576298     1.891208     0.652893     0.244252 000165@Images/Imported/run_001/images.stk          2 0     0.157279     1.087834    45.859873 
+000302@Images/Preprocessed/run_001/images.stk          1        283     1.893978     1.893978     0.363893     1.507173     0.256059 000283@Images/Imported/run_001/images.stk          2 1    -0.756771    -0.011693   128.407643 
+000310@Images/Preprocessed/run_001/images.stk          1        496     1.294167     1.294167     1.080470     1.919535     1.162222 000496@Images/Imported/run_001/images.stk          2 0    -0.841079    -0.205945   -64.203822 
+000312@Images/Preprocessed/run_001/images.stk          1         49     0.839182     0.839182     0.636959     0.966046     1.931158 000049@Images/Imported/run_001/images.stk          2 0     0.054515    -0.175802    -9.171975 
+000317@Images/Preprocessed/run_001/images.stk          1        469     1.780021     1.780021     1.955441     1.914035     0.797545 000469@Images/Imported/run_001/images.stk          2 0    -0.904378    -0.320412   169.681529 
+000324@Images/Preprocessed/run_001/images.stk          1        103     0.590773     0.590773     1.004072     0.639501     1.976789 000103@Images/Imported/run_001/images.stk          2 0     0.869419     0.197733    55.031847 
+000330@Images/Preprocessed/run_001/images.stk          1        293     1.674364     1.674364     0.239613     1.985123     1.739798 000293@Images/Imported/run_001/images.stk          2 0    -0.178451    -0.309724   139.872611 
+000335@Images/Preprocessed/run_001/images.stk          1        332     2.011250     2.011250     1.594139     0.259411     1.363482 000332@Images/Imported/run_001/images.stk          2 0     0.956400    -0.175343   -55.031847 
+000337@Images/Preprocessed/run_001/images.stk          1        148     2.018189     2.018189     1.581070     2.012523     1.113379 000148@Images/Imported/run_001/images.stk          2 0    -0.100429    -0.874320   -36.687898 
+000341@Images/Preprocessed/run_001/images.stk          1        238     1.300392     1.300392     2.032345     0.444409     1.193014 000238@Images/Imported/run_001/images.stk          2 0    -0.921780    -0.266642    32.101911 
+000344@Images/Preprocessed/run_001/images.stk          1        219     1.751114     1.751114     2.045605     1.183146     1.189480 000219@Images/Imported/run_001/images.stk          2 0    -0.006424    -0.020171  -155.923567 
+000345@Images/Preprocessed/run_001/images.stk          1        220     2.046587     2.046587     1.612667     0.848091     0.382507 000220@Images/Imported/run_001/images.stk          2 0     0.103565    -0.831761   -48.152866 
+000346@Images/Preprocessed/run_001/images.stk          1        425     1.405079     1.405079     1.022957     1.065274     2.055279 000425@Images/Imported/run_001/images.stk          2 0     0.828574    -0.053653   -20.636943 
+000348@Images/Preprocessed/run_001/images.stk          1        382     0.775395     0.775395     1.966939     0.344462     2.060799 000382@Images/Imported/run_001/images.stk          2 0     0.146494    -0.967730  -167.388535 
+000353@Images/Preprocessed/run_001/images.stk          1        406     0.529833     0.529833     0.673954     0.953441     2.076386 000406@Images/Imported/run_001/images.stk          2 0    -1.188641     0.028785  -162.802548 
+000365@Images/Preprocessed/run_001/images.stk          1        476     1.701143     1.701143     0.978541     1.776858     2.129825 000476@Images/Imported/run_001/images.stk          2 0    -0.095118     0.794247    91.719745 
+000367@Images/Preprocessed/run_001/images.stk          1        498     1.155606     1.155606     2.138980     1.515973     0.917833 000498@Images/Imported/run_001/images.stk          2 0    -0.126068     0.892213    27.515924 
+000370@Images/Preprocessed/run_001/images.stk          1         26     1.571523     1.571523     2.144113     1.445877     1.323287 000026@Images/Imported/run_001/images.stk          2 0     0.198379    -0.855856    98.598726 
+000376@Images/Preprocessed/run_001/images.stk          1        276     1.683653     1.683653     2.172141     1.903174     2.007134 000276@Images/Imported/run_001/images.stk          2 0    -0.126644    -0.073446    50.445860 
+000385@Images/Preprocessed/run_001/images.stk          1        483     2.232185     2.232185     1.446077     0.788643     0.648984 000483@Images/Imported/run_001/images.stk          2 1    -0.983860     0.122857  -123.821656 
+000387@Images/Preprocessed/run_001/images.stk          1        129     1.115952     1.115952     2.239451     2.233352     1.955335 000129@Images/Imported/run_001/images.stk          2 0     0.081632     0.179742    59.617834 
+000399@Images/Preprocessed/run_001/images.stk          1         61     2.283050     2.283050     1.244872     1.961146     0.826482 000061@Images/Imported/run_001/images.stk          2 0    -0.261870     0.070875   153.630573 
+000401@Images/Preprocessed/run_001/images.stk          1        124     1.333524     1.333524     1.815817     1.883686     2.292539 000124@Images/Imported/run_001/images.stk          2 0    -0.150758    -1.145718   -59.617834 
+000407@Images/Preprocessed/run_001/images.stk          1        310     1.689183     1.689183     2.205634     1.558369     2.320621 000310@Images/Imported/run_001/images.stk          2 0     0.149573    -0.166545   155.923567 
+000411@Images/Preprocessed/run_001/images.stk          1        146     2.343767     2.343767     1.828411     2.067749     1.085190 000146@Images/Imported/run_001/images.stk          2 0     1.046774    -0.750035   -27.515924 
+000412@Images/Preprocessed/run_001/images.stk          1        221     0.884771     0.884771     2.353011     1.246121     1.338332 000221@Images/Imported/run_001/images.stk          2 0    -0.116225     0.002154  -137.579618 
+000416@Images/Preprocessed/run_001/images.stk          1        265     0.538990     0.538990     2.418838     1.859766     1.657997 000265@Images/Imported/run_001/images.stk          2 0     0.018034     0.054687   -59.617834 
+000417@Images/Preprocessed/run_001/images.stk          1        132     2.380088     2.380088     2.436866     1.472746     1.368065 000132@Images/Imported/run_001/images.stk          2 0     0.003464     0.311876   158.216561 
+000419@Images/Preprocessed/run_001/images.stk          1        286     2.445025     2.445025     1.170107     1.258235     0.639802 000286@Images/Imported/run_001/images.stk          2 0    -1.832547    -0.904373   171.974522 
+000423@Images/Preprocessed/run_001/images.stk          1         31     2.019780     2.019780     2.464832     1.125498     1.130823 000031@Images/Imported/run_001/images.stk          2 0     0.028995 1.940387e-04    34.394904 
+000429@Images/Preprocessed/run_001/images.stk          1        188     1.562013     1.562013     2.511147     2.005365     1.447690 000188@Images/Imported/run_001/images.stk          2 0     0.967219    -0.905222  -130.700637 
+000435@Images/Preprocessed/run_001/images.stk          1        318     1.680619     1.680619     2.542094     1.771676     1.245433 000318@Images/Imported/run_001/images.stk          2 0     0.079155    -0.222362    66.496815 
+000437@Images/Preprocessed/run_001/images.stk          1        448     1.716593     1.716593     2.549015     1.483432     1.820678 000448@Images/Imported/run_001/images.stk          2 0    -1.024102    -0.068898  -119.235669 
+000439@Images/Preprocessed/run_001/images.stk          1        454     0.985516     0.985516     0.523087     1.161398     2.586195 000454@Images/Imported/run_001/images.stk          2 0    -0.171793     0.162156   -11.464968 
+000443@Images/Preprocessed/run_001/images.stk          1        320     1.915029     1.915029     2.634418     2.474759     0.936158 000320@Images/Imported/run_001/images.stk          2 0    -0.091043    -0.086653    59.617834 
+000447@Images/Preprocessed/run_001/images.stk          1        460     1.566822     1.566822     1.601949     1.748714     2.652864 000460@Images/Imported/run_001/images.stk          2 0     0.100721    -1.156259   -55.031847 
+000454@Images/Preprocessed/run_001/images.stk          1        254     2.685139     2.685139     1.706511     0.564068     0.468572 000254@Images/Imported/run_001/images.stk          2 0    -0.970928    -0.912553  -100.891720 
+000461@Images/Preprocessed/run_001/images.stk          1        201     1.948831     1.948831     2.752917     1.343646     1.615243 000201@Images/Imported/run_001/images.stk          2 0    -0.121442    -0.852896   128.407643 
+000467@Images/Preprocessed/run_001/images.stk          1        341     1.303705     1.303705     1.090233     1.384245     2.849989 000341@Images/Imported/run_001/images.stk          2 0     1.000345    -0.164052    73.375796 
+000473@Images/Preprocessed/run_001/images.stk          1        169     0.733414     0.733414     0.932741     1.982953     2.940262 000169@Images/Imported/run_001/images.stk          2 0    -0.047494    -0.080230    84.840764 
+000479@Images/Preprocessed/run_001/images.stk          1         41     3.041907     3.041907     1.865239     1.613504     1.211420 000041@Images/Imported/run_001/images.stk          2 0    -0.130249    -0.024025   -98.598726 
+000482@Images/Preprocessed/run_001/images.stk          1        267     2.915130     2.915130     3.056763     3.105891     1.801503 000267@Images/Imported/run_001/images.stk          2 1     0.145194     0.134754     9.171975 
+000485@Images/Preprocessed/run_001/images.stk          1        343     1.080204     1.080204     1.379133     0.322427     3.211924 000343@Images/Imported/run_001/images.stk          2 0    -0.056120     0.158204  -121.528662 
+000487@Images/Preprocessed/run_001/images.stk          1        174     3.231551     3.231551     2.060672     2.839699     0.913060 000174@Images/Imported/run_001/images.stk          2 0     0.101038    -0.073674   -25.222930 
+000497@Images/Preprocessed/run_001/images.stk          1        319     3.440767     3.440767     4.146310     4.028757     1.692769 000319@Images/Imported/run_001/images.stk          2 0    -0.165336     0.117347  -158.216561 
+000498@Images/Preprocessed/run_001/images.stk          1        337     1.609591     1.609591     0.607289     4.159723     0.975115 000337@Images/Imported/run_001/images.stk          2 0    -1.133115    -0.091952  -135.286624 
+
+data_class000003_images
+loop_
+ _image
+ _enabled
+ _itemId
+ _zScoreShape1
+ _zScoreShape2
+ _zScoreSNR1
+ _zScoreSNR2
+ _zScoreHistogram
+ _imageOriginal
+ _ref
+ _flip
+ _shiftX
+ _shiftY
+ _anglePsi
+000001@Images/Preprocessed/run_001/images.stk          1         44     0.623546     0.623546     0.531970     0.022266     0.542378 000044@Images/Imported/run_001/images.stk          3 0    -1.011112    -0.012657    25.222930 
+000007@Images/Preprocessed/run_001/images.stk          1         50     0.359821     0.359821     0.680048     0.672632     0.721547 000050@Images/Imported/run_001/images.stk          3 0    -0.751840    -0.032145  -126.114650 
+000013@Images/Preprocessed/run_001/images.stk          1        308     0.362215     0.362215     0.881700     0.870283     0.436159 000308@Images/Imported/run_001/images.stk          3 0    -0.967770    -0.963073    18.343949 
+000015@Images/Preprocessed/run_001/images.stk          1        107     0.928987     0.928987     0.926956     0.724108     0.888305 000107@Images/Imported/run_001/images.stk          3 0    -0.928000    -0.857360  -153.630573 
+000018@Images/Preprocessed/run_001/images.stk          1        110     0.717694     0.717694     0.652420     0.948227     0.726370 000110@Images/Imported/run_001/images.stk          3 0     0.006984    -0.126185     2.292994 
+000021@Images/Preprocessed/run_001/images.stk          1        367     0.952768     0.952768     0.659676     0.242818     0.880192 000367@Images/Imported/run_001/images.stk          3 0    -0.148421     0.066903   -91.719745 
+000025@Images/Preprocessed/run_001/images.stk          1         81     0.825379     0.825379     0.921418     1.003210     0.878523 000081@Images/Imported/run_001/images.stk          3 0     1.118805     0.040158    34.394904 
+000032@Images/Preprocessed/run_001/images.stk          1        415     0.837667     0.837667     0.285087     0.631495     1.064392 000415@Images/Imported/run_001/images.stk          3 0    -0.079472     0.048437   -91.719745 
+000034@Images/Preprocessed/run_001/images.stk          1        389     0.957746     0.957746     0.891482     0.250233     1.074371 000389@Images/Imported/run_001/images.stk          3 0     0.004789    -0.857910   -13.757962 
+000035@Images/Preprocessed/run_001/images.stk          1        198     1.078139     1.078139     0.613845     0.413849     0.817661 000198@Images/Imported/run_001/images.stk          3 0    -0.064545     0.094931  -130.700637 
+000036@Images/Preprocessed/run_001/images.stk          1         25     0.358862     0.358862     0.880224     1.085316     1.069689 000025@Images/Imported/run_001/images.stk          3 0    -0.896991    -0.078500   123.821656 
+000037@Images/Preprocessed/run_001/images.stk          1        193     0.747475     0.747475     1.086082     0.907331     0.787344 000193@Images/Imported/run_001/images.stk          3 0     0.797563    -1.026850  -121.528662 
+000038@Images/Preprocessed/run_001/images.stk          1        424     0.198523     0.198523     0.467683     1.087343     1.088679 000424@Images/Imported/run_001/images.stk          3 0    -0.981074    -0.164798    84.840764 
+000039@Images/Preprocessed/run_001/images.stk          1        374     0.961361     0.961361     1.089836     1.072152     0.582596 000374@Images/Imported/run_001/images.stk          3 0     0.129266    -0.124181    61.910828 
+000042@Images/Preprocessed/run_001/images.stk          1         79     0.725270     0.725270     1.097154     0.797343     0.338993 000079@Images/Imported/run_001/images.stk          3 0    -0.720220     0.260089   178.853503 
+000044@Images/Preprocessed/run_001/images.stk          1        336     1.106368     1.106368     1.087571     0.751019     1.100346 000336@Images/Imported/run_001/images.stk          3 0     0.087720    -0.085845  -107.770701 
+000054@Images/Preprocessed/run_001/images.stk          1        126     0.657398     0.657398     1.156387     0.322531     0.650695 000126@Images/Imported/run_001/images.stk          3 0     0.836164    -0.873572  -128.407643 
+000059@Images/Preprocessed/run_001/images.stk          1        403     0.341593     0.341593     1.121720     1.181124     1.020491 000403@Images/Imported/run_001/images.stk          3 0    -1.657095    -0.283746    27.515924 
+000060@Images/Preprocessed/run_001/images.stk          1        437     0.474862     0.474862     1.183073     0.701798     0.372459 000437@Images/Imported/run_001/images.stk          3 0     1.006322    -1.113332    52.738854 
+000061@Images/Preprocessed/run_001/images.stk          1         64     0.520005     0.520005     0.414485     0.938920     1.196375 000064@Images/Imported/run_001/images.stk          3 0    -1.150022    -0.009089    64.203822 
+000064@Images/Preprocessed/run_001/images.stk          1        491     0.930604     0.930604     0.610151     1.206487     0.321612 000491@Images/Imported/run_001/images.stk          3 0    -0.236664    -0.051198    84.840764 
+000070@Images/Preprocessed/run_001/images.stk          1        405     1.217117     1.217117     0.680331     0.905199     0.645281 000405@Images/Imported/run_001/images.stk          3 0    -0.870560     1.013492   -32.101911 
+000075@Images/Preprocessed/run_001/images.stk          1        396     0.214535     0.214535     0.925442     0.021758     1.244390 000396@Images/Imported/run_001/images.stk          3 0     0.235906     0.875716    94.012739 
+000076@Images/Preprocessed/run_001/images.stk          1        455     0.491883     0.491883     1.251248     0.421611     0.997973 000455@Images/Imported/run_001/images.stk          3 0     0.065232    -0.946550    50.445860 
+000078@Images/Preprocessed/run_001/images.stk          1        144     1.254971     1.254971     1.040771     1.260589     0.523735 000144@Images/Imported/run_001/images.stk          3 0    -0.065339    -0.917164   -45.859873 
+000084@Images/Preprocessed/run_001/images.stk          1        444     1.270978     1.270978     0.973442     0.870886     0.189969 000444@Images/Imported/run_001/images.stk          3 0    -0.764749    -0.099564   -50.445860 
+000097@Images/Preprocessed/run_001/images.stk          1         71     1.295392     1.295392     0.668018     1.125831     0.237011 000071@Images/Imported/run_001/images.stk          3 0    -0.881016    -1.074587    36.687898 
+000098@Images/Preprocessed/run_001/images.stk          1         99     1.300581     1.300581     0.993587     1.028887     1.146599 000099@Images/Imported/run_001/images.stk          3 1    -0.214918    -1.073818  -135.286624 
+000101@Images/Preprocessed/run_001/images.stk          1        270     1.308301     1.308301     1.036810     0.462268     0.694703 000270@Images/Imported/run_001/images.stk          3 0     0.163595    -0.851358   -98.598726 
+000102@Images/Preprocessed/run_001/images.stk          1        216     1.309582     1.309582     1.200482     0.425174     1.141746 000216@Images/Imported/run_001/images.stk          3 0    -0.972360     0.035733   -22.929936 
+000119@Images/Preprocessed/run_001/images.stk          1        383     1.001250     1.001250     1.357714     0.854963     1.351914 000383@Images/Imported/run_001/images.stk          3 0     0.049814     1.752634  -167.388535 
+000122@Images/Preprocessed/run_001/images.stk          1        112     1.361127     1.361127     0.945148     1.354368     0.697531 000112@Images/Imported/run_001/images.stk          3 0    -0.019107     0.920998   -36.687898 
+000123@Images/Preprocessed/run_001/images.stk          1        292     0.488389     0.488389     1.116442     0.088946     1.366116 000292@Images/Imported/run_001/images.stk          3 0    -0.876042    -0.743540  -105.477707 
+000140@Images/Preprocessed/run_001/images.stk          1        153     1.232467     1.232467     0.952722     0.202093     1.431103 000153@Images/Imported/run_001/images.stk          3 0     0.027081    -0.820198   167.388535 
+000146@Images/Preprocessed/run_001/images.stk          1        108     0.462509     0.462509     0.449374     1.450866     1.367568 000108@Images/Imported/run_001/images.stk          3 0     0.038314     0.083927  -169.681529 
+000152@Images/Preprocessed/run_001/images.stk          1        464     0.656289     0.656289     0.926119     1.480908     1.301004 000464@Images/Imported/run_001/images.stk          3 0    -0.962194    -0.143491     6.878981 
+000153@Images/Preprocessed/run_001/images.stk          1        346     0.957672     0.957672     1.055721     0.812039     1.483971 000346@Images/Imported/run_001/images.stk          3 0     0.110769     0.875084    25.222930 
+000163@Images/Preprocessed/run_001/images.stk          1         38     0.679892     0.679892     0.843738     1.087213     1.503764 000038@Images/Imported/run_001/images.stk          3 1     0.065147     0.091700    91.719745 
+000168@Images/Preprocessed/run_001/images.stk          1        326     1.026322     1.026322     0.411787     0.911055     1.511332 000326@Images/Imported/run_001/images.stk          3 0    -0.809854     0.210830     6.878981 
+000169@Images/Preprocessed/run_001/images.stk          1        176     1.109876     1.109876     1.060793     1.513546     0.296891 000176@Images/Imported/run_001/images.stk          3 0     0.034943    -1.148458    64.203822 
+000175@Images/Preprocessed/run_001/images.stk          1        479     0.522588     0.522588     1.027385     1.285096     1.525501 000479@Images/Imported/run_001/images.stk          3 0    -0.813863    -0.959047   167.388535 
+000176@Images/Preprocessed/run_001/images.stk          1        331     0.964888     0.964888     1.062619     0.460728     1.527444 000331@Images/Imported/run_001/images.stk          3 0    -0.792506    -0.071573   149.044586 
+000177@Images/Preprocessed/run_001/images.stk          1        364     1.530354     1.530354     1.322287     1.105565     0.405541 000364@Images/Imported/run_001/images.stk          3 0     0.865642    -0.930329  -126.114650 
+000178@Images/Preprocessed/run_001/images.stk          1         70     1.536328     1.536328     1.417710     1.249642     1.087286 000070@Images/Imported/run_001/images.stk          3 0    -0.761232    -0.181868   -57.324841 
+000184@Images/Preprocessed/run_001/images.stk          1        500     0.851701     0.851701     1.244557     1.551426     0.281610 000500@Images/Imported/run_001/images.stk          3 0    -0.199965     1.081684   142.165605 
+000185@Images/Preprocessed/run_001/images.stk          1        111     1.320845     1.320845     1.012063     0.530759     1.556732 000111@Images/Imported/run_001/images.stk          3 0    -0.910265     2.055027    41.273885 
+000186@Images/Preprocessed/run_001/images.stk          1         92     1.340338     1.340338     1.285313     1.559223     1.426723 000092@Images/Imported/run_001/images.stk          3 1    -1.153147    -0.138547   155.923567 
+000188@Images/Preprocessed/run_001/images.stk          1        228     1.547884     1.547884     1.195241     1.560658     0.929083 000228@Images/Imported/run_001/images.stk          3 0    -0.069719    -0.006648    61.910828 
+000192@Images/Preprocessed/run_001/images.stk          1        487     0.239560     0.239560     1.080470     0.765354     1.568540 000487@Images/Imported/run_001/images.stk          3 0    -0.955480    -0.825566   -25.222930 
+000194@Images/Preprocessed/run_001/images.stk          1        287     1.571311     1.571311     0.449675     1.482616     1.324488 000287@Images/Imported/run_001/images.stk          3 0     0.075629    -0.961897  -128.407643 
+000201@Images/Preprocessed/run_001/images.stk          1        299     1.600658     1.600658     0.597943     1.036942     1.289959 000299@Images/Imported/run_001/images.stk          3 0    -0.245603     0.069076  -107.770701 
+000202@Images/Preprocessed/run_001/images.stk          1        466     0.435814     0.435814     1.384065     1.054210     1.602086 000466@Images/Imported/run_001/images.stk          3 0    -0.165943     0.165246   119.235669 
+000208@Images/Preprocessed/run_001/images.stk          1        233     0.334054     0.334054     1.173745     1.614042     0.851889 000233@Images/Imported/run_001/images.stk          3 0    -0.786719    -0.126200  -176.560510 
+000209@Images/Preprocessed/run_001/images.stk          1        251     1.133806     1.133806     1.319586     0.085972     1.614043 000251@Images/Imported/run_001/images.stk          3 1    -0.362607     0.873549   171.974522 
+000214@Images/Preprocessed/run_001/images.stk          1         65     0.804119     0.804119     0.277569     0.675519     1.625809 000065@Images/Imported/run_001/images.stk          3 1    -0.075114     1.178475   100.891720 
+000217@Images/Preprocessed/run_001/images.stk          1        434     1.366261     1.366261     0.809607     1.224309     1.634155 000434@Images/Imported/run_001/images.stk          3 0    -0.048189     0.164523    43.566879 
+000223@Images/Preprocessed/run_001/images.stk          1        420     1.399734     1.399734     0.792523     1.646003     0.400470 000420@Images/Imported/run_001/images.stk          3 0    -0.240470     0.092224  -110.063694 
+000226@Images/Preprocessed/run_001/images.stk          1         54     0.818606     0.818606     0.840797     0.938695     1.659811 000054@Images/Imported/run_001/images.stk          3 0    -0.038827    -0.019691   128.407643 
+000241@Images/Preprocessed/run_001/images.stk          1         94     1.158252     1.158252     0.959466     1.134245     1.711309 000094@Images/Imported/run_001/images.stk          3 0    -0.130766    -0.154106   126.114650 
+000248@Images/Preprocessed/run_001/images.stk          1        185     1.732646     1.732646     0.539995     1.635759     0.381834 000185@Images/Imported/run_001/images.stk          3 0     0.890589    -0.881823  -128.407643 
+000250@Images/Preprocessed/run_001/images.stk          1        278     1.735227     1.735227     1.270112     1.741973     0.992869 000278@Images/Imported/run_001/images.stk          3 0     0.164841    -0.927232    98.598726 
+000253@Images/Preprocessed/run_001/images.stk          1        369     1.750753     1.750753     1.418862     0.894914     1.181051 000369@Images/Imported/run_001/images.stk          3 1    -1.896180     1.087437   171.974522 
+000254@Images/Preprocessed/run_001/images.stk          1        342     1.752619     1.752619     1.167345     0.442729     0.450951 000342@Images/Imported/run_001/images.stk          3 0     0.816943    -0.941031   130.700637 
+000255@Images/Preprocessed/run_001/images.stk          1        189     1.379842     1.379842     1.391221     0.579331     1.755647 000189@Images/Imported/run_001/images.stk          3 0    -0.132380    -0.013191  -167.388535 
+000260@Images/Preprocessed/run_001/images.stk          1        242     1.776932     1.776932     1.496528     0.679000     1.610825 000242@Images/Imported/run_001/images.stk          3 1    -2.250114    -1.538483  -151.337580 
+000262@Images/Preprocessed/run_001/images.stk          1         76     1.781430     1.781430     1.015471     1.456583     1.101510 000076@Images/Imported/run_001/images.stk          3 0    -0.063874    -0.957848    55.031847 
+000264@Images/Preprocessed/run_001/images.stk          1         27     1.006835     1.006835     1.784198     0.830900     0.187484 000027@Images/Imported/run_001/images.stk          3 0    -0.216153    -0.007185  -176.560510 
+000270@Images/Preprocessed/run_001/images.stk          1        197     0.854929     0.854929     1.788482     0.446069     1.249012 000197@Images/Imported/run_001/images.stk          3 0     0.109141     0.077942  -158.216561 
+000272@Images/Preprocessed/run_001/images.stk          1        237     1.477594     1.477594     1.794558     1.164003     1.000179 000237@Images/Imported/run_001/images.stk          3 0    -0.809633    -1.115461   162.802548 
+000273@Images/Preprocessed/run_001/images.stk          1        410     1.796902     1.796902     1.520589     1.603292     1.685975 000410@Images/Imported/run_001/images.stk          3 0    -0.796685     0.897205   -36.687898 
+000276@Images/Preprocessed/run_001/images.stk          1        417     1.807814     1.807814     1.701267     1.765710     1.125029 000417@Images/Imported/run_001/images.stk          3 0    -0.215344     0.919421    98.598726 
+000277@Images/Preprocessed/run_001/images.stk          1         51     0.164439     0.164439     0.255912     0.508689     1.807915 000051@Images/Imported/run_001/images.stk          3 0     0.113916    -0.850491   -43.566879 
+000281@Images/Preprocessed/run_001/images.stk          1        172     1.160168     1.160168     1.243312     1.091939     1.814499 000172@Images/Imported/run_001/images.stk          3 0    -0.184512    -0.956731   178.853503 
+000282@Images/Preprocessed/run_001/images.stk          1        485     1.195908     1.195908     1.817583     0.939200     1.093966 000485@Images/Imported/run_001/images.stk          3 0     0.082405     0.050663   144.458599 
+000290@Images/Preprocessed/run_001/images.stk          1        210     1.317416     1.317416     1.560416     0.749229     1.847948 000210@Images/Imported/run_001/images.stk          3 0    -0.073463    -0.158326    68.789809 
+000291@Images/Preprocessed/run_001/images.stk          1         56     1.306790     1.306790     1.849788     1.210626     1.525841 000056@Images/Imported/run_001/images.stk          3 0     0.038231    -0.913184   126.114650 
+000297@Images/Preprocessed/run_001/images.stk          1        298     0.408941     0.408941     0.558087     1.875777     0.446487 000298@Images/Imported/run_001/images.stk          3 0     0.024079    -0.980010   -29.808917 
+000303@Images/Preprocessed/run_001/images.stk          1        463     0.167516     0.167516     1.895953     1.029588     0.383453 000463@Images/Imported/run_001/images.stk          3 0     0.092132    -0.056356  -130.700637 
+000305@Images/Preprocessed/run_001/images.stk          1         55     1.484723     1.484723     1.376214     1.262699     1.909372 000055@Images/Imported/run_001/images.stk          3 0     0.784204    -0.924473   -84.840764 
+000306@Images/Preprocessed/run_001/images.stk          1        235     1.527645     1.527645     1.911179     1.534331     0.775949 000235@Images/Imported/run_001/images.stk          3 0    -0.037898    -0.085126    27.515924 
+000307@Images/Preprocessed/run_001/images.stk          1         72     1.914064     1.914064     1.062826     0.357431     1.539286 000072@Images/Imported/run_001/images.stk          3 0    -0.055649    -1.020623   153.630573 
+000313@Images/Preprocessed/run_001/images.stk          1        236     1.941866     1.941866     1.385899     1.838823     0.774285 000236@Images/Imported/run_001/images.stk          3 0    -1.117012     1.795723    18.343949 
+000316@Images/Preprocessed/run_001/images.stk          1        458     0.677503     0.677503     1.490504     1.337780     1.953757 000458@Images/Imported/run_001/images.stk          3 0    -0.053403    -0.974183    18.343949 
+000319@Images/Preprocessed/run_001/images.stk          1        163     1.712403     1.712403     1.233347     0.814477     1.958721 000163@Images/Imported/run_001/images.stk          3 0     0.845933    -1.002397  -149.044586 
+000320@Images/Preprocessed/run_001/images.stk          1        249     1.960347     1.960347     0.881541     1.825129     1.409750 000249@Images/Imported/run_001/images.stk          3 0     0.833505    -0.002251   167.388535 
+000321@Images/Preprocessed/run_001/images.stk          1        456     1.947998     1.947998     0.874829     1.962399     1.252478 000456@Images/Imported/run_001/images.stk          3 0    -0.788222    -0.239213   169.681529 
+000326@Images/Preprocessed/run_001/images.stk          1        449     1.119239     1.119239     1.186126     1.979398     0.543989 000449@Images/Imported/run_001/images.stk          3 0    -0.059431     0.055999   130.700637 
+000329@Images/Preprocessed/run_001/images.stk          1        394     1.983498     1.983498     0.528802     1.858177     0.769470 000394@Images/Imported/run_001/images.stk          3 0    -0.861434     0.998442    34.394904 
+000331@Images/Preprocessed/run_001/images.stk          1        499     1.991167     1.991167     0.606790     1.661946     1.288334 000499@Images/Imported/run_001/images.stk          3 0    -0.164345    -0.240688  -132.993631 
+000332@Images/Preprocessed/run_001/images.stk          1        231     0.473452     0.473452     1.111347     1.999577     0.479122 000231@Images/Imported/run_001/images.stk          3 0     0.081946    -1.101077   151.337580 
+000333@Images/Preprocessed/run_001/images.stk          1         14     1.935042     1.935042     2.004646     1.170689     1.349317 000014@Images/Imported/run_001/images.stk          3 0     0.234929    -0.856984     2.292994 
+000334@Images/Preprocessed/run_001/images.stk          1         87     0.577972     0.577972     0.444940     0.707963     2.008631 000087@Images/Imported/run_001/images.stk          3 0    -0.102388     0.197116  -174.267516 
+000336@Images/Preprocessed/run_001/images.stk          1        441     2.016226     2.016226     1.788344     0.561460     0.808178 000441@Images/Imported/run_001/images.stk          3 0    -1.079987    -0.187121   130.700637 
+000343@Images/Preprocessed/run_001/images.stk          1        162     2.044188     2.044188     1.843380     1.153958     0.740890 000162@Images/Imported/run_001/images.stk          3 0     0.184188     0.799073    52.738854 
+000347@Images/Preprocessed/run_001/images.stk          1         37     0.722408     0.722408     0.849590     0.227541     2.059669 000037@Images/Imported/run_001/images.stk          3 0    -0.159599    -1.031424   -94.012739 
+000358@Images/Preprocessed/run_001/images.stk          1        484     0.394105     0.394105     0.601621     1.177383     2.088860 000484@Images/Imported/run_001/images.stk          3 0    -0.052932     0.132030    25.222930 
+000359@Images/Preprocessed/run_001/images.stk          1        167     2.091035     2.091035     1.783709     1.222431     1.024468 000167@Images/Imported/run_001/images.stk          3 0    -0.858377     0.044111    -6.878981 
+000364@Images/Preprocessed/run_001/images.stk          1        190     2.117518     2.117518     0.931037     0.475303     1.374639 000190@Images/Imported/run_001/images.stk          3 0    -0.012113     0.006674  -146.751592 
+000371@Images/Preprocessed/run_001/images.stk          1        274     2.156206     2.156206     1.139311     1.971542     0.534550 000274@Images/Imported/run_001/images.stk          3 0    -0.850391    -0.171054  -114.649682 
+000372@Images/Preprocessed/run_001/images.stk          1        164     1.420886     1.420886     2.157656     0.382409     0.335714 000164@Images/Imported/run_001/images.stk          3 0    -0.986407     0.029491   116.942675 
+000373@Images/Preprocessed/run_001/images.stk          1        181     2.160731     2.160731     1.652548     0.989434     1.515190 000181@Images/Imported/run_001/images.stk          3 0     0.271028    -0.032593   -29.808917 
+000375@Images/Preprocessed/run_001/images.stk          1        175     2.165796     2.165796     1.985713     0.568585     2.000853 000175@Images/Imported/run_001/images.stk          3 0    -1.045826     0.177128  -167.388535 
+000382@Images/Preprocessed/run_001/images.stk          1        338     2.133928     2.133928     1.875595     1.855175     2.216623 000338@Images/Imported/run_001/images.stk          3 0     0.059445     0.868446   107.770701 
+000383@Images/Preprocessed/run_001/images.stk          1        117     2.217382     2.217382     1.821808     1.709343     0.749265 000117@Images/Imported/run_001/images.stk          3 1    -0.202124    -0.965187   -59.617834 
+000386@Images/Preprocessed/run_001/images.stk          1        461     2.182172     2.182172     1.101359     2.235838     1.484638 000461@Images/Imported/run_001/images.stk          3 0    -0.047585    -0.812605   -16.050955 
+000390@Images/Preprocessed/run_001/images.stk          1        462     1.690777     1.690777     1.411218     2.246541     1.018589 000462@Images/Imported/run_001/images.stk          3 0    -0.040574     0.126832    -6.878981 
+000392@Images/Preprocessed/run_001/images.stk          1        130     1.379536     1.379536     2.111839     2.254671     1.410180 000130@Images/Imported/run_001/images.stk          3 0     0.220703     0.942597  -149.044586 
+000396@Images/Preprocessed/run_001/images.stk          1        149     2.270915     2.270915     2.114025     1.638842     1.823719 000149@Images/Imported/run_001/images.stk          3 0    -0.012122    -0.986267  -144.458599 
+000398@Images/Preprocessed/run_001/images.stk          1         42     0.849670     0.849670     2.276063     0.327400     0.984129 000042@Images/Imported/run_001/images.stk          3 0    -0.987339    -0.665023   -64.203822 
+000403@Images/Preprocessed/run_001/images.stk          1        330     2.297301     2.297301     1.506751     1.059035     0.085894 000330@Images/Imported/run_001/images.stk          3 0     1.010305     0.988643  -100.891720 
+000406@Images/Preprocessed/run_001/images.stk          1         78     1.691511     1.691511     1.613311     1.726234     2.310503 000078@Images/Imported/run_001/images.stk          3 0    -0.044146     0.096877   151.337580 
+000415@Images/Preprocessed/run_001/images.stk          1        141     2.388553     2.388553     2.237162     1.610496     0.407824 000141@Images/Imported/run_001/images.stk          3 0    -0.220603     0.060293   105.477707 
+000420@Images/Preprocessed/run_001/images.stk          1         75     2.015730     2.015730     2.449676     1.081842     0.733826 000075@Images/Imported/run_001/images.stk          3 0     0.110712    -1.044155   -11.464968 
+000421@Images/Preprocessed/run_001/images.stk          1        271     1.401173     1.401173     1.061936     0.301301     2.454134 000271@Images/Imported/run_001/images.stk          3 1    -2.195057     0.536008   123.821656 
+000425@Images/Preprocessed/run_001/images.stk          1         84     0.388420     0.388420     1.380686     0.692849     2.478142 000084@Images/Imported/run_001/images.stk          3 0    -0.098321    -0.117889    84.840764 
+000426@Images/Preprocessed/run_001/images.stk          1        253     0.966091     0.966091     0.302418     0.431702     2.480069 000253@Images/Imported/run_001/images.stk          3 0     0.078984    -0.083535   -73.375796 
+000427@Images/Preprocessed/run_001/images.stk          1        480     2.092168     2.092168     2.482549     2.139707     2.174123 000480@Images/Imported/run_001/images.stk          3 0    -0.803527    -0.761520    22.929936 
+000428@Images/Preprocessed/run_001/images.stk          1        155     2.510597     2.510597     2.128955     2.162462     1.213878 000155@Images/Imported/run_001/images.stk          3 0    -0.914885     0.784858   142.165605 
+000430@Images/Preprocessed/run_001/images.stk          1        205     2.514296     2.514296     2.056404     2.211738     1.682733 000205@Images/Imported/run_001/images.stk          3 0    -0.007986     0.112431   100.891720 
+000434@Images/Preprocessed/run_001/images.stk          1        399     1.090973     1.090973     1.032337     2.541781     0.807094 000399@Images/Imported/run_001/images.stk          3 0    -0.888645    -0.169520    66.496815 
+000438@Images/Preprocessed/run_001/images.stk          1        252     2.501924     2.501924     1.800829     2.581815     1.214762 000252@Images/Imported/run_001/images.stk          3 0     0.838323    -0.842871   -34.394904 
+000441@Images/Preprocessed/run_001/images.stk          1        392     0.723716     0.723716     0.152023     1.421647     2.600572 000392@Images/Imported/run_001/images.stk          3 0    -0.033315    -0.062291   -13.757962 
+000442@Images/Preprocessed/run_001/images.stk          1        486     2.157380     2.157380     2.033962     2.624138     1.930861 000486@Images/Imported/run_001/images.stk          3 0    -0.882525    -0.175382   -77.961783 
+000444@Images/Preprocessed/run_001/images.stk          1        375     2.635479     2.635479     1.826849     1.017392     1.931773 000375@Images/Imported/run_001/images.stk          3 0    -0.079185    -0.054065   160.509554 
+000445@Images/Preprocessed/run_001/images.stk          1        223     1.553070     1.553070     2.645073     1.078217     1.417655 000223@Images/Imported/run_001/images.stk          3 0     1.105644    -0.078491   -96.305732 
+000446@Images/Preprocessed/run_001/images.stk          1        391     1.036278     1.036278     0.212280     1.174061     2.646948 000391@Images/Imported/run_001/images.stk          3 0    -0.752873     0.097385  -162.802548 
+000458@Images/Preprocessed/run_001/images.stk          1        118     1.401619     1.401619     1.360648     1.038415     2.741225 000118@Images/Imported/run_001/images.stk          3 0    -0.193465     0.033186  -132.993631 
+000460@Images/Preprocessed/run_001/images.stk          1        217     0.468245     0.468245     1.336291     2.749151     0.810960 000217@Images/Imported/run_001/images.stk          3 1     1.897670    -0.238698   -32.101911 
+000466@Images/Preprocessed/run_001/images.stk          1          5     0.311536     0.311536     0.269989     0.952604     2.833635 000005@Images/Imported/run_001/images.stk          3 0     1.107706    -0.933405    11.464968 
+000472@Images/Preprocessed/run_001/images.stk          1        173     1.096307     1.096307     1.448011     0.360206     2.936396 000173@Images/Imported/run_001/images.stk          3 0     0.733039     0.890808    45.859873 
+000474@Images/Preprocessed/run_001/images.stk          1        309     2.624883     2.624883     2.941848     2.585862     1.546424 000309@Images/Imported/run_001/images.stk          3 0    -0.054401    -0.161080   -16.050955 
+000475@Images/Preprocessed/run_001/images.stk          1        300     2.946141     2.946141     1.474384     1.785835     1.877775 000300@Images/Imported/run_001/images.stk          3 0    -0.813661    -0.830943    48.152866 
+000478@Images/Preprocessed/run_001/images.stk          1        352     0.673852     0.673852     0.361704     3.019957     0.534269 000352@Images/Imported/run_001/images.stk          3 1    -1.943643    -1.060093  -105.477707 
+000483@Images/Preprocessed/run_001/images.stk          1        226     3.121201     3.121201     2.197147     2.522976     1.184488 000226@Images/Imported/run_001/images.stk          3 0    -0.819431    -0.822983   137.579618 
+000484@Images/Preprocessed/run_001/images.stk          1        225     2.675530     2.675530     3.128463     2.328623     0.348533 000225@Images/Imported/run_001/images.stk          3 0     0.038596    -0.874718   -75.668790 
+000486@Images/Preprocessed/run_001/images.stk          1        119     2.012024     2.012024     0.977964     1.402319     3.218436 000119@Images/Imported/run_001/images.stk          3 0    -0.209157    -0.943497   176.560510 
+000490@Images/Preprocessed/run_001/images.stk          1        136     3.423927     3.423927     3.415020     2.463718     0.177081 000136@Images/Imported/run_001/images.stk          3 0    -0.116818     0.125767   162.802548 
+000491@Images/Preprocessed/run_001/images.stk          1        206     2.709017     2.709017     3.617442     1.947684     0.984074 000206@Images/Imported/run_001/images.stk          3 0    -0.143280    -0.034320   -52.738854 
+000492@Images/Preprocessed/run_001/images.stk          1        453     1.346145     1.346145     0.565896     1.778541     3.645786 000453@Images/Imported/run_001/images.stk          3 0    -1.001130     0.001247    84.840764 
+000493@Images/Preprocessed/run_001/images.stk          1        100     1.696671     1.696671     1.655941     3.660021     2.566299 000100@Images/Imported/run_001/images.stk          3 1    -0.196774     1.940064    64.203822 
+000494@Images/Preprocessed/run_001/images.stk          1        433     1.030035     1.030035     1.565404     3.877328     0.544465 000433@Images/Imported/run_001/images.stk          3 0    -0.785563    -0.265414    13.757962 
+000496@Images/Preprocessed/run_001/images.stk          1        170     1.062064     1.062064     1.254768     3.987705     0.192130 000170@Images/Imported/run_001/images.stk          3 0     0.077340     0.028758    71.082803 
+
+data_class000004_images
+loop_
+ _image
+ _enabled
+ _itemId
+ _zScoreShape1
+ _zScoreShape2
+ _zScoreSNR1
+ _zScoreSNR2
+ _zScoreHistogram
+ _imageOriginal
+ _ref
+ _flip
+ _shiftX
+ _shiftY
+ _anglePsi
+000005@Images/Preprocessed/run_001/images.stk          1        230     0.418795     0.418795     0.601674     0.326740     0.691638 000230@Images/Imported/run_001/images.stk          4 1    -0.031029     0.292827    84.840764 
+000008@Images/Preprocessed/run_001/images.stk          1        213     0.749779     0.749779     0.112070     0.496824     0.650901 000213@Images/Imported/run_001/images.stk          4 1    -0.209587    -0.141751  -142.165605 
+000009@Images/Preprocessed/run_001/images.stk          1         80     0.376117     0.376117     0.748824     0.683977     0.753421 000080@Images/Imported/run_001/images.stk          4 0    -0.079912    -1.070863   -87.133758 
+000010@Images/Preprocessed/run_001/images.stk          1         11     0.770350     0.770350     0.824041     0.837947     0.208713 000011@Images/Imported/run_001/images.stk          4 1     0.946465    -0.065335    27.515924 
+000016@Images/Preprocessed/run_001/images.stk          1        192     0.287437     0.287437     0.846054     0.602924     0.929160 000192@Images/Imported/run_001/images.stk          4 0    -1.092411    -0.764938    55.031847 
+000020@Images/Preprocessed/run_001/images.stk          1        470     0.651275     0.651275     0.656021     0.948979     0.480015 000470@Images/Imported/run_001/images.stk          4 0    -0.074654    -1.034011   -34.394904 
+000024@Images/Preprocessed/run_001/images.stk          1        325     0.501340     0.501340     0.438122     1.000846     0.790578 000325@Images/Imported/run_001/images.stk          4 0     0.026348    -0.138301   160.509554 
+000026@Images/Preprocessed/run_001/images.stk          1        154     1.011646     1.011646     0.160096     0.980452     0.197243 000154@Images/Imported/run_001/images.stk          4 1     0.084062    -0.957983    96.305732 
+000028@Images/Preprocessed/run_001/images.stk          1         24     0.805624     0.805624     1.035524     0.384534     0.987510 000024@Images/Imported/run_001/images.stk          4 1     1.651220     2.029246    13.757962 
+000030@Images/Preprocessed/run_001/images.stk          1        134     0.486344     0.486344     0.480577     0.616599     1.057093 000134@Images/Imported/run_001/images.stk          4 0     0.834543     0.037787    34.394904 
+000031@Images/Preprocessed/run_001/images.stk          1        261     0.474538     0.474538     1.060433     0.150056     0.750232 000261@Images/Imported/run_001/images.stk          4 0     0.005428    -0.066149   -22.929936 
+000040@Images/Preprocessed/run_001/images.stk          1        355     0.730708     0.730708     0.974633     1.092251     0.836995 000355@Images/Imported/run_001/images.stk          4 0     0.007885    -0.746873   114.649682 
+000045@Images/Preprocessed/run_001/images.stk          1         23     0.538975     0.538975     0.360427     0.843149     1.109703 000023@Images/Imported/run_001/images.stk          4 0    -0.963046    -0.067086  -158.216561 
+000049@Images/Preprocessed/run_001/images.stk          1        161     0.775496     0.775496     0.340426     1.128459     1.075817 000161@Images/Imported/run_001/images.stk          4 0    -0.045149    -0.945917  -171.974522 
+000052@Images/Preprocessed/run_001/images.stk          1         33     0.367631     0.367631     0.349826     1.146735     0.142227 000033@Images/Imported/run_001/images.stk          4 0    -0.135474    -0.289554  -149.044586 
+000055@Images/Preprocessed/run_001/images.stk          1         47     0.752112     0.752112     1.157665     0.418205     1.082746 000047@Images/Imported/run_001/images.stk          4 0     1.229719    -0.229773    64.203822 
+000068@Images/Preprocessed/run_001/images.stk          1        356     1.210561     1.210561     1.143140     1.084315     0.749942 000356@Images/Imported/run_001/images.stk          4 0     0.005342    -0.971782  -132.993631 
+000069@Images/Preprocessed/run_001/images.stk          1         43     1.165705     1.165705     0.481786     0.347950     1.214953 000043@Images/Imported/run_001/images.stk          4 0    -0.139012    -0.991488   -38.980892 
+000072@Images/Preprocessed/run_001/images.stk          1        442     1.101286     1.101286     1.223177     0.599594     0.561408 000442@Images/Imported/run_001/images.stk          4 0     0.283472    -0.812617   -73.375796 
+000074@Images/Preprocessed/run_001/images.stk          1        477     1.062761     1.062761     1.040480     0.807936     1.235140 000477@Images/Imported/run_001/images.stk          4 0    -0.157966    -0.213637   174.267516 
+000079@Images/Preprocessed/run_001/images.stk          1        269     1.262351     1.262351     0.895227     1.011218     1.103927 000269@Images/Imported/run_001/images.stk          4 0    -0.808633    -0.055034    11.464968 
+000080@Images/Preprocessed/run_001/images.stk          1        345     0.817425     0.817425     0.641359     1.265009     1.139039 000345@Images/Imported/run_001/images.stk          4 1     0.862099    -0.182122   -84.840764 
+000082@Images/Preprocessed/run_001/images.stk          1         22     1.136376     1.136376     0.915039     1.171690     1.267214 000022@Images/Imported/run_001/images.stk          4 0    -0.237694    -0.052404    13.757962 
+000086@Images/Preprocessed/run_001/images.stk          1         30     0.619926     0.619926     0.844016     0.183177     1.271827 000030@Images/Imported/run_001/images.stk          4 1     0.884685    -1.146033   -57.324841 
+000087@Images/Preprocessed/run_001/images.stk          1        351     1.273304     1.273304     0.840908     1.021470     1.166166 000351@Images/Imported/run_001/images.stk          4 0    -1.069448    -0.811977    13.757962 
+000092@Images/Preprocessed/run_001/images.stk          1          7     1.170074     1.170074     1.018238     1.289429     1.250075 000007@Images/Imported/run_001/images.stk          4 0    -1.083781     0.130984   103.184713 
+000093@Images/Preprocessed/run_001/images.stk          1        400     1.046658     1.046658     0.719906     0.844124     1.289615 000400@Images/Imported/run_001/images.stk          4 0    -0.411189    -1.781866    59.617834 
+000100@Images/Preprocessed/run_001/images.stk          1        378     0.984295     0.984295     1.305379     0.781801     0.719873 000378@Images/Imported/run_001/images.stk          4 0    -0.121510     0.140561   -59.617834 
+000108@Images/Preprocessed/run_001/images.stk          1        390     0.448057     0.448057     0.478814     1.315713     1.333380 000390@Images/Imported/run_001/images.stk          4 0    -0.815195     0.148111    71.082803 
+000109@Images/Preprocessed/run_001/images.stk          1        211     0.572244     0.572244     1.333796     0.473296     0.951337 000211@Images/Imported/run_001/images.stk          4 0    -2.295460    -0.717406   -82.547771 
+000117@Images/Preprocessed/run_001/images.stk          1        222     0.652322     0.652322     0.992572     0.877684     1.355438 000222@Images/Imported/run_001/images.stk          4 0    -0.900001     0.121402    48.152866 
+000124@Images/Preprocessed/run_001/images.stk          1         73     0.866004     0.866004     1.366363     0.327246     1.199309 000073@Images/Imported/run_001/images.stk          4 0    -0.008833    -0.831699   162.802548 
+000125@Images/Preprocessed/run_001/images.stk          1         40     1.261506     1.261506     0.075878     1.368105     0.657873 000040@Images/Imported/run_001/images.stk          4 1    -0.800717    -0.017794  -135.286624 
+000130@Images/Preprocessed/run_001/images.stk          1         96     0.945358     0.945358     1.395287     0.547187     1.295789 000096@Images/Imported/run_001/images.stk          4 0    -1.082860    -0.797537   -29.808917 
+000133@Images/Preprocessed/run_001/images.stk          1        202     1.409510     1.409510     1.338521     0.517872     1.122967 000202@Images/Imported/run_001/images.stk          4 1    -1.061253     1.016188   112.356688 
+000134@Images/Preprocessed/run_001/images.stk          1         21     0.681591     0.681591     0.750239     0.895209     1.409606 000021@Images/Imported/run_001/images.stk          4 0    -0.956242    -0.020796   171.974522 
+000145@Images/Preprocessed/run_001/images.stk          1         48     1.438287     1.438287     0.713871     1.298205     0.800809 000048@Images/Imported/run_001/images.stk          4 0     0.802400    -0.115710   171.974522 
+000150@Images/Preprocessed/run_001/images.stk          1        157     1.185654     1.185654     1.360561     1.391256     1.477173 000157@Images/Imported/run_001/images.stk          4 0    -0.744423    -0.724711  -178.853503 
+000157@Images/Preprocessed/run_001/images.stk          1        421     1.321833     1.321833     1.436868     0.617255     1.493316 000421@Images/Imported/run_001/images.stk          4 0    -0.192177     0.043519   132.993631 
+000160@Images/Preprocessed/run_001/images.stk          1        475     1.188080     1.188080     0.243493     1.498487     1.086662 000475@Images/Imported/run_001/images.stk          4 0    -0.784256     0.153065    41.273885 
+000161@Images/Preprocessed/run_001/images.stk          1        459     0.882469     0.882469     1.035577     0.674290     1.501931 000459@Images/Imported/run_001/images.stk          4 0    -0.961937    -0.170560    13.757962 
+000162@Images/Preprocessed/run_001/images.stk          1        439     1.288136     1.288136     1.147196     1.502060     0.591064 000439@Images/Imported/run_001/images.stk          4 1    -0.859801     2.050513   142.165605 
+000170@Images/Preprocessed/run_001/images.stk          1        207     0.613610     0.613610     1.516813     0.299794     1.262469 000207@Images/Imported/run_001/images.stk          4 0    -1.868022     0.178791  -153.630573 
+000171@Images/Preprocessed/run_001/images.stk          1        354     1.050452     1.050452     1.521748     1.232292     0.493515 000354@Images/Imported/run_001/images.stk          4 0     0.199942    -0.955564  -137.579618 
+000173@Images/Preprocessed/run_001/images.stk          1        384     1.509942     1.509942     1.299298     1.492008     1.524242 000384@Images/Imported/run_001/images.stk          4 0     0.186503    -0.018419  -128.407643 
+000189@Images/Preprocessed/run_001/images.stk          1        435     0.470997     0.470997     0.302806     1.022929     1.560788 000435@Images/Imported/run_001/images.stk          4 0    -0.136819    -0.196894   146.751592 
+000193@Images/Preprocessed/run_001/images.stk          1        137     0.918957     0.918957     0.354507     1.570638     0.879039 000137@Images/Imported/run_001/images.stk          4 0    -0.857778    -0.027833  -137.579618 
+000195@Images/Preprocessed/run_001/images.stk          1         66     1.575898     1.575898     0.991511     0.763991     0.978439 000066@Images/Imported/run_001/images.stk          4 0     0.042991    -0.136240    36.687898 
+000198@Images/Preprocessed/run_001/images.stk          1        328     1.413163     1.413163     0.828003     1.579031     1.075264 000328@Images/Imported/run_001/images.stk          4 1    -0.020962    -0.110050  -105.477707 
+000200@Images/Preprocessed/run_001/images.stk          1         10     1.301153     1.301153     1.597416     0.649311     1.541178 000010@Images/Imported/run_001/images.stk          4 0     0.020650     0.826517    57.324841 
+000203@Images/Preprocessed/run_001/images.stk          1        275     0.991694     0.991694     1.602175     0.410755     1.077975 000275@Images/Imported/run_001/images.stk          4 1    -0.857006     0.213318    75.668790 
+000204@Images/Preprocessed/run_001/images.stk          1        244     0.885196     0.885196     0.673773     1.544811     1.603759 000244@Images/Imported/run_001/images.stk          4 1     0.915460    -1.073376   -80.254777 
+000206@Images/Preprocessed/run_001/images.stk          1         77     1.607035     1.607035     1.031288     0.692392     0.950248 000077@Images/Imported/run_001/images.stk          4 0     0.214483    -0.044530    29.808917 
+000212@Images/Preprocessed/run_001/images.stk          1        409     1.622283     1.622283     1.489467     1.283980     0.367694 000409@Images/Imported/run_001/images.stk          4 0    -0.277807    -0.291082   -18.343949 
+000215@Images/Preprocessed/run_001/images.stk          1         32     0.496819     0.496819     1.245985     0.530643     1.629211 000032@Images/Imported/run_001/images.stk          4 1     0.770981     0.168874     9.171975 
+000216@Images/Preprocessed/run_001/images.stk          1        178     1.485745     1.485745     1.629336     1.560012     1.004280 000178@Images/Imported/run_001/images.stk          4 0    -0.059850     0.112693    64.203822 
+000218@Images/Preprocessed/run_001/images.stk          1        471     1.635472     1.635472     0.895173     0.930870     0.802487 000471@Images/Imported/run_001/images.stk          4 0    -0.230100    -0.010976  -123.821656 
+000222@Images/Preprocessed/run_001/images.stk          1        489     1.120684     1.120684     0.653032     1.348510     1.641874 000489@Images/Imported/run_001/images.stk          4 0    -0.082508    -0.224649  -151.337580 
+000227@Images/Preprocessed/run_001/images.stk          1         97     1.516771     1.516771     1.667404     0.625652     0.579747 000097@Images/Imported/run_001/images.stk          4 0    -0.897411    -0.153581   137.579618 
+000228@Images/Preprocessed/run_001/images.stk          1        143     0.857076     0.857076     0.379167     1.670464     1.331454 000143@Images/Imported/run_001/images.stk          4 1     0.867564    -0.930501   -36.687898 
+000229@Images/Preprocessed/run_001/images.stk          1        333     0.392914     0.392914     1.162606     1.671090     1.018231 000333@Images/Imported/run_001/images.stk          4 0    -0.941793    -0.996275   -75.668790 
+000230@Images/Preprocessed/run_001/images.stk          1        191     1.671258     1.671258     1.219559     0.509967     1.435308 000191@Images/Imported/run_001/images.stk          4 0    -0.048132    -0.856852   165.095541 
+000231@Images/Preprocessed/run_001/images.stk          1        353     0.954416     0.954416     1.673919     1.295024     0.361317 000353@Images/Imported/run_001/images.stk          4 0    -0.062264    -0.879063    -2.292994 
+000233@Images/Preprocessed/run_001/images.stk          1        398     1.347680     1.347680     1.680748     0.804038     1.250580 000398@Images/Imported/run_001/images.stk          4 0     0.179144    -1.123565   -16.050955 
+000236@Images/Preprocessed/run_001/images.stk          1        440     0.874482     0.874482     0.833801     0.594042     1.697271 000440@Images/Imported/run_001/images.stk          4 0    -0.136410    -0.247392    32.101911 
+000238@Images/Preprocessed/run_001/images.stk          1        357     1.699977     1.699977     1.435515     0.357720     0.681720 000357@Images/Imported/run_001/images.stk          4 0    -0.823202    -0.195116   107.770701 
+000239@Images/Preprocessed/run_001/images.stk          1        232     1.363366     1.363366     1.705685     1.604135     1.106027 000232@Images/Imported/run_001/images.stk          4 0    -0.151879    -0.897069    75.668790 
+000243@Images/Preprocessed/run_001/images.stk          1         83     0.586793     0.586793     1.343756     0.149325     1.716541 000083@Images/Imported/run_001/images.stk          4 0    -0.934186    -0.059807  -155.923567 
+000246@Images/Preprocessed/run_001/images.stk          1        445     1.087243     1.087243     1.304037     1.731472     1.633577 000445@Images/Imported/run_001/images.stk          4 0    -0.987936    -1.155080   112.356688 
+000249@Images/Preprocessed/run_001/images.stk          1        482     0.401540     0.401540     1.735253     1.128372     0.784832 000482@Images/Imported/run_001/images.stk          4 0    -1.071183    -0.947875    22.929936 
+000259@Images/Preprocessed/run_001/images.stk          1        335     1.772102     1.772102     0.994218     0.852047     0.941330 000335@Images/Imported/run_001/images.stk          4 0    -0.909371    -0.207278    57.324841 
+000263@Images/Preprocessed/run_001/images.stk          1        133     1.783197     1.783197     1.461298     1.571817     0.641480 000133@Images/Imported/run_001/images.stk          4 0     0.210918    -0.701228   -73.375796 
+000268@Images/Preprocessed/run_001/images.stk          1        266     0.123936     0.123936     0.647131     1.787127     0.843869 000266@Images/Imported/run_001/images.stk          4 0    -0.889978    -0.953121    50.445860 
+000269@Images/Preprocessed/run_001/images.stk          1        447     1.538814     1.538814     0.659951     1.787763     0.703216 000447@Images/Imported/run_001/images.stk          4 0    -1.223260    -0.773387  -112.356688 
+000271@Images/Preprocessed/run_001/images.stk          1        468     0.705632     0.705632     0.493167     0.763515     1.789368 000468@Images/Imported/run_001/images.stk          4 0    -0.956618    -0.981246    25.222930 
+000275@Images/Preprocessed/run_001/images.stk          1        139     1.803154     1.803154     1.608947     1.506800     1.267487 000139@Images/Imported/run_001/images.stk          4 0    -1.091088    -0.893896    59.617834 
+000279@Images/Preprocessed/run_001/images.stk          1        380     0.814548     0.814548     1.268188     1.812470     1.051433 000380@Images/Imported/run_001/images.stk          4 0    -0.188445     1.025356   -64.203822 
+000283@Images/Preprocessed/run_001/images.stk          1        290     1.469173     1.469173     1.252027     1.823286     0.724552 000290@Images/Imported/run_001/images.stk          4 0    -1.700158     2.059539   149.044586 
+000284@Images/Preprocessed/run_001/images.stk          1        240     1.043350     1.043350     1.629656     1.837062     0.822016 000240@Images/Imported/run_001/images.stk          4 0     0.205742    -0.815483   132.993631 
+000286@Images/Preprocessed/run_001/images.stk          1        145     1.844165     1.844165     1.786126     1.462209     1.181255 000145@Images/Imported/run_001/images.stk          4 0     0.846147    -0.864747     6.878981 
+000288@Images/Preprocessed/run_001/images.stk          1        376     1.845977     1.845977     1.677975     1.455540     1.237435 000376@Images/Imported/run_001/images.stk          4 0    -0.760690    -1.153595   -94.012739 
+000289@Images/Preprocessed/run_001/images.stk          1        279     1.771756     1.771756     1.847631     1.331222     1.590574 000279@Images/Imported/run_001/images.stk          4 0    -0.924470    -0.716486   -27.515924 
+000294@Images/Preprocessed/run_001/images.stk          1         13     0.359324     0.359324     0.280908     1.010638     1.858110 000013@Images/Imported/run_001/images.stk          4 0    -0.225073    -1.047623  -178.853503 
+000296@Images/Preprocessed/run_001/images.stk          1        419     1.030735     1.030735     0.708146     1.281759     1.871590 000419@Images/Imported/run_001/images.stk          4 0     0.013145    -1.898482    27.515924 
+000304@Images/Preprocessed/run_001/images.stk          1        467     1.637322     1.637322     1.901370     1.392041     0.424307 000467@Images/Imported/run_001/images.stk          4 0    -0.820704     0.137796    82.547771 
+000308@Images/Preprocessed/run_001/images.stk          1        127     1.663093     1.663093     1.638441     1.089222     1.915575 000127@Images/Imported/run_001/images.stk          4 0     1.719862     0.024138  -146.751592 
+000314@Images/Preprocessed/run_001/images.stk          1        493     0.983687     0.983687     0.874523     1.645548     1.948050 000493@Images/Imported/run_001/images.stk          4 0    -0.842435    -0.156413    22.929936 
+000318@Images/Preprocessed/run_001/images.stk          1        381     0.054141     0.054141     1.510655     0.442036     1.957792 000381@Images/Imported/run_001/images.stk          4 0     0.233093     0.130945  -105.477707 
+000325@Images/Preprocessed/run_001/images.stk          1         63     1.946866     1.946866     1.978286     0.469217     1.228683 000063@Images/Imported/run_001/images.stk          4 0    -0.951546     0.163509     9.171975 
+000327@Images/Preprocessed/run_001/images.stk          1        370     0.227268     0.227268     0.240573     0.336047     1.981085 000370@Images/Imported/run_001/images.stk          4 0     1.037872    -0.844116     6.878981 
+000339@Images/Preprocessed/run_001/images.stk          1        327     0.980442     0.980442     1.376401     2.028572     0.921298 000327@Images/Imported/run_001/images.stk          4 0     0.838239    -0.906523  -116.942675 
+000340@Images/Preprocessed/run_001/images.stk          1        474     1.864962     1.864962     0.765577     1.642954     2.029253 000474@Images/Imported/run_001/images.stk          4 0    -0.187589    -0.994080  -128.407643 
+000342@Images/Preprocessed/run_001/images.stk          1        196     0.358609     0.358609     1.037138     1.354999     2.036142 000196@Images/Imported/run_001/images.stk          4 0    -0.682710    -1.079459  -169.681529 
+000349@Images/Preprocessed/run_001/images.stk          1        348     2.065007     2.065007     1.966540     1.674372     0.859900 000348@Images/Imported/run_001/images.stk          4 1     1.435119    -1.315107 4.452777e-14 
+000351@Images/Preprocessed/run_001/images.stk          1         45     1.762578     1.762578     2.066280     0.830057     1.686096 000045@Images/Imported/run_001/images.stk          4 0    -0.042254    -0.847525   100.891720 
+000352@Images/Preprocessed/run_001/images.stk          1         90     2.070562     2.070562     1.412869     1.667860     1.278448 000090@Images/Imported/run_001/images.stk          4 0    -0.116694    -0.195145   158.216561 
+000354@Images/Preprocessed/run_001/images.stk          1         82     2.009676     2.009676     0.929820     2.077136     1.057619 000082@Images/Imported/run_001/images.stk          4 0    -1.301519     1.018304  -103.184713 
+000355@Images/Preprocessed/run_001/images.stk          1          1     1.187795     1.187795     1.740812     0.766179     2.080486 000001@Images/Imported/run_001/images.stk          4 0     0.102473     1.014247    -6.878981 
+000357@Images/Preprocessed/run_001/images.stk          1        243     1.055630     1.055630     0.505036     1.323925     2.084765 000243@Images/Imported/run_001/images.stk          4 0    -0.145440    -0.030239    -4.585987 
+000360@Images/Preprocessed/run_001/images.stk          1        473     1.666327     1.666327     1.390003     0.631478     2.092744 000473@Images/Imported/run_001/images.stk          4 0    -0.849378    -0.782770  -162.802548 
+000362@Images/Preprocessed/run_001/images.stk          1        248     2.097936     2.097936     0.853299     1.374300     1.051607 000248@Images/Imported/run_001/images.stk          4 0     0.041534    -0.027610    61.910828 
+000363@Images/Preprocessed/run_001/images.stk          1        140     2.045039     2.045039     2.103317     1.566710     1.025378 000140@Images/Imported/run_001/images.stk          4 0    -2.838032    -0.136082   132.993631 
+000368@Images/Preprocessed/run_001/images.stk          1        494     1.613290     1.613290     1.979617     2.141681     1.391158 000494@Images/Imported/run_001/images.stk          4 0     0.079443    -0.859904    59.617834 
+000369@Images/Preprocessed/run_001/images.stk          1        277     2.143836     2.143836     1.424188     0.839115     1.139398 000277@Images/Imported/run_001/images.stk          4 0    -0.230414    -0.205785    94.012739 
+000374@Images/Preprocessed/run_001/images.stk          1        306     1.528743     1.528743     1.370860     1.099614     2.162624 000306@Images/Imported/run_001/images.stk          4 0    -0.106129     0.086862     2.292994 
+000377@Images/Preprocessed/run_001/images.stk          1        224     2.173866     2.173866     1.714115     1.472190     0.778517 000224@Images/Imported/run_001/images.stk          4 0     0.092713    -0.929279    29.808917 
+000378@Images/Preprocessed/run_001/images.stk          1        195     1.294973     1.294973     2.107115     0.268196     2.180497 000195@Images/Imported/run_001/images.stk          4 0    -1.076422    -0.002379   -41.273885 
+000379@Images/Preprocessed/run_001/images.stk          1         15     0.455681     0.455681     0.374367     0.960203     2.183194 000015@Images/Imported/run_001/images.stk          4 0    -0.225357    -0.919866  -158.216561 
+000380@Images/Preprocessed/run_001/images.stk          1        347     0.220473     0.220473     1.147992     0.776168     2.191052 000347@Images/Imported/run_001/images.stk          4 0 4.751278e-04    -2.018878   -45.859873 
+000381@Images/Preprocessed/run_001/images.stk          1        429     1.424894     1.424894     2.199898     0.813332     0.595587 000429@Images/Imported/run_001/images.stk          4 0    -0.855988    -0.806365   155.923567 
+000391@Images/Preprocessed/run_001/images.stk          1        218     2.020228     2.020228     2.248371     1.956507     1.275202 000218@Images/Imported/run_001/images.stk          4 0    -0.932913    -1.088635    16.050955 
+000394@Images/Preprocessed/run_001/images.stk          1        488     1.128758     1.128758     2.261950     1.664944     0.907490 000488@Images/Imported/run_001/images.stk          4 0    -0.854900    -0.144492    -4.585987 
+000395@Images/Preprocessed/run_001/images.stk          1         58     0.636457     0.636457     2.265226     1.349153     1.267153 000058@Images/Imported/run_001/images.stk          4 0     0.164474    -0.911411    61.910828 
+000400@Images/Preprocessed/run_001/images.stk          1        200     1.867352     1.867352     2.289370     1.748447     1.655376 000200@Images/Imported/run_001/images.stk          4 0     0.941993     0.102710  -174.267516 
+000402@Images/Preprocessed/run_001/images.stk          1         91     2.296024     2.296024     1.538809     1.297104     0.791564 000091@Images/Imported/run_001/images.stk          4 0    -0.871030    -0.106533  -149.044586 
+000404@Images/Preprocessed/run_001/images.stk          1          8     1.356374     1.356374     2.305785     0.608831     0.621450 000008@Images/Imported/run_001/images.stk          4 1    -0.955904     0.022155  -176.560510 
+000405@Images/Preprocessed/run_001/images.stk          1        323     2.149216     2.149216     2.131903     2.309820     2.127482 000323@Images/Imported/run_001/images.stk          4 0     0.020347    -0.156703   -66.496815 
+000409@Images/Preprocessed/run_001/images.stk          1        104     2.025544     2.025544     2.342478     1.872400     1.730798 000104@Images/Imported/run_001/images.stk          4 0     0.091837    -0.817866   -80.254777 
+000414@Images/Preprocessed/run_001/images.stk          1        366     0.472540     0.472540     0.519729     0.230896     2.378487 000366@Images/Imported/run_001/images.stk          4 0     0.156602    -0.954686    84.840764 
+000418@Images/Preprocessed/run_001/images.stk          1        411     2.001423     2.001423     1.244576     2.440702     0.255890 000411@Images/Imported/run_001/images.stk          4 0     0.042789    -0.836272   178.853503 
+000424@Images/Preprocessed/run_001/images.stk          1        291     2.019594     2.019594     1.162388     1.967750     2.476320 000291@Images/Imported/run_001/images.stk          4 0    -0.814099    -0.169827    59.617834 
+000431@Images/Preprocessed/run_001/images.stk          1         16     1.493357     1.493357     2.521519     1.025464     0.720822 000016@Images/Imported/run_001/images.stk          4 0    -0.123863    -0.080547   -84.840764 
+000433@Images/Preprocessed/run_001/images.stk          1        386     1.884656     1.884656     1.992175     1.864459     2.525925 000386@Images/Imported/run_001/images.stk          4 0    -0.064297    -0.957149  -116.942675 
+000440@Images/Preprocessed/run_001/images.stk          1        481     1.884240     1.884240     1.314344     2.589128     0.643872 000481@Images/Imported/run_001/images.stk          4 0    -0.037452     0.242891   100.891720 
+000449@Images/Preprocessed/run_001/images.stk          1        123     2.672728     2.672728     2.435428     1.880210     2.256525 000123@Images/Imported/run_001/images.stk          4 0    -0.937004     0.956798   160.509554 
+000450@Images/Preprocessed/run_001/images.stk          1        255     0.425735     0.425735     0.497886     1.171000     2.675276 000255@Images/Imported/run_001/images.stk          4 0     0.703042    -0.083500   135.286624 
+000452@Images/Preprocessed/run_001/images.stk          1        408     0.900978     0.900978     2.681796     1.522847     0.763581 000408@Images/Imported/run_001/images.stk          4 0     0.780139    -0.883119   -82.547771 
+000453@Images/Preprocessed/run_001/images.stk          1        457     1.850498     1.850498     1.895186     2.682417     1.463578 000457@Images/Imported/run_001/images.stk          4 0    -0.160412     0.217015  -100.891720 
+000455@Images/Preprocessed/run_001/images.stk          1        281     1.781575     1.781575     2.268422     2.697147     1.741550 000281@Images/Imported/run_001/images.stk          4 0     0.957591    -0.788143    71.082803 
+000456@Images/Preprocessed/run_001/images.stk          1        280     2.698095     2.698095     1.928689     1.208746     1.930771 000280@Images/Imported/run_001/images.stk          4 0     1.095763    -0.131926   -48.152866 
+000463@Images/Preprocessed/run_001/images.stk          1        314     1.697842     1.697842     2.780039     1.624918     1.853423 000314@Images/Imported/run_001/images.stk          4 0    -0.248537    -0.160538   -18.343949 
+000464@Images/Preprocessed/run_001/images.stk          1        361     2.782907     2.782907     2.548013     1.912845     1.397459 000361@Images/Imported/run_001/images.stk          4 0    -0.012677    -0.866532    77.961783 
+000465@Images/Preprocessed/run_001/images.stk          1         39     1.312063     1.312063     0.528173     1.356350     2.786617 000039@Images/Imported/run_001/images.stk          4 0    -1.096715     0.846363    75.668790 
+000469@Images/Preprocessed/run_001/images.stk          1        199     0.904195     0.904195     1.117288     2.888629     1.383903 000199@Images/Imported/run_001/images.stk          4 0    -0.927839    -0.025488   -64.203822 
+000470@Images/Preprocessed/run_001/images.stk          1        373     1.127348     1.127348     1.163970     2.913397     0.720903 000373@Images/Imported/run_001/images.stk          4 0     0.162955    -0.228789  -114.649682 
+000471@Images/Preprocessed/run_001/images.stk          1         34     1.003870     1.003870     2.933742     1.402979     1.446303 000034@Images/Imported/run_001/images.stk          4 0    -0.162562    -1.003398   -71.082803 
+000476@Images/Preprocessed/run_001/images.stk          1        316     2.721225     2.721225     2.978991     2.509016     1.832983 000316@Images/Imported/run_001/images.stk          4 0     0.003730     0.029143  -176.560510 
+000481@Images/Preprocessed/run_001/images.stk          1        262     1.184227     1.184227     2.178647     1.221959     3.082102 000262@Images/Imported/run_001/images.stk          4 1    -0.066895     0.796373    25.222930 
+000488@Images/Preprocessed/run_001/images.stk          1        289     3.389204     3.389204     0.974576     2.983656     1.151443 000289@Images/Imported/run_001/images.stk          4 0    -0.053623     0.055229   162.802548 
+000489@Images/Preprocessed/run_001/images.stk          1        402     1.538550     1.538550     2.516399     3.397440     1.357572 000402@Images/Imported/run_001/images.stk          4 0    -0.974924    -0.076495   -66.496815 
+000495@Images/Preprocessed/run_001/images.stk          1        340     1.215708     1.215708     1.608912     2.282863     3.961774 000340@Images/Imported/run_001/images.stk          4 0    -0.190356    -0.897187  -132.993631 
+000500@Images/Preprocessed/run_001/images.stk          1        260     3.486105     3.486105     3.905957     5.292896     0.542588 000260@Images/Imported/run_001/images.stk          4 0    -0.167136    -0.167261  -119.235669 

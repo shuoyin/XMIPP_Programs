@@ -1,0 +1,575 @@
+# XMIPP_STAR_1 * 
+# 
+data_classes
+loop_
+ _ref
+ _image
+ _classCount
+         1 000001@Run/level_01/NetSim_classes.stk        125 
+         2 000002@Run/level_01/NetSim_classes.stk        125 
+         3 000003@Run/level_01/NetSim_classes.stk        125 
+         4 000004@Run/level_01/NetSim_classes.stk        125 
+
+data_info
+loop_
+ _iterationNumber
+ _cl2dSimilarity
+ _cl2dChanges
+         1     0.863241          0 
+         2     0.863576        500 
+         3     0.864918        500 
+         4     0.865663        500 
+         5     0.865695        500 
+         6     0.865651        500 
+         7     0.865674        500 
+         8     0.865634        500 
+         9     0.865678        500 
+        10     0.865640        500 
+
+data_class000001_images
+loop_
+ _image
+ _enabled
+ _itemId
+ _imageOriginal
+ _ref
+ _flip
+ _shiftX
+ _shiftY
+ _anglePsi
+000004@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          4 000004@InputData/images3146.stk         -1 1    -1.018630     0.018061    59.617834 
+000009@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          9 000009@InputData/images3146.stk         -1 1     0.107142    -0.147072   -59.617834 
+000015@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         15 000015@InputData/images3146.stk         -1 1    -1.141484    -0.018015    61.910828 
+000026@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         26 000026@InputData/images3146.stk         -1 1    -0.082185    -0.171940  -171.974522 
+000028@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         28 000028@InputData/images3146.stk         -1 1    -0.040615    -0.139276   -57.324841 
+000032@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         32 000032@InputData/images3146.stk         -1 1     0.047655    -0.158029    61.910828 
+000037@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         37 000037@InputData/images3146.stk         -1 1     0.053238    -0.214471   -57.324841 
+000039@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         39 000039@InputData/images3146.stk         -1 1     0.069420    -0.781202   -61.910828 
+000041@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         41 000041@InputData/images3146.stk         -1 1     0.140599    -0.105402   -57.324841 
+000042@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         42 000042@InputData/images3146.stk         -1 1     0.736067    -1.026155   -61.910828 
+000043@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         43 000043@InputData/images3146.stk         -1 1    -0.871078     0.719903    64.203822 
+000045@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         45 000045@InputData/images3146.stk         -1 1     0.053376    -0.849388   -59.617834 
+000046@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         46 000046@InputData/images3146.stk         -1 1     0.086476    -0.302979   -59.617834 
+000048@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         48 000048@InputData/images3146.stk         -1 1    -0.976706    -0.042837    61.910828 
+000050@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         50 000050@InputData/images3146.stk         -1 1    -0.912889     0.086741    61.910828 
+000055@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         55 000055@InputData/images3146.stk         -1 1    -0.008521    -0.214105   -59.617834 
+000056@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         56 000056@InputData/images3146.stk         -1 1    -0.048420    -0.190926   -57.324841 
+000057@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         57 000057@InputData/images3146.stk         -1 1     0.814430    -0.924097   -61.910828 
+000068@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         68 000068@InputData/images3146.stk         -1 1     0.207292    -0.112834   -59.617834 
+000070@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         70 000070@InputData/images3146.stk         -1 1     0.126630    -0.105906   -57.324841 
+000077@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         77 000077@InputData/images3146.stk         -1 1    -0.968676     0.001522    59.617834 
+000078@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         78 000078@InputData/images3146.stk         -1 1    -0.918171     0.020681    59.617834 
+000088@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         88 000088@InputData/images3146.stk         -1 1    -0.907658    -1.123500  -178.853503 
+000089@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         89 000089@InputData/images3146.stk         -1 1     0.100256    -0.988572   -57.324841 
+000101@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        101 000101@InputData/images3146.stk         -1 1     0.213285    -0.756862   -57.324841 
+000107@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        107 000107@InputData/images3146.stk         -1 0     1.922238     0.219384     6.878981 
+000110@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        110 000110@InputData/images3146.stk         -1 1    -0.828648     0.111066    59.617834 
+000114@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        114 000114@InputData/images3146.stk         -1 1     0.134616    -0.795757   -57.324841 
+000115@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        115 000115@InputData/images3146.stk         -1 1     0.042874    -0.081632   -59.617834 
+000117@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        117 000117@InputData/images3146.stk         -1 1    -0.202042     0.099213    59.617834 
+000119@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        119 000119@InputData/images3146.stk         -1 1     0.063228    -0.855204   -57.324841 
+000120@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        120 000120@InputData/images3146.stk         -1 1     0.122795    -0.794541   -59.617834 
+000126@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        126 000126@InputData/images3146.stk         -1 1     0.198203    -0.112811   -57.324841 
+000129@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        129 000129@InputData/images3146.stk         -1 1     0.160264    -0.172169   -59.617834 
+000131@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        131 000131@InputData/images3146.stk         -1 1     0.172656    -0.889504   -57.324841 
+000134@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        134 000134@InputData/images3146.stk         -1 1     0.106368    -0.855009   -59.617834 
+000141@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        141 000141@InputData/images3146.stk         -1 1    -0.965711    -0.054968    61.910828 
+000142@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        142 000142@InputData/images3146.stk         -1 1     0.094344    -0.110756   -61.910828 
+000158@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        158 000158@InputData/images3146.stk         -1 1    -0.960532     0.006032  -178.853503 
+000161@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        161 000161@InputData/images3146.stk         -1 1     0.140248    -0.836761   -59.617834 
+000168@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        168 000168@InputData/images3146.stk         -1 1     0.169223    -0.856140   -61.910828 
+000170@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        170 000170@InputData/images3146.stk         -1 1     0.256299    -0.144227   -61.910828 
+000171@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        171 000171@InputData/images3146.stk         -1 1    -0.249600    -0.027838   119.235669 
+000172@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        172 000172@InputData/images3146.stk         -1 1     0.043032    -0.174571   -57.324841 
+000173@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        173 000173@InputData/images3146.stk         -1 0     1.014316     0.943033   -96.305732 
+000175@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        175 000175@InputData/images3146.stk         -1 1     0.183327    -0.799558   -57.324841 
+000178@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        178 000178@InputData/images3146.stk         -1 1    -0.068947    -0.188379   -57.324841 
+000179@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        179 000179@InputData/images3146.stk         -1 1     0.201606    -0.843237   -59.617834 
+000189@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        189 000189@InputData/images3146.stk         -1 1     0.844615    -0.780034   -57.324841 
+000190@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        190 000190@InputData/images3146.stk         -1 1     0.039606    -0.175884   -57.324841 
+000198@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        198 000198@InputData/images3146.stk         -1 1     0.155971    -0.175356   -59.617834 
+000201@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        201 000201@InputData/images3146.stk         -1 1     0.772897    -0.938498   -59.617834 
+000203@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        203 000203@InputData/images3146.stk         -1 1     0.752344    -0.818166   -59.617834 
+000206@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        206 000206@InputData/images3146.stk         -1 1    -0.056324    -0.965211   -59.617834 
+000211@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        211 000211@InputData/images3146.stk         -1 1     0.114096    -0.192177   -57.324841 
+000215@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        215 000215@InputData/images3146.stk         -1 1     0.069735    -0.056369   -57.324841 
+000228@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        228 000228@InputData/images3146.stk         -1 1    -0.916023     0.075389    59.617834 
+000232@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        232 000232@InputData/images3146.stk         -1 1     0.086781    -0.174682   -57.324841 
+000238@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        238 000238@InputData/images3146.stk         -1 1     0.180171    -0.250801   -59.617834 
+000243@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        243 000243@InputData/images3146.stk         -1 1    -0.126485    -0.899252  -171.974522 
+000253@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        253 000253@InputData/images3146.stk         -1 1    -0.876174    -0.026071    59.617834 
+000260@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        260 000260@InputData/images3146.stk         -1 1     0.823364    -0.249246   -57.324841 
+000270@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        270 000270@InputData/images3146.stk         -1 1     0.017766    -0.193554   -57.324841 
+000271@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        271 000271@InputData/images3146.stk         -1 1    -0.139956    -0.979905   -59.617834 
+000277@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        277 000277@InputData/images3146.stk         -1 1    -0.331987    -0.042534    59.617834 
+000278@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        278 000278@InputData/images3146.stk         -1 1     0.099392    -0.820417   -59.617834 
+000285@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        285 000285@InputData/images3146.stk         -1 1     0.050980    -0.912830   -59.617834 
+000286@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        286 000286@InputData/images3146.stk         -1 1    -0.880266    -0.102003    61.910828 
+000291@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        291 000291@InputData/images3146.stk         -1 1    -0.009069    -0.898205   -59.617834 
+000299@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        299 000299@InputData/images3146.stk         -1 1     0.139556    -0.864397   -57.324841 
+000306@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        306 000306@InputData/images3146.stk         -1 1    -0.049362    -0.785069   -59.617834 
+000325@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        325 000325@InputData/images3146.stk         -1 1     0.127321    -0.792122   -59.617834 
+000326@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        326 000326@InputData/images3146.stk         -1 1     0.179749    -0.873127   -59.617834 
+000328@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        328 000328@InputData/images3146.stk         -1 1    -0.003884    -0.185963   -57.324841 
+000338@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        338 000338@InputData/images3146.stk         -1 1     0.109289    -0.871529   -59.617834 
+000342@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        342 000342@InputData/images3146.stk         -1 1     0.059670    -0.188831   -57.324841 
+000345@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        345 000345@InputData/images3146.stk         -1 1    -1.026871    -0.051339    61.910828 
+000348@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        348 000348@InputData/images3146.stk         -1 1     0.112857    -0.780989   -59.617834 
+000350@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        350 000350@InputData/images3146.stk         -1 1     0.095708    -0.936975   -59.617834 
+000351@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        351 000351@InputData/images3146.stk         -1 1     0.158648    -0.798895   -59.617834 
+000357@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        357 000357@InputData/images3146.stk         -1 1     0.015532    -0.861482   -61.910828 
+000373@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        373 000373@InputData/images3146.stk         -1 1     0.151546    -0.183184   -57.324841 
+000374@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        374 000374@InputData/images3146.stk         -1 1    -0.936308     0.131228    61.910828 
+000376@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        376 000376@InputData/images3146.stk         -1 0    -0.955478     0.106222   -66.496815 
+000377@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        377 000377@InputData/images3146.stk         -1 1    -0.203987     0.007154  -169.681529 
+000381@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        381 000381@InputData/images3146.stk         -1 1     0.810440    -0.709496   -59.617834 
+000383@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        383 000383@InputData/images3146.stk         -1 1     0.849025    -0.878735   -59.617834 
+000384@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        384 000384@InputData/images3146.stk         -1 1    -0.038911    -0.747363   -59.617834 
+000386@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        386 000386@InputData/images3146.stk         -1 1     0.099164    -0.192260   -57.324841 
+000388@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        388 000388@InputData/images3146.stk         -1 1     0.237488    -0.816221   -57.324841 
+000391@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        391 000391@InputData/images3146.stk         -1 1     0.002424    -0.894044   -59.617834 
+000395@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        395 000395@InputData/images3146.stk         -1 1     0.106101    -0.879648   -59.617834 
+000397@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        397 000397@InputData/images3146.stk         -1 1     0.090619    -0.755332   -59.617834 
+000399@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        399 000399@InputData/images3146.stk         -1 1     0.759723    -0.166223   -57.324841 
+000411@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        411 000411@InputData/images3146.stk         -1 1    -0.897054    -0.023218    59.617834 
+000413@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        413 000413@InputData/images3146.stk         -1 1    -0.933726     0.026321    61.910828 
+000415@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        415 000415@InputData/images3146.stk         -1 1     0.095643    -0.810218   -59.617834 
+000418@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        418 000418@InputData/images3146.stk         -1 1    -0.974293     0.137372    59.617834 
+000420@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        420 000420@InputData/images3146.stk         -1 1    -0.074820    -0.229054   -59.617834 
+000422@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        422 000422@InputData/images3146.stk         -1 1     0.294373    -0.903610   -57.324841 
+000424@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        424 000424@InputData/images3146.stk         -1 1    -0.033756    -0.279233   -59.617834 
+000426@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        426 000426@InputData/images3146.stk         -1 1     0.101041    -0.737009   -59.617834 
+000428@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        428 000428@InputData/images3146.stk         -1 1     0.011736    -0.864517   -59.617834 
+000431@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        431 000431@InputData/images3146.stk         -1 1     0.077788    -0.178490   -59.617834 
+000434@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        434 000434@InputData/images3146.stk         -1 1     0.059046    -0.029767   -55.031847 
+000436@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        436 000436@InputData/images3146.stk         -1 1     0.286122    -0.932488   -59.617834 
+000438@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        438 000438@InputData/images3146.stk         -1 1    -1.021863     0.156726    59.617834 
+000442@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        442 000442@InputData/images3146.stk         -1 1     0.194248    -0.826400   -59.617834 
+000446@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        446 000446@InputData/images3146.stk         -1 1     0.054087    -0.726698   -57.324841 
+000452@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        452 000452@InputData/images3146.stk         -1 1    -0.964022     0.086104    61.910828 
+000455@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        455 000455@InputData/images3146.stk         -1 1     0.151829    -0.995149   -59.617834 
+000456@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        456 000456@InputData/images3146.stk         -1 1     0.110983    -0.786178   -59.617834 
+000458@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        458 000458@InputData/images3146.stk         -1 1     0.256620    -1.000810   -59.617834 
+000459@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        459 000459@InputData/images3146.stk         -1 1     0.031172    -0.773977   -59.617834 
+000467@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        467 000467@InputData/images3146.stk         -1 1     0.045654    -0.220140   -59.617834 
+000470@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        470 000470@InputData/images3146.stk         -1 1     0.066593    -0.853244   -57.324841 
+000472@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        472 000472@InputData/images3146.stk         -1 1    -0.881112     0.083547    59.617834 
+000474@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        474 000474@InputData/images3146.stk         -1 1     0.035796    -0.886060   -59.617834 
+000478@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        478 000478@InputData/images3146.stk         -1 1     0.043123    -0.783912   -57.324841 
+000479@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        479 000479@InputData/images3146.stk         -1 1     0.128552    -0.914442   -57.324841 
+000481@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        481 000481@InputData/images3146.stk         -1 1    -0.038460    -0.745560   -57.324841 
+000487@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        487 000487@InputData/images3146.stk         -1 1     0.784501    -0.898966   -59.617834 
+000489@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        489 000489@InputData/images3146.stk         -1 1    -0.972461     0.143509    59.617834 
+000497@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        497 000497@InputData/images3146.stk         -1 1     0.098203    -0.940131   -59.617834 
+000499@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        499 000499@InputData/images3146.stk         -1 1     0.216202    -0.788130   -59.617834 
+
+data_class000002_images
+loop_
+ _image
+ _enabled
+ _itemId
+ _imageOriginal
+ _ref
+ _flip
+ _shiftX
+ _shiftY
+ _anglePsi
+000002@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          2 000002@InputData/images3146.stk          4 1     0.072982    -0.061150   -57.324841 
+000006@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          6 000006@InputData/images3146.stk         -1 1    -0.867069    -0.017917    59.617834 
+000013@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         13 000013@InputData/images3146.stk         -1 1     0.144336    -0.970368   -61.910828 
+000016@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         16 000016@InputData/images3146.stk         -1 1     0.033140    -0.966801   -57.324841 
+000021@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         21 000021@InputData/images3146.stk         -1 1     0.986429    -0.049534   -59.617834 
+000023@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         23 000023@InputData/images3146.stk         -1 1     0.060951    -0.907834   -57.324841 
+000030@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         30 000030@InputData/images3146.stk         -1 1     0.022031    -0.922532   -59.617834 
+000033@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         33 000033@InputData/images3146.stk         -1 1     0.038207    -0.965001   -57.324841 
+000036@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         36 000036@InputData/images3146.stk         -1 1     0.043634    -0.248902   -59.617834 
+000058@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         58 000058@InputData/images3146.stk         -1 1     0.082042    -0.947047   -59.617834 
+000064@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         64 000064@InputData/images3146.stk         -1 1     0.098715    -0.144584   -57.324841 
+000066@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         66 000066@InputData/images3146.stk         -1 1     0.169456    -0.202311   -57.324841 
+000067@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         67 000067@InputData/images3146.stk         -1 1     0.112980    -1.020618  -119.235669 
+000071@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         71 000071@InputData/images3146.stk         -1 1     0.116797    -0.949165   -59.617834 
+000073@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         73 000073@InputData/images3146.stk         -1 1    -0.150397     0.104848    59.617834 
+000074@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         74 000074@InputData/images3146.stk         -1 1    -0.957709    -0.113329  -171.974522 
+000075@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         75 000075@InputData/images3146.stk         -1 1     0.117148    -0.917853   -59.617834 
+000076@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         76 000076@InputData/images3146.stk         -1 1    -0.980337     0.093144    59.617834 
+000079@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         79 000079@InputData/images3146.stk         -1 1     0.001895    -0.159601   -57.324841 
+000080@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         80 000080@InputData/images3146.stk         -1 1    -0.189995     0.102875    61.910828 
+000084@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         84 000084@InputData/images3146.stk         -1 1     0.166589    -0.792256   -59.617834 
+000085@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         85 000085@InputData/images3146.stk         -1 1     0.225038    -0.840566   -59.617834 
+000086@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         86 000086@InputData/images3146.stk         -1 1    -0.914184     0.109613    61.910828 
+000087@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         87 000087@InputData/images3146.stk         -1 1     0.079684    -0.909441   -59.617834 
+000091@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         91 000091@InputData/images3146.stk         -1 1     0.121670    -0.846844   -57.324841 
+000094@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         94 000094@InputData/images3146.stk         -1 1     0.151596    -0.884768   -59.617834 
+000096@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         96 000096@InputData/images3146.stk         -1 1     0.082159    -0.778230   -57.324841 
+000100@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        100 000100@InputData/images3146.stk         -1 1     0.101333    -0.227307   -59.617834 
+000106@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        106 000106@InputData/images3146.stk         -1 1    -0.999875     0.112863    59.617834 
+000112@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        112 000112@InputData/images3146.stk         -1 1     0.861782    -0.852672   -61.910828 
+000113@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        113 000113@InputData/images3146.stk         -1 1     0.124541    -0.848991   -57.324841 
+000127@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        127 000127@InputData/images3146.stk         -1 1     0.202549    -0.188147   -59.617834 
+000128@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        128 000128@InputData/images3146.stk         -1 1     0.139399    -0.892377   -57.324841 
+000130@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        130 000130@InputData/images3146.stk         -1 1    -0.236036     0.106135    59.617834 
+000132@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        132 000132@InputData/images3146.stk         -1 1     0.097400    -0.790488   -59.617834 
+000135@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        135 000135@InputData/images3146.stk         -1 1     0.132565    -0.844238   -59.617834 
+000136@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        136 000136@InputData/images3146.stk         -1 1    -0.832339    -0.030702    61.910828 
+000138@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        138 000138@InputData/images3146.stk         -1 1     0.044551    -0.824019   -57.324841 
+000144@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        144 000144@InputData/images3146.stk         -1 1     0.082524    -0.936241   -59.617834 
+000147@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        147 000147@InputData/images3146.stk         -1 1    -0.941184     0.086791    61.910828 
+000148@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        148 000148@InputData/images3146.stk         -1 1    -1.029860     0.877337    61.910828 
+000150@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        150 000150@InputData/images3146.stk         -1 1     0.049407    -0.066518   -57.324841 
+000155@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        155 000155@InputData/images3146.stk         -1 1    -0.003007    -0.187064   -61.910828 
+000162@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        162 000162@InputData/images3146.stk         -1 1     0.164387    -0.224486   -57.324841 
+000174@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        174 000174@InputData/images3146.stk         -1 1     0.010079    -0.203452   -57.324841 
+000197@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        197 000197@InputData/images3146.stk         -1 1     0.104794    -0.130397   -59.617834 
+000202@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        202 000202@InputData/images3146.stk         -1 1     0.046435     0.134940    59.617834 
+000207@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        207 000207@InputData/images3146.stk         -1 1     0.087366    -0.863824   -59.617834 
+000208@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        208 000208@InputData/images3146.stk         -1 1    -0.827751     0.037283    59.617834 
+000209@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        209 000209@InputData/images3146.stk         -1 1     0.001943    -0.152629   -59.617834 
+000210@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        210 000210@InputData/images3146.stk         -1 1     0.087423    -0.193162   -57.324841 
+000214@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        214 000214@InputData/images3146.stk         -1 1    -0.802521     0.103536    59.617834 
+000217@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        217 000217@InputData/images3146.stk         -1 1     0.088934    -0.962822   -59.617834 
+000220@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        220 000220@InputData/images3146.stk         -1 1     0.111959    -0.123111   -57.324841 
+000221@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        221 000221@InputData/images3146.stk         -1 1     0.007154    -0.168422   -57.324841 
+000223@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        223 000223@InputData/images3146.stk         -1 1     0.078941    -0.835592   -59.617834 
+000225@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        225 000225@InputData/images3146.stk         -1 1     0.066475    -0.188856   -57.324841 
+000227@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        227 000227@InputData/images3146.stk         -1 1     0.134246    -0.055483   -57.324841 
+000229@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        229 000229@InputData/images3146.stk         -1 1     0.756286    -0.094615   -57.324841 
+000230@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        230 000230@InputData/images3146.stk         -1 1    -0.009827     0.189363    61.910828 
+000237@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        237 000237@InputData/images3146.stk         -1 1     0.179920    -0.833253   -57.324841 
+000273@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        273 000273@InputData/images3146.stk         -1 1     0.170209    -0.818859   -59.617834 
+000275@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        275 000275@InputData/images3146.stk         -1 1    -0.078706     0.840272    59.617834 
+000284@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        284 000284@InputData/images3146.stk         -1 1    -0.949320     0.864657    61.910828 
+000287@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        287 000287@InputData/images3146.stk         -1 1     0.071154    -0.925788   -59.617834 
+000289@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        289 000289@InputData/images3146.stk         -1 1     0.139204    -0.093509   -59.617834 
+000297@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        297 000297@InputData/images3146.stk         -1 1     0.056549    -0.180843   -59.617834 
+000298@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        298 000298@InputData/images3146.stk         -1 1     0.208017    -0.102959   -59.617834 
+000300@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        300 000300@InputData/images3146.stk         -1 1     0.043897    -0.144733   -59.617834 
+000304@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        304 000304@InputData/images3146.stk         -1 1     0.162426    -0.138948   -57.324841 
+000305@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        305 000305@InputData/images3146.stk         -1 1     0.030640    -0.124371   -57.324841 
+000308@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        308 000308@InputData/images3146.stk         -1 1     0.836291    -0.848427   -59.617834 
+000311@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        311 000311@InputData/images3146.stk         -1 1     0.047736    -0.827482   -57.324841 
+000327@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        327 000327@InputData/images3146.stk         -1 1     0.728574    -0.934011   -59.617834 
+000335@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        335 000335@InputData/images3146.stk         -1 1    -1.031421     0.199805    61.910828 
+000346@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        346 000346@InputData/images3146.stk         -1 1     0.184059    -0.248473   -59.617834 
+000352@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        352 000352@InputData/images3146.stk         -1 1    -1.145320    -0.053879  -178.853503 
+000354@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        354 000354@InputData/images3146.stk         -1 1    -0.907709     0.164663    61.910828 
+000363@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        363 000363@InputData/images3146.stk         -1 0     0.787674     0.181409  -105.477707 
+000366@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        366 000366@InputData/images3146.stk         -1 1     0.115060    -0.797869   -59.617834 
+000368@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        368 000368@InputData/images3146.stk         -1 1     0.144899    -0.948053   -61.910828 
+000371@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        371 000371@InputData/images3146.stk         -1 1     0.002238    -0.210358   -57.324841 
+000375@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        375 000375@InputData/images3146.stk         -1 1    -0.935851    -0.086861    61.910828 
+000389@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        389 000389@InputData/images3146.stk         -1 1     0.147118    -0.874496   -59.617834 
+000392@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        392 000392@InputData/images3146.stk         -1 1     0.044884    -0.836942   -57.324841 
+000404@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        404 000404@InputData/images3146.stk         -1 1    -0.188983     0.135939    59.617834 
+000405@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        405 000405@InputData/images3146.stk         -1 1     0.193179    -0.908774   -59.617834 
+000407@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        407 000407@InputData/images3146.stk         -1 1    -1.082532     0.794893    61.910828 
+000416@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        416 000416@InputData/images3146.stk         -1 1     0.092658    -0.159504   -59.617834 
+000419@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        419 000419@InputData/images3146.stk         -1 1    -0.820879    -0.064938   -55.031847 
+000430@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        430 000430@InputData/images3146.stk         -1 1     0.236211    -0.986714   -59.617834 
+000435@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        435 000435@InputData/images3146.stk         -1 0    -0.174698     0.148038   -57.324841 
+000441@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        441 000441@InputData/images3146.stk         -1 1    -0.967840     0.084059    59.617834 
+000447@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        447 000447@InputData/images3146.stk         -1 1     0.193215    -0.215217   -57.324841 
+000448@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        448 000448@InputData/images3146.stk         -1 1    -0.927265    -0.004791    59.617834 
+000449@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        449 000449@InputData/images3146.stk         -1 1     0.154508    -1.069006   -57.324841 
+000450@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        450 000450@InputData/images3146.stk         -1 1     0.017632    -0.860084   -59.617834 
+000451@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        451 000451@InputData/images3146.stk         -1 1     0.129842    -0.802228   -59.617834 
+000453@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        453 000453@InputData/images3146.stk         -1 1     0.085006    -0.975942   -59.617834 
+000454@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        454 000454@InputData/images3146.stk         -1 1     0.057362    -0.146031   -59.617834 
+000457@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        457 000457@InputData/images3146.stk         -1 1     0.790582    -0.928437   -59.617834 
+000460@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        460 000460@InputData/images3146.stk         -1 1    -1.049487     0.105884    59.617834 
+000462@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        462 000462@InputData/images3146.stk         -1 1     0.103620    -1.100367   -57.324841 
+000463@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        463 000463@InputData/images3146.stk         -1 1     0.211663    -0.960196   -57.324841 
+000464@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        464 000464@InputData/images3146.stk         -1 1    -0.033838    -0.890393   -59.617834 
+000466@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        466 000466@InputData/images3146.stk         -1 1    -0.002870    -0.857360   -59.617834 
+000469@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        469 000469@InputData/images3146.stk         -1 1     0.108160    -0.128990   -57.324841 
+000473@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        473 000473@InputData/images3146.stk         -1 1    -0.069311    -0.873923   -57.324841 
+000475@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        475 000475@InputData/images3146.stk         -1 1    -0.041100    -0.893963   -57.324841 
+000476@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        476 000476@InputData/images3146.stk         -1 1     0.061802    -0.918632   -59.617834 
+000477@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        477 000477@InputData/images3146.stk         -1 1     0.770768    -0.231037   -59.617834 
+000480@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        480 000480@InputData/images3146.stk         -1 1     0.170282    -0.002109   -57.324841 
+000482@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        482 000482@InputData/images3146.stk         -1 1     0.125596    -0.882787   -59.617834 
+000483@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        483 000483@InputData/images3146.stk         -1 1    -0.113555     1.050634    61.910828 
+000484@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        484 000484@InputData/images3146.stk         -1 1     0.148548    -0.834269   -59.617834 
+000485@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        485 000485@InputData/images3146.stk         -1 1     0.023234    -0.100777   -57.324841 
+000486@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        486 000486@InputData/images3146.stk         -1 1    -0.994742     0.912577    61.910828 
+000488@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        488 000488@InputData/images3146.stk         -1 1    -0.863666     0.814231    59.617834 
+000490@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        490 000490@InputData/images3146.stk         -1 1     0.151740    -0.230582   -59.617834 
+000493@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        493 000493@InputData/images3146.stk         -1 1    -0.057935    -0.791543   -59.617834 
+000494@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        494 000494@InputData/images3146.stk         -1 1     0.103511    -0.115900   -59.617834 
+000495@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        495 000495@InputData/images3146.stk         -1 1    -0.012330    -0.919433   -59.617834 
+000496@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        496 000496@InputData/images3146.stk         -1 1    -0.835165     0.008884    61.910828 
+000498@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        498 000498@InputData/images3146.stk         -1 1     0.843919    -0.915254   -59.617834 
+000500@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        500 000500@InputData/images3146.stk         -1 1     0.817644    -0.876011   -59.617834 
+
+data_class000003_images
+loop_
+ _image
+ _enabled
+ _itemId
+ _imageOriginal
+ _ref
+ _flip
+ _shiftX
+ _shiftY
+ _anglePsi
+000003@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          3 000003@InputData/images3146.stk         -1 1     0.189339    -0.902542   -57.324841 
+000005@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          5 000005@InputData/images3146.stk         -1 1     0.106252    -1.068908   -59.617834 
+000008@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          8 000008@InputData/images3146.stk         -1 1    -0.179683    -0.127968   178.853503 
+000011@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         11 000011@InputData/images3146.stk         -1 1     0.137873    -0.775719   -61.910828 
+000017@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         17 000017@InputData/images3146.stk         -1 1     0.744723    -0.807332   -57.324841 
+000020@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         20 000020@InputData/images3146.stk         -1 1    -0.016271    -0.827410   -59.617834 
+000024@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         24 000024@InputData/images3146.stk         -1 0     0.870641    -0.144929   -73.375796 
+000025@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         25 000025@InputData/images3146.stk         -1 1     0.185388    -1.064087   -59.617834 
+000034@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         34 000034@InputData/images3146.stk         -1 1     0.139816    -0.076373   -59.617834 
+000040@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         40 000040@InputData/images3146.stk         -1 1    -0.149284    -1.061108   -57.324841 
+000047@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         47 000047@InputData/images3146.stk         -1 1     0.157240    -0.792310   -59.617834 
+000054@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         54 000054@InputData/images3146.stk         -1 1     0.146604    -0.768732   -57.324841 
+000060@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         60 000060@InputData/images3146.stk         -1 0     0.806723    -0.087471  -110.063694 
+000062@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         62 000062@InputData/images3146.stk         -1 1     0.003680    -0.311380   -59.617834 
+000069@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         69 000069@InputData/images3146.stk         -1 1     0.122587    -0.962824   -59.617834 
+000081@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         81 000081@InputData/images3146.stk         -1 1     0.100452    -0.190344   -57.324841 
+000092@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         92 000092@InputData/images3146.stk         -1 1    -0.035122     0.176566   -59.617834 
+000097@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         97 000097@InputData/images3146.stk         -1 1     0.315235    -0.904291   -57.324841 
+000104@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        104 000104@InputData/images3146.stk         -1 1     0.212822    -0.847387   -57.324841 
+000108@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        108 000108@InputData/images3146.stk         -1 1    -0.907662    -0.031370    59.617834 
+000111@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        111 000111@InputData/images3146.stk         -1 1    -0.026491    -0.173124   -57.324841 
+000116@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        116 000116@InputData/images3146.stk         -1 1    -0.184707     0.205099    57.324841 
+000118@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        118 000118@InputData/images3146.stk         -1 1    -0.236980     0.739913    61.910828 
+000121@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        121 000121@InputData/images3146.stk         -1 0    -0.062912     0.014884    -4.585987 
+000122@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        122 000122@InputData/images3146.stk         -1 1     0.074647    -0.852139   -59.617834 
+000123@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        123 000123@InputData/images3146.stk         -1 1     0.088213    -0.935937   -59.617834 
+000137@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        137 000137@InputData/images3146.stk         -1 1     0.066672    -0.893617   -59.617834 
+000139@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        139 000139@InputData/images3146.stk         -1 1     0.082055    -0.897917   -57.324841 
+000143@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        143 000143@InputData/images3146.stk         -1 1     0.014037     1.039511    57.324841 
+000145@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        145 000145@InputData/images3146.stk         -1 1     0.032404    -0.784126   -57.324841 
+000152@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        152 000152@InputData/images3146.stk         -1 1     0.193506    -0.828275   -59.617834 
+000154@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        154 000154@InputData/images3146.stk         -1 1     0.108248    -0.872105   -59.617834 
+000157@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        157 000157@InputData/images3146.stk         -1 1     0.075292    -0.154343   -59.617834 
+000160@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        160 000160@InputData/images3146.stk         -1 1    -0.086685    -0.839411   -57.324841 
+000164@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        164 000164@InputData/images3146.stk         -1 1     0.115878    -0.857743   -59.617834 
+000165@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        165 000165@InputData/images3146.stk         -1 1    -0.249541    -0.915393   -59.617834 
+000166@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        166 000166@InputData/images3146.stk         -1 1    -0.948323    -0.037798    59.617834 
+000169@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        169 000169@InputData/images3146.stk         -1 1     0.107130    -0.994135   -59.617834 
+000180@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        180 000180@InputData/images3146.stk         -1 1     0.041830    -0.812497   -61.910828 
+000181@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        181 000181@InputData/images3146.stk         -1 1     0.080160    -0.982761   -59.617834 
+000184@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        184 000184@InputData/images3146.stk         -1 0    -0.775879     1.711817    22.929936 
+000185@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        185 000185@InputData/images3146.stk         -1 1    -0.223950     0.796467    59.617834 
+000186@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        186 000186@InputData/images3146.stk         -1 1    -0.107678     0.031164   -52.738854 
+000191@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        191 000191@InputData/images3146.stk         -1 1     0.169164    -0.767173   -59.617834 
+000194@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        194 000194@InputData/images3146.stk         -1 1     0.036118    -0.911306   -61.910828 
+000195@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        195 000195@InputData/images3146.stk         -1 1     0.236035    -0.838888   -59.617834 
+000196@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        196 000196@InputData/images3146.stk         -1 1     0.723555    -0.090884   -59.617834 
+000199@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        199 000199@InputData/images3146.stk         -1 1     0.749783    -0.112449   -55.031847 
+000213@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        213 000213@InputData/images3146.stk         -1 1    -0.146642    -0.817036   -57.324841 
+000218@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        218 000218@InputData/images3146.stk         -1 1     0.063262    -0.884234   -59.617834 
+000222@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        222 000222@InputData/images3146.stk         -1 1     0.077109    -0.869002   -57.324841 
+000226@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        226 000226@InputData/images3146.stk         -1 1    -1.019181     0.138301    59.617834 
+000240@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        240 000240@InputData/images3146.stk         -1 1    -0.132335    -1.015467   -61.910828 
+000244@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        244 000244@InputData/images3146.stk         -1 1    -0.849709     1.025104    64.203822 
+000245@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        245 000245@InputData/images3146.stk         -1 0    -0.973462     0.815266   -59.617834 
+000249@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        249 000249@InputData/images3146.stk         -1 1    -1.023270     0.812457    61.910828 
+000251@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        251 000251@InputData/images3146.stk         -1 1    -0.033402    -0.069916    57.324841 
+000254@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        254 000254@InputData/images3146.stk         -1 1     0.010441    -0.093000    59.617834 
+000256@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        256 000256@InputData/images3146.stk         -1 1    -0.874186     0.015681    61.910828 
+000257@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        257 000257@InputData/images3146.stk         -1 1     0.043036    -0.871709   178.853503 
+000261@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        261 000261@InputData/images3146.stk         -1 1     0.910105    -0.735473   -57.324841 
+000262@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        262 000262@InputData/images3146.stk         -1 1     1.330165    -0.647155   -59.617834 
+000265@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        265 000265@InputData/images3146.stk         -1 1     0.175277    -0.156456   -59.617834 
+000266@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        266 000266@InputData/images3146.stk         -1 1     0.150207    -0.113338   -57.324841 
+000274@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        274 000274@InputData/images3146.stk         -1 1    -0.075983    -0.082103   -57.324841 
+000276@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        276 000276@InputData/images3146.stk         -1 1     0.008687    -0.958296   -57.324841 
+000279@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        279 000279@InputData/images3146.stk         -1 1     0.038853    -0.858307   -59.617834 
+000281@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        281 000281@InputData/images3146.stk         -1 1    -0.894385     0.019168    61.910828 
+000282@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        282 000282@InputData/images3146.stk         -1 1     0.097368    -0.915410   -59.617834 
+000283@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        283 000283@InputData/images3146.stk         -1 1    -0.938226    -0.875354   -59.617834 
+000288@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        288 000288@InputData/images3146.stk         -1 1     0.159984    -0.778324   -59.617834 
+000290@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        290 000290@InputData/images3146.stk         -1 1    -0.862496    -0.775672    59.617834 
+000301@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        301 000301@InputData/images3146.stk         -1 1     0.047958    -0.293011   -57.324841 
+000303@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        303 000303@InputData/images3146.stk         -1 1     0.979358    -1.477272   -57.324841 
+000307@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        307 000307@InputData/images3146.stk         -1 1    -0.096851    -0.181789     4.585987 
+000310@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        310 000310@InputData/images3146.stk         -1 1     0.097130    -0.930277   -59.617834 
+000312@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        312 000312@InputData/images3146.stk         -1 1     0.242374    -0.920652   -59.617834 
+000313@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        313 000313@InputData/images3146.stk         -1 1     0.318540    -0.930073   -59.617834 
+000316@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        316 000316@InputData/images3146.stk         -1 1     0.078003    -0.154381   -57.324841 
+000319@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        319 000319@InputData/images3146.stk         -1 1     0.178595    -0.882047   -59.617834 
+000320@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        320 000320@InputData/images3146.stk         -1 1     0.810810    -0.896076   -57.324841 
+000321@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        321 000321@InputData/images3146.stk         -1 1    -0.178714     0.951574    57.324841 
+000322@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        322 000322@InputData/images3146.stk         -1 1     0.031185    -0.997462   178.853503 
+000323@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        323 000323@InputData/images3146.stk         -1 1     0.164703    -0.823195   -57.324841 
+000324@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        324 000324@InputData/images3146.stk         -1 0    -0.038163    -0.171443   169.681529 
+000330@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        330 000330@InputData/images3146.stk         -1 1    -0.042670    -0.862171   -57.324841 
+000333@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        333 000333@InputData/images3146.stk         -1 1     0.194292    -0.183620   -57.324841 
+000334@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        334 000334@InputData/images3146.stk         -1 1     0.165689    -0.249085   -57.324841 
+000339@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        339 000339@InputData/images3146.stk         -1 1    -0.880741    -0.870966  -174.267516 
+000340@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        340 000340@InputData/images3146.stk         -1 1     0.111713    -0.876432   -59.617834 
+000343@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        343 000343@InputData/images3146.stk         -1 1     0.032945    -0.814891   -59.617834 
+000347@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        347 000347@InputData/images3146.stk         -1 1     0.151595    -0.867228   -59.617834 
+000353@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        353 000353@InputData/images3146.stk         -1 1    -0.922795     0.004885    61.910828 
+000356@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        356 000356@InputData/images3146.stk         -1 1    -0.988678    -0.938622    59.617834 
+000358@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        358 000358@InputData/images3146.stk         -1 1     0.221542    -0.206701   -57.324841 
+000359@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        359 000359@InputData/images3146.stk         -1 1     0.094969    -0.924120   -59.617834 
+000360@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        360 000360@InputData/images3146.stk         -1 1     0.249803    -0.887325   -59.617834 
+000361@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        361 000361@InputData/images3146.stk         -1 1     0.169978    -0.810368   -59.617834 
+000362@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        362 000362@InputData/images3146.stk         -1 1     0.220135     0.857248     4.585987 
+000367@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        367 000367@InputData/images3146.stk         -1 1    -0.168080    -0.975948  -178.853503 
+000369@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        369 000369@InputData/images3146.stk         -1 1     0.046179    -0.202330   -57.324841 
+000372@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        372 000372@InputData/images3146.stk         -1 1     0.146643    -0.791857   -57.324841 
+000382@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        382 000382@InputData/images3146.stk         -1 1     0.114876    -0.885218   -59.617834 
+000387@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        387 000387@InputData/images3146.stk         -1 1     0.133932    -1.083083   -59.617834 
+000390@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        390 000390@InputData/images3146.stk         -1 0     0.041477     0.041489  -174.267516 
+000393@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        393 000393@InputData/images3146.stk         -1 1    -0.022957    -0.967837   -57.324841 
+000394@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        394 000394@InputData/images3146.stk         -1 1     0.179635    -0.224865   -57.324841 
+000398@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        398 000398@InputData/images3146.stk         -1 1    -0.946304    -0.107400    61.910828 
+000400@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        400 000400@InputData/images3146.stk         -1 1     0.002780    -0.182865   -59.617834 
+000401@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        401 000401@InputData/images3146.stk         -1 1     0.042565    -0.806758   -59.617834 
+000402@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        402 000402@InputData/images3146.stk         -1 1     0.838968    -0.070235     0.000000 
+000408@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        408 000408@InputData/images3146.stk         -1 0    -0.012898     0.916486   -50.445860 
+000409@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        409 000409@InputData/images3146.stk         -1 1     0.106334    -0.887235   -59.617834 
+000412@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        412 000412@InputData/images3146.stk         -1 1     0.056721    -0.308765   -57.324841 
+000421@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        421 000421@InputData/images3146.stk         -1 1     0.134674    -0.879707   -57.324841 
+000423@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        423 000423@InputData/images3146.stk         -1 1     0.236957    -0.862852   -59.617834 
+000425@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        425 000425@InputData/images3146.stk         -1 1    -0.069753    -0.225326   -57.324841 
+000427@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        427 000427@InputData/images3146.stk         -1 1     0.088694    -0.916743   -59.617834 
+000432@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        432 000432@InputData/images3146.stk         -1 1    -0.951813     0.165940    61.910828 
+000433@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        433 000433@InputData/images3146.stk         -1 1     0.272785    -0.901320   -61.910828 
+000437@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        437 000437@InputData/images3146.stk         -1 1     0.282428    -0.045733   -55.031847 
+000439@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        439 000439@InputData/images3146.stk         -1 1    -0.172247    -1.210458   -59.617834 
+000440@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        440 000440@InputData/images3146.stk         -1 1     0.244294    -0.801144   -59.617834 
+000443@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        443 000443@InputData/images3146.stk         -1 1     0.738535    -0.205081   -57.324841 
+000471@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        471 000471@InputData/images3146.stk         -1 1     0.099362    -0.286567   -57.324841 
+
+data_class000004_images
+loop_
+ _image
+ _enabled
+ _itemId
+ _imageOriginal
+ _ref
+ _flip
+ _shiftX
+ _shiftY
+ _anglePsi
+000001@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          1 000001@InputData/images3146.stk          3 1     0.013238    -0.212514   -57.324841 
+000007@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1          7 000007@InputData/images3146.stk         -1 1     0.176370    -0.938868   -59.617834 
+000010@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         10 000010@InputData/images3146.stk         -1 1    -0.916082     0.152024    64.203822 
+000012@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         12 000012@InputData/images3146.stk         -1 1    -0.203789    -0.059019    61.910828 
+000014@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         14 000014@InputData/images3146.stk         -1 1    -0.818232     0.129035    57.324841 
+000018@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         18 000018@InputData/images3146.stk         -1 0    -0.951925    -0.943057  -176.560510 
+000019@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         19 000019@InputData/images3146.stk         -1 1     0.206177    -0.197513   -59.617834 
+000022@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         22 000022@InputData/images3146.stk         -1 1     0.079822    -0.812292   -57.324841 
+000027@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         27 000027@InputData/images3146.stk         -1 1     0.017954    -0.076744     2.292994 
+000029@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         29 000029@InputData/images3146.stk         -1 1     0.058612    -0.921792   -59.617834 
+000031@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         31 000031@InputData/images3146.stk         -1 1     0.145462    -0.918666   -59.617834 
+000035@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         35 000035@InputData/images3146.stk         -1 1     0.066500    -0.865071   -57.324841 
+000038@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         38 000038@InputData/images3146.stk         -1 1     0.088844     0.102072    59.617834 
+000044@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         44 000044@InputData/images3146.stk         -1 1     0.114370    -0.916738   -59.617834 
+000049@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         49 000049@InputData/images3146.stk         -1 1     0.202613    -0.171705   -57.324841 
+000051@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         51 000051@InputData/images3146.stk         -1 1     0.119652    -0.845919   -59.617834 
+000052@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         52 000052@InputData/images3146.stk         -1 1    -0.047944    -0.168044   -59.617834 
+000053@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         53 000053@InputData/images3146.stk         -1 1     0.070729    -1.025322   -59.617834 
+000059@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         59 000059@InputData/images3146.stk         -1 1     0.210399    -0.140299   -57.324841 
+000061@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         61 000061@InputData/images3146.stk         -1 1     0.159282    -0.862421   -59.617834 
+000063@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         63 000063@InputData/images3146.stk         -1 1    -0.928798    -0.070338    59.617834 
+000065@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         65 000065@InputData/images3146.stk         -1 1    -0.036782     0.014272    61.910828 
+000072@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         72 000072@InputData/images3146.stk         -1 1     0.028208    -0.842281   -59.617834 
+000082@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         82 000082@InputData/images3146.stk         -1 1    -0.190325     0.122447    57.324841 
+000083@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         83 000083@InputData/images3146.stk         -1 1     0.175985    -0.917471   -59.617834 
+000090@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         90 000090@InputData/images3146.stk         -1 1     0.119603    -0.865714   -59.617834 
+000093@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         93 000093@InputData/images3146.stk         -1 1    -0.076915    -0.899427   -61.910828 
+000095@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         95 000095@InputData/images3146.stk         -1 1    -0.758652     0.041321    61.910828 
+000098@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         98 000098@InputData/images3146.stk         -1 1    -0.681523    -0.018239    59.617834 
+000099@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1         99 000099@InputData/images3146.stk         -1 1     1.092193    -0.800787   -59.617834 
+000102@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        102 000102@InputData/images3146.stk         -1 1    -0.101594    -0.197001   -55.031847 
+000103@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        103 000103@InputData/images3146.stk         -1 1     0.118267    -0.148145   -59.617834 
+000105@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        105 000105@InputData/images3146.stk         -1 1     0.232622    -0.146991   -57.324841 
+000109@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        109 000109@InputData/images3146.stk         -1 1    -0.817510     1.021874    57.324841 
+000124@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        124 000124@InputData/images3146.stk         -1 1     0.069498    -0.774491   -59.617834 
+000125@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        125 000125@InputData/images3146.stk         -1 1     0.066538    -0.210145   -57.324841 
+000133@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        133 000133@InputData/images3146.stk         -1 1     0.088588    -0.249185   -59.617834 
+000140@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        140 000140@InputData/images3146.stk         -1 1     0.114667    -0.909389   -59.617834 
+000146@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        146 000146@InputData/images3146.stk         -1 1     0.036686    -0.907240   -59.617834 
+000149@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        149 000149@InputData/images3146.stk         -1 1    -0.928597     0.056146    57.324841 
+000151@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        151 000151@InputData/images3146.stk         -1 1     0.190019    -0.856396   -59.617834 
+000153@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        153 000153@InputData/images3146.stk         -1 1     0.131352    -0.166697   -59.617834 
+000156@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        156 000156@InputData/images3146.stk         -1 1    -1.084347    -0.683385    59.617834 
+000159@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        159 000159@InputData/images3146.stk         -1 1    -0.973483     0.008734    61.910828 
+000163@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        163 000163@InputData/images3146.stk         -1 1     0.111525    -0.779161   -57.324841 
+000167@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        167 000167@InputData/images3146.stk         -1 1 -1.617857e-04    -0.126197   -57.324841 
+000176@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        176 000176@InputData/images3146.stk         -1 1    -0.167941    -0.275745   -59.617834 
+000177@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        177 000177@InputData/images3146.stk         -1 0     0.137659    -0.201346     2.292994 
+000182@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        182 000182@InputData/images3146.stk         -1 1     0.155273    -0.948004   -57.324841 
+000183@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        183 000183@InputData/images3146.stk         -1 1     0.054004    -0.868601   -59.617834 
+000187@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        187 000187@InputData/images3146.stk         -1 1     0.187875    -1.028136   -57.324841 
+000188@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        188 000188@InputData/images3146.stk         -1 1    -0.874618    -0.053435    59.617834 
+000192@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        192 000192@InputData/images3146.stk         -1 1     0.060134    -0.208541   -57.324841 
+000193@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        193 000193@InputData/images3146.stk         -1 1    -0.077068    -1.940999   -59.617834 
+000200@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        200 000200@InputData/images3146.stk         -1 1    -0.031910    -0.136992   -59.617834 
+000204@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        204 000204@InputData/images3146.stk         -1 1     0.844461    -0.096286   -59.617834 
+000205@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        205 000205@InputData/images3146.stk         -1 1    -0.026114    -0.219622   -57.324841 
+000212@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        212 000212@InputData/images3146.stk         -1 1     0.833874    -0.955464   -59.617834 
+000216@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        216 000216@InputData/images3146.stk         -1 0     0.009625     0.872457   142.165605 
+000219@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        219 000219@InputData/images3146.stk         -1 1    -0.149599    -0.020073    61.910828 
+000224@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        224 000224@InputData/images3146.stk         -1 1    -0.215664     0.176757    64.203822 
+000231@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        231 000231@InputData/images3146.stk         -1 1    -0.015752    -0.192200   -57.324841 
+000233@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        233 000233@InputData/images3146.stk         -1 1     0.014946    -0.823868   -59.617834 
+000234@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        234 000234@InputData/images3146.stk         -1 1    -0.030303    -0.193019   -57.324841 
+000235@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        235 000235@InputData/images3146.stk         -1 1     0.187308    -0.826478   -59.617834 
+000236@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        236 000236@InputData/images3146.stk         -1 1     0.084693    -1.010770   -59.617834 
+000239@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        239 000239@InputData/images3146.stk         -1 1    -0.012746    -0.258573   -59.617834 
+000241@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        241 000241@InputData/images3146.stk         -1 0    -1.100710     0.764963   153.630573 
+000242@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        242 000242@InputData/images3146.stk         -1 1    -0.832374     0.973060    64.203822 
+000246@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        246 000246@InputData/images3146.stk         -1 0    -0.007304    -0.090858  -119.235669 
+000247@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        247 000247@InputData/images3146.stk         -1 1    -0.141252     0.781015    64.203822 
+000248@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        248 000248@InputData/images3146.stk         -1 1     0.843083    -0.869308   -59.617834 
+000250@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        250 000250@InputData/images3146.stk         -1 1    -1.060483     0.781479    64.203822 
+000252@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        252 000252@InputData/images3146.stk         -1 1     0.072440    -0.238683   -57.324841 
+000255@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        255 000255@InputData/images3146.stk         -1 1    -0.831469     0.117601    59.617834 
+000258@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        258 000258@InputData/images3146.stk         -1 0    -0.094760     0.018684    11.464968 
+000259@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        259 000259@InputData/images3146.stk         -1 1     0.867976    -0.933835   -59.617834 
+000263@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        263 000263@InputData/images3146.stk         -1 1    -0.018747    -0.944892   -57.324841 
+000264@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        264 000264@InputData/images3146.stk         -1 1    -0.849187    -0.154005    61.910828 
+000267@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        267 000267@InputData/images3146.stk         -1 1    -0.090508     0.920720    61.910828 
+000268@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        268 000268@InputData/images3146.stk         -1 1     0.144408    -0.867237   -57.324841 
+000269@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        269 000269@InputData/images3146.stk         -1 1    -0.125915    -1.574818   -59.617834 
+000272@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        272 000272@InputData/images3146.stk         -1 1     0.131305    -0.282210   -57.324841 
+000280@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        280 000280@InputData/images3146.stk         -1 1     0.121646    -0.857932   -59.617834 
+000292@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        292 000292@InputData/images3146.stk         -1 1     0.274563    -0.887746   -59.617834 
+000293@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        293 000293@InputData/images3146.stk         -1 1     0.324379    -0.223775   -59.617834 
+000294@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        294 000294@InputData/images3146.stk         -1 1     0.784947    -1.003367   -61.910828 
+000295@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        295 000295@InputData/images3146.stk         -1 1     0.052632    -0.862356   -59.617834 
+000296@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        296 000296@InputData/images3146.stk         -1 1     0.125601    -0.791042   -59.617834 
+000302@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        302 000302@InputData/images3146.stk         -1 1    -1.084751    -0.012689    57.324841 
+000309@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        309 000309@InputData/images3146.stk         -1 1    -0.879893    -0.050773    59.617834 
+000314@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        314 000314@InputData/images3146.stk         -1 1     0.002756    -0.236904   -59.617834 
+000315@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        315 000315@InputData/images3146.stk         -1 1    -0.885443    -0.197078    61.910828 
+000317@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        317 000317@InputData/images3146.stk         -1 1     0.109505    -0.866387   -59.617834 
+000318@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        318 000318@InputData/images3146.stk         -1 1     0.171209    -0.928861   -59.617834 
+000329@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        329 000329@InputData/images3146.stk         -1 1     0.107949     0.087888    59.617834 
+000331@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        331 000331@InputData/images3146.stk         -1 1     0.227367    -0.867854   -59.617834 
+000332@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        332 000332@InputData/images3146.stk         -1 1     0.016237    -0.822834   -57.324841 
+000336@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        336 000336@InputData/images3146.stk         -1 1    -0.211558 4.841971e-04    64.203822 
+000337@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        337 000337@InputData/images3146.stk         -1 0     0.295385    -0.967964    45.859873 
+000341@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        341 000341@InputData/images3146.stk         -1 1     0.184431     0.076162    -2.292994 
+000344@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        344 000344@InputData/images3146.stk         -1 1     0.192481    -0.820772   -59.617834 
+000349@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        349 000349@InputData/images3146.stk         -1 1     0.020398    -0.130266   -59.617834 
+000355@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        355 000355@InputData/images3146.stk         -1 1    -0.940609    -0.051100    61.910828 
+000364@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        364 000364@InputData/images3146.stk         -1 1     0.721634    -0.844500   -57.324841 
+000365@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        365 000365@InputData/images3146.stk         -1 1     0.090276    -0.248603   -59.617834 
+000370@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        370 000370@InputData/images3146.stk         -1 1    -0.025230    -0.907772   -59.617834 
+000378@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        378 000378@InputData/images3146.stk         -1 1     0.036574    -0.831485   -57.324841 
+000379@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        379 000379@InputData/images3146.stk         -1 1    -0.920334     0.047788    59.617834 
+000380@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        380 000380@InputData/images3146.stk         -1 1    -0.829768    -1.433580  -123.821656 
+000385@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        385 000385@InputData/images3146.stk         -1 1     0.064609     0.061752     4.585987 
+000396@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        396 000396@InputData/images3146.stk         -1 1     0.109232    -0.784972   -59.617834 
+000403@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        403 000403@InputData/images3146.stk         -1 1     0.078085    -0.210669   -57.324841 
+000406@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        406 000406@InputData/images3146.stk         -1 1    -0.886518     0.132678    59.617834 
+000410@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        410 000410@InputData/images3146.stk         -1 0     0.833925     0.110333   128.407643 
+000414@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        414 000414@InputData/images3146.stk         -1 1     0.076768    -0.862213   -59.617834 
+000417@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        417 000417@InputData/images3146.stk         -1 1     0.017096    -0.187123   -57.324841 
+000429@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        429 000429@InputData/images3146.stk         -1 1     0.076366    -0.765754   -59.617834 
+000444@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        444 000444@InputData/images3146.stk         -1 1     0.816968    -0.972532   -59.617834 
+000445@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        445 000445@InputData/images3146.stk         -1 1    -1.036788    -0.056796    59.617834 
+000461@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        461 000461@InputData/images3146.stk         -1 1    -0.074109     0.051382     0.000000 
+000465@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        465 000465@InputData/images3146.stk         -1 1     0.109831    -0.870200   -59.617834 
+000468@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        468 000468@InputData/images3146.stk         -1 1     0.147214    -0.237008   -57.324841 
+000491@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        491 000491@InputData/images3146.stk         -1 1     0.104444    -0.867761   -57.324841 
+000492@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/Alignment/images.stk          1        492 000492@InputData/images3146.stk         -1 1     0.055384    -0.190372   -57.324841 

@@ -1,0 +1,315 @@
+# XMIPP_STAR_1 * 
+# 
+data_classes
+loop_
+ _ref
+ _image
+ _classCount
+         1 000001@Run/level_01/phResult_classes.stk         68 
+         2 000002@Run/level_01/phResult_classes.stk         52 
+         3 000003@Run/level_01/phResult_classes.stk         68 
+         4 000004@Run/level_01/phResult_classes.stk         52 
+
+data_info
+loop_
+ _iterationNumber
+ _cl2dSimilarity
+ _cl2dChanges
+         1     0.898407          0 
+         2     0.898170        240 
+         3     0.896769        233 
+         4     0.897981        199 
+         5     0.898426        201 
+         6     0.898323        195 
+         7     0.898391        167 
+         8     0.898152        240 
+         9     0.898337        240 
+        10     0.897934        240 
+
+data_class000001_images
+loop_
+ _image
+ _enabled
+ _ctfModel
+ _shiftX
+ _shiftY
+ _anglePsi
+ _flip
+ _maxCC
+ _ref
+000001@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.297992     0.056624    85.863354 0     0.229916          4 
+000002@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.760678    -0.094525    88.993789 0     0.240444          2 
+000005@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.480470     1.011497    93.018634 0     0.229807         -1 
+000008@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.166013    -0.962198    90.782609 1     0.252016         -1 
+000011@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.751477    -0.882894    91.229814 1     0.251886         -1 
+000012@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.251800    -0.107597    91.229814 0     0.256418         -1 
+000017@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     2.473704    -1.391747    95.701863 0     0.236432         -1 
+000020@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.503431    -1.270785    91.677019 0     0.244289         -1 
+000024@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.454190     0.029098    89.440994 1     0.260429         -1 
+000028@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.613843     0.081316    85.416149 0     0.247108         -1 
+000034@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.418984    -0.120794    92.571429 0     0.235666         -1 
+000040@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.603168    -2.274508    81.391304 0     0.242656         -1 
+000044@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.778197     1.087244    90.335404 0     0.250207         -1 
+000046@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.511712    -0.040322    92.124224 0     0.238456         -1 
+000048@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.559185     1.276916    89.888199 1     0.248042         -1 
+000051@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.811479     0.671908    82.285714 1     0.244065         -1 
+000052@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.365512    -0.259783    86.310559 0     0.244890         -1 
+000055@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.229825    -0.088473    84.074534 1     0.238166         -1 
+000056@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.676015    -0.972772    90.782609 0     0.251875         -1 
+000060@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.184785    -2.613474    89.888199 1     0.248415         -1 
+000064@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     3.260994     1.532869    95.254658 0     0.251364         -1 
+000067@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.951773    -2.598133    84.521739 0     0.245141         -1 
+000068@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.739409     0.037252    92.571429 0     0.252451         -1 
+000070@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.297397     0.083345    94.807453 0     0.242655         -1 
+000075@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.761160    -1.171832    84.968944 1     0.247024         -1 
+000076@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.340583    -0.334560    88.546584 0     0.248324         -1 
+000080@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.403126    -0.929514    93.018634 0     0.260524         -1 
+000088@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.455692    -2.059382    93.018634 0     0.248310         -1 
+000092@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     2.706901    -1.011499    94.807453 0     0.254225         -1 
+000096@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     2.515711     2.231316    89.888199 1     0.251992         -1 
+000099@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     2.537404    -6.532026    89.888199 1     0.243193         -1 
+000104@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.127800    -1.927960    88.993789 0     0.249726         -1 
+000107@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.347967     0.681727    89.888199 1     0.241584         -1 
+000108@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.254326    -0.102741    96.149068 0     0.242706         -1 
+000115@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.115215    -1.104168    90.335404 0     0.239829         -1 
+000116@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.917367    -1.175855    92.124224 0     0.244675         -1 
+000117@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.120898    -0.830828    92.124224 0     0.239592         -1 
+000124@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     3.020210    -3.065690    88.099379 0     0.244672         -1 
+000128@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.881574    -1.392970    89.440994 0     0.247184         -1 
+000129@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.392117    -0.358261   100.621118 0     0.230377         -1 
+000130@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.437859    -2.460335    89.888199 1     0.243791         -1 
+000132@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.334289    -0.420799    89.888199 0     0.254216         -1 
+000136@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.346109    -0.261342    85.863354 0     0.257094         -1 
+000140@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     3.032802    -1.480918    94.360248 0     0.254272         -1 
+000152@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.363764    -0.733204    89.440994 1     0.259427         -1 
+000156@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.043402    -0.125138    91.229814 1     0.249865         -1 
+000159@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.499521    -2.869368    89.888199 0     0.250363         -1 
+000162@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.045342    -3.673208    88.993789 0     0.242589         -1 
+000167@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.222305    -0.317994    89.888199 0     0.251108         -1 
+000168@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.291891     0.591361    84.074534 0     0.251676         -1 
+000174@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.235775    -0.159145    88.099379 0     0.243716         -1 
+000176@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.269713     1.310240    84.521739 0     0.251812         -1 
+000181@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.662685    -0.039138   -17.888199 0     0.230487         -1 
+000183@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.906616    -2.106245    93.018634 0     0.241834         -1 
+000184@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.040704    -1.153328    94.807453 0     0.254557         -1 
+000188@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.279974    -0.712274    93.018634 0     0.255887         -1 
+000192@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.727312    -5.766273    91.229814 0     0.247995         -1 
+000196@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.003949     0.081733    84.521739 0     0.244170         -1 
+000204@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.278450    -1.025786    92.571429 0     0.253423         -1 
+000205@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.484603     0.398300    89.888199 0     0.231050         -1 
+000208@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.277906    -0.185084    93.913043 0     0.254371         -1 
+000212@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.636492    -0.067922    92.571429 0     0.257920         -1 
+000216@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.030801    -0.323201    91.677019 0     0.247010         -1 
+000220@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.940226     0.915197    90.782609 1     0.253977         -1 
+000224@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     4.686083    -2.117255    88.546584 0     0.248113         -1 
+000232@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.211670    -0.428854    89.888199 1     0.253979         -1 
+000236@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.167806    -0.961481    94.360248 0     0.246756         -1 
+000239@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.172731    -0.197958    95.701863 0     0.243625         -1 
+
+data_class000002_images
+loop_
+ _image
+ _enabled
+ _ctfModel
+ _shiftX
+ _shiftY
+ _anglePsi
+ _flip
+ _maxCC
+ _ref
+000003@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.263781    -0.159917    91.229814 1     0.244403         -1 
+000015@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.856997    -0.376123    85.863354 1     0.238888         -1 
+000019@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.385737    -1.055658    86.757764 0     0.253959         -1 
+000023@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.146555    -0.229089    90.782609 0     0.241382         -1 
+000025@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.800670    -2.858412   -34.881988 0     0.238874         -1 
+000030@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.042198    -0.152920    90.782609 0     0.236962         -1 
+000031@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.067511    -1.260027    93.465839 0     0.245792         -1 
+000041@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -3.335404    -2.212697   -32.198758 0     0.235181         -1 
+000042@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.049434    -0.245254    90.782609 0     0.238142         -1 
+000043@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.367329    -1.573446    85.863354 0     0.234569         -1 
+000045@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.924982    -0.292706   -30.409938 0     0.242457         -1 
+000047@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.217558    -1.113149    91.229814 0     0.239638         -1 
+000054@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.213227    -0.079688    87.204969 0     0.238168         -1 
+000057@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.346675    -1.811038   -35.329193 0     0.242392         -1 
+000059@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.130741    -4.707190    93.465839 0     0.242683         -1 
+000073@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.145189    -2.778073   -33.987578 0     0.240782         -1 
+000077@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.071271    -4.325698   -34.881988 0     0.235838         -1 
+000093@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.089751    -1.911297   -33.093168 0     0.237962         -1 
+000098@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.186484    -0.968699    89.440994 0     0.245721         -1 
+000106@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.542274    -0.925624    93.465839 1     0.237005         -1 
+000109@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.155792    -1.002823    85.416149 0     0.236252         -1 
+000122@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.233979    -1.128750    92.124224 0     0.236726         -1 
+000126@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.392907    -0.087762    89.888199 0     0.243448         -1 
+000127@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.893917    -1.838352    93.913043 0     0.245277         -1 
+000131@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.314610    -1.886268    92.124224 0     0.243578         -1 
+000133@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.307239    -0.708788  -138.186335 1     0.232768         -1 
+000135@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.963497    -0.042258    85.416149 1     0.252822         -1 
+000137@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.275718    -4.051120   -29.962733 0     0.220081         -1 
+000138@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.181880    -0.720832    91.677019 0     0.240142         -1 
+000139@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.615914    -0.208505    86.310559 0     0.250340         -1 
+000143@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.040853    -1.000707    93.465839 1     0.242009         -1 
+000147@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.253665     0.848243    99.726708 0     0.256028         -1 
+000151@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.526055    -2.673549    93.913043 0     0.239313         -1 
+000154@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.022679    -2.124906    88.099379 0     0.246663         -1 
+000155@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.874930    -1.930627    85.416149 0     0.245489         -1 
+000161@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.011551    -1.136933   -30.409938 0     0.234280         -1 
+000166@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.992738    -0.919491    86.310559 1     0.243245         -1 
+000169@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.505294    -5.018607   -33.540373 0     0.234145         -1 
+000170@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.632425    -0.284470    88.546584 0     0.244257         -1 
+000179@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.166619    -0.903572    87.204969 0     0.250251         -1 
+000187@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.687400    -0.064083    93.465839 0     0.245243         -1 
+000201@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.229337     0.329257   -28.173913 0     0.239749         -1 
+000211@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.105599    -0.940310    93.913043 0     0.254307         -1 
+000214@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.905916    -1.307355    95.254658 0     0.242300         -1 
+000219@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.872299    -0.135577    91.229814 0     0.250811         -1 
+000221@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.124485    -2.980823   -33.540373 0     0.237244         -1 
+000223@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.040499    -2.874845    80.496894 0     0.243555         -1 
+000226@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.284384    -0.344769    85.863354 0     0.244318         -1 
+000229@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.378037    -1.156707   -37.118012 0     0.232724         -1 
+000230@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.832487     0.021125    84.521739 0     0.231361         -1 
+000233@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.515129    -1.030344    87.204969 0     0.236131         -1 
+000234@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.684988    -1.227430    88.099379 0     0.237758         -1 
+
+data_class000003_images
+loop_
+ _image
+ _enabled
+ _ctfModel
+ _shiftX
+ _shiftY
+ _anglePsi
+ _flip
+ _maxCC
+ _ref
+000004@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.134017    -1.095046    89.440994 0     0.250376         -1 
+000009@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.185791     0.206570    92.124224 1     0.220627         -1 
+000014@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.864673    -0.868643    92.571429 1     0.235953         -1 
+000016@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.289820    -0.793241    90.335404 1     0.248589         -1 
+000018@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.123770    -0.950736    93.913043 0     0.241820         -1 
+000021@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.559171    -2.863801   -34.434783 0     0.234109         -1 
+000022@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     3.391876    -1.953366    89.440994 0     0.237871         -1 
+000026@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.957287    -3.159769    87.652174 0     0.244392         -1 
+000027@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.651390    -3.088371    93.465839 0     0.245978         -1 
+000032@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.507465    -0.085761    96.149068 0     0.243549         -1 
+000033@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.215587     0.815176    88.099379 0     0.237677         -1 
+000035@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.286740    -1.848219    83.180124 1     0.252368         -1 
+000036@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.359873    -0.998886    86.757764 0     0.240471         -1 
+000037@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.776557    -0.364660    88.993789 0     0.224481         -1 
+000039@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.259756    -1.968291    87.204969 0     0.250441         -1 
+000050@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.300772    -1.593835    84.521739 0     0.236623         -1 
+000061@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -4.391075     2.835764   -33.093168 0     0.240741         -1 
+000062@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.249752    -2.009421    91.229814 0     0.242206         -1 
+000063@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.287835    -1.827131    88.546584 1     0.248697         -1 
+000066@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.831368    -1.438138    82.732919 0     0.248093         -1 
+000072@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.908519    -3.026858    83.627329 0     0.237547         -1 
+000074@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.354328    -1.795935    90.782609 0     0.241000         -1 
+000078@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.467744    -2.258972    91.229814 0     0.254220         -1 
+000083@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.242964    -2.055749    86.310559 1     0.249775         -1 
+000084@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.581652    -4.991416    93.018634 0     0.257006         -1 
+000086@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.185598    -1.172222    87.652174 0     0.239640         -1 
+000089@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.435639    -4.666889   -31.304348 0     0.221780         -1 
+000091@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.891280    -0.368154    90.335404 1     0.249521         -1 
+000094@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.928275    -0.809054    83.627329 0     0.231437         -1 
+000095@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.156301    -1.738560    87.652174 1     0.237131         -1 
+000100@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.117809    -2.272815    80.049689 0     0.252597         -1 
+000101@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.369665     1.553345    94.360248 0     0.233393         -1 
+000102@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.160066    -1.618019    91.229814 0     0.238294         -1 
+000111@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.934561    -3.890059    88.099379 0     0.245999         -1 
+000112@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.663125     0.548002    95.254658 0     0.248333         -1 
+000119@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.077098    -0.108927    85.863354 1     0.243616         -1 
+000120@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.505424    -2.101995    88.546584 0     0.250409         -1 
+000121@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.795502     1.227853    85.863354 1     0.240109         -1 
+000123@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.891730    -1.295483    93.913043 0     0.237459         -1 
+000144@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.530878    -2.178086    83.180124 0     0.244850         -1 
+000146@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.197185    -7.053971    85.416149 1     0.242990         -1 
+000148@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     2.797462    -3.101536    91.229814 0     0.243879         -1 
+000158@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.297114    -1.047801    86.310559 0     0.235303         -1 
+000160@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.350424    -1.140726    87.204969 0     0.247289         -1 
+000163@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.455182    -0.705178    81.391304 1     0.253642         -1 
+000164@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.016653    -1.457688    99.726708 0     0.241244         -1 
+000165@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.379506    -0.469817    87.204969 1     0.225174         -1 
+000171@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.002662    -0.388933    88.099379 0     0.234638         -1 
+000172@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.333000    -0.598684    93.465839 0     0.246472         -1 
+000175@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.607054    -1.964753    90.335404 1     0.235517         -1 
+000180@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     2.081958    -3.882175    88.546584 0     0.248169         -1 
+000189@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.976609    -0.123955    87.652174 0     0.231654         -1 
+000190@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.227567    -3.036802    93.018634 0     0.243633         -1 
+000191@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.206270    -1.150836    83.180124 1     0.250118         -1 
+000194@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.597447    -0.905389    93.018634 0     0.244278         -1 
+000195@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.725833     0.516497    94.360248 0     0.249163         -1 
+000200@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -5.876809     0.768173    88.993789 1     0.241830         -1 
+000202@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.979947    -4.672168    88.546584 0     0.242086         -1 
+000206@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.250356    -2.816315    87.204969 0     0.255086         -1 
+000215@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.917042    -1.925363    94.360248 0     0.241037         -1 
+000217@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.232531    -0.679658    93.465839 0     0.226468         -1 
+000218@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.112563    -1.097504    87.204969 0     0.239705         -1 
+000222@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.654921    -3.846677    94.360248 0     0.239650         -1 
+000227@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.158778    -0.159924    88.993789 1     0.246169         -1 
+000228@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.593648    -2.958359    81.838509 0     0.252024         -1 
+000237@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.348780    -3.445648    94.360248 0     0.233746         -1 
+000238@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.212987    -2.708102    85.863354 0     0.242066         -1 
+000240@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.665612    -3.045896    87.652174 0     0.248443         -1 
+
+data_class000004_images
+loop_
+ _image
+ _enabled
+ _ctfModel
+ _shiftX
+ _shiftY
+ _anglePsi
+ _flip
+ _maxCC
+ _ref
+000006@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.122559    -0.301618    86.757764 0     0.237736         -1 
+000007@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.046763     0.170033    95.254658 0     0.252591         -1 
+000010@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.893867    -0.057595    90.335404 0     0.240488         -1 
+000013@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.362454    -2.093797   -36.223602 0     0.230016         -1 
+000029@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.075799    -3.032589   -30.857143 0     0.232348         -1 
+000038@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.187548    -2.238040    90.782609 0     0.238938         -1 
+000049@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.316598    -3.920060   -32.645963 0     0.240171         -1 
+000053@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.262414    -2.133004   -33.093168 0     0.238079         -1 
+000058@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.791487    -0.903593    92.571429 0     0.243752         -1 
+000065@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.224923    -1.879525   -34.881988 0     0.229277         -1 
+000069@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.149266    -2.534097   -29.515528 0     0.225281         -1 
+000071@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.045202     0.968149    85.416149 0     0.244829         -1 
+000079@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.027397     0.048139    90.335404 0     0.248499         -1 
+000081@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.999764    -3.826011   -28.173913 0     0.236037         -1 
+000082@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.685972    -0.282012    85.863354 0     0.234910         -1 
+000085@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.042451    -2.091050   -32.198758 0     0.235207         -1 
+000087@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.991515    -2.042789    92.124224 0     0.245040         -1 
+000090@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.084656    -1.141570    91.677019 0     0.243014         -1 
+000097@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.056747    -2.835874   -41.590062 0     0.238228         -1 
+000103@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.059831    -2.908775    87.652174 1     0.244525         -1 
+000105@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.987483    -0.557717   -34.881988 0     0.236442         -1 
+000110@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.702942     3.604917    89.888199 1     0.238985         -1 
+000113@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.327186    -2.612360   -33.987578 0     0.251564         -1 
+000114@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.155945    -1.045386    94.360248 0     0.232769         -1 
+000118@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.228288    -0.227191    81.838509 0     0.240383         -1 
+000125@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.779170    -0.363964   -34.881988 0     0.229937         -1 
+000134@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.239184    -0.346611    89.888199 1     0.241974         -1 
+000141@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -3.146837    -1.174363   -29.962733 0     0.227411         -1 
+000142@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.674242    -0.580270    89.888199 1     0.234429         -1 
+000145@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.210062    -4.766041   -31.751553 0     0.226642         -1 
+000149@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.443116    -1.892630   -32.198758 0     0.236954         -1 
+000150@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.968154    -1.290190    90.335404 0     0.243532         -1 
+000153@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.157952    -1.365664   -34.881988 0     0.237631         -1 
+000157@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.248593    -1.160460   -37.565217 0     0.232815         -1 
+000173@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.182865    -3.156003   -38.906832 0     0.240876         -1 
+000177@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.810551    -0.168895    83.180124 1     0.239218         -1 
+000178@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.595896    -0.430551    86.757764 0     0.232075         -1 
+000182@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.172771    -1.003365    86.757764 0     0.234570         -1 
+000185@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.033544    -0.132614   -32.645963 0     0.235300         -1 
+000186@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.019066    -1.126059    86.757764 0     0.246726         -1 
+000193@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.470677    -1.084803   -35.776398 0     0.233885         -1 
+000197@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -2.617444     9.333926    89.888199 1     0.225213         -1 
+000198@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.015775    -0.033032    84.074534 0     0.241435         -1 
+000199@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.644416     0.833772    80.944099 0     0.241338         -1 
+000203@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.754533    -0.014544    94.360248 1     0.243864         -1 
+000207@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.508932    -0.359953    89.440994 0     0.246193         -1 
+000209@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -1.048075    -1.002478   -33.540373 0     0.237967         -1 
+000210@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     1.076871    -0.968138    94.807453 0     0.233680         -1 
+000213@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.003242     0.103816   -25.490683 0     0.228587         -1 
+000225@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -3.966494    -2.989240   -39.354037 0     0.238201         -1 
+000231@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''    -0.005556    -1.102835    99.279503 0     0.245831         -1 
+000235@/home/yinshuo/programs/xmipp_program/mpi_classify_CL2D/Images/phNoise.stk          1 ''     0.004915    -0.883565    81.391304 0     0.243604         -1 
